@@ -71,7 +71,6 @@ facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
 facebook.com instagram.com * noop
 facebook.com threads.net * noop
-github.io githubusercontent.com * noop
 google.com google.com * noop
 google.com gstatic.com * noop
 instagram.com cdninstagram.com * noop
