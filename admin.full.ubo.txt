@@ -19,4 +19,5 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 github.com githubassets.com * noop
 stackexchange.com sstatic.net * noop
+superuser.com sstatic.net * noop
 wikipedia.org wikimedia.org * noop
