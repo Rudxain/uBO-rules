@@ -1,0 +1,126 @@
+no-cosmetic-filtering: * true
+no-cosmetic-filtering: bing.com false
+no-cosmetic-filtering: discord.com false
+no-cosmetic-filtering: live.com false
+no-cosmetic-filtering: microsoft.com false
+no-cosmetic-filtering: newgrounds.com false
+no-cosmetic-filtering: reddit.com false
+no-cosmetic-filtering: stackexchange.com false
+no-cosmetic-filtering: stackoverflow.com false
+no-cosmetic-filtering: superuser.com false
+no-cosmetic-filtering: twitter.com false
+no-cosmetic-filtering: x.com false
+no-cosmetic-filtering: youtube.com false
+no-csp-reports: * true
+no-popups: * true
+no-popups: bing.com false
+no-popups: discord.com false
+no-popups: duckduckgo.com false
+no-popups: github.com false
+no-popups: google.com false
+
+# MS Edge
+no-popups: ntp.msn.com false
+
+no-popups: www.newgrounds.com false
+no-popups: wikipedia.org false
+no-popups: youtube.com false
+no-remote-fonts: support.discord.com true
+no-remote-fonts: reddit.com true
+no-scripting: * true
+no-scripting: www.bing.com false
+no-scripting: discord.com false
+no-scripting: support.discord.com true
+no-scripting: html.duckduckgo.com true
+no-scripting: github.com false
+no-scripting: accounts.google.com false
+no-scripting: bard.google.com false
+no-scripting: chromewebstore.google.com false
+no-scripting: drive.google.com false
+no-scripting: mail.google.com false
+no-scripting: live.com false
+no-scripting: newgrounds.com false
+no-scripting: pairdrop.net false
+no-scripting: skype.com false
+no-scripting: soundcloud.com false
+no-scripting: youtube.com false
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+
+# I'm aware this is controversial.
+# I included this because uBO GUI doesn't allow `noop`ing
+# all CF sub-domains for a specific hostname.
+# Instead, it shows a list of gibberish sub-domains,
+# forcing me to `noop` each one individually.
+# Since CF is so omnipresent, this is a big inconvenience.
+# Besides, I use DecentralEyes, so this isn't a serious issue.
+* cloudfront.net * noop
+
+* google.com * block
+* maps.googleapis.com * block
+* reddit.com * block
+* skype.com * block
+
+behind-the-scene * 3p noop
+behind-the-scene * 3p-script noop
+
+# I prefer to add this to "Temporary",
+# because I rarely search for "Discoverable servers"
+discord.com algolia.net * noop
+discord.com algolianet.com * noop
+
+discord.com discord.gg * noop
+discord.com discord.media * noop
+discord.com discordapp.com * noop
+discord.com discordapp.net * noop
+
+# to send files
+discord.com storage.googleapis.com * noop
+
+support.discord.com zdassets.com * noop
+github.com githubassets.com * noop
+github.com githubusercontent.com * noop
+google.com google.com * noop
+google.com googleapis.com * noop
+google.com gstatic.com * noop
+bard.google.com googleusercontent.com * noop
+
+# necessary to download extensions on Edge
+chromewebstore.google.com googleusercontent.com * noop
+
+drive.google.com googleusercontent.com * noop
+mail.google.com ggpht.com * noop
+mail.google.com googleusercontent.com * noop
+maps.google.com maps.googleapis.com * noop
+live.com * 3p noop
+live.com * 3p-script noop
+onedrive.live.com * 3p-frame noop
+outlook.live.com * 3p-frame noop
+mozilla.org mozilla.net * noop
+newgrounds.com cdnjs.cloudflare.com * noop
+newgrounds.com ngfiles.com * noop
+reddit.com * * block
+old.reddit.com redd.it * noop
+old.reddit.com reddit.com * noop
+old.reddit.com reddit.map.fastly.net * noop
+old.reddit.com redditmedia.com * noop
+old.reddit.com redditstatic.com * noop
+skype.com azure.com * noop
+skype.com microsoft.com * noop
+skype.com skype.com * noop
+skype.com skypeassets.com * noop
+soundcloud.com sndcdn.com * noop
+stackexchange.com sstatic.net * noop
+stackoverflow.com sstatic.net * noop
+superuser.com sstatic.net * noop
+twitter.com * * block
+wikipedia.org wikimedia.org * noop
+x.com * * block
+youtube.com ggpht.com * noop
+youtube.com google.com * noop
+youtube.com googleapis.com * noop
+youtube.com googleusercontent.com * noop
+youtube.com googlevideo.com * noop
+youtube.com gstatic.com * noop
+youtube.com ytimg.com * noop

@@ -1,0 +1,154 @@
+no-cosmetic-filtering: duckduckgo.com true
+no-cosmetic-filtering: github.com true
+no-cosmetic-filtering: www.google.com true
+no-cosmetic-filtering: mozilla.org true
+no-cosmetic-filtering: wikipedia.org true
+no-cosmetic-filtering: wiktionary.org true
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+no-scripting: adobe.com true
+no-scripting: apple.com true
+no-scripting: duckduckgo.com true
+no-scripting: html.duckduckgo.com true
+no-scripting: www.google.com true
+no-scripting: nitter.net true
+no-scripting: qq.com true
+no-scripting: qq.com.cn true
+no-scripting: qq.net true
+no-scripting: qq.org true
+no-scripting: reddit.com true
+no-scripting: samsung.com true
+no-scripting: stackexchange.com true
+no-scripting: stackoverflow.com true
+no-scripting: superuser.com true
+no-scripting: wechat.com true
+no-scripting: wechat.com.cn true
+no-scripting: wechat.net true
+no-scripting: wechat.org true
+no-scripting: wechatapp.com true
+* * 3p-frame block
+* * 3p-script block
+* adobe.com * block
+* adobedtm.com * block
+* akamai.net * noop
+* akamaiedge.net * noop
+* apple.com * block
+* bing.com * block
+* bingapis.com * block
+* cdninstagram.com * block
+* cloudflare.com * noop
+* cloudflare.net * noop
+* cloudfront.net * noop
+* edgecastcdn.net * noop
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+* fbsbx.com * block
+* github.com * noop
+* google.com * block
+* googleapis.com * noop
+* gstatic.com * block
+* instagram.com * block
+* instagram.net * block
+* jsdelivr.net * noop
+* map.fastly.net * noop
+* mozilla.net * noop
+* mozilla.org * noop
+* msn.com * block
+* qq.com * block
+* qq.com.cn * block
+* qq.net * block
+* qq.org * block
+* quora.com * block
+* reddit.com * block
+* reddit.map.fastly.net * block
+* redditstatic.com * block
+* samsung.com * block
+* skype.com * block
+* skypeassets.com * block
+* snapchat.com * block
+* spotify.com * block
+* spotify.net * block
+* threads.net * block
+* tiktok.com * block
+* tiktokcdn.com * block
+* twitter.com * block
+* twitter.net * block
+* wechat.com * block
+* wechat.com.cn * block
+* wechat.net * block
+* wechat.org * block
+* wechatapp.com * block
+* whatsapp.com * block
+* wikimedia.org * noop
+* wikipedia.org * noop
+* x.com * block
+* x.net * block
+* youtube.com * noop
+adobe.com adobe.com * noop
+apple.com apple.com * noop
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
+bing.com azureedge.net * noop
+bing.com bing.com * noop
+bing.com bingapis.com * noop
+facebook.com cdninstagram.com * noop
+facebook.com facebook.com * noop
+facebook.com facebook.net * noop
+facebook.com fbcdn.net * noop
+facebook.com fbsbx.com * noop
+facebook.com instagram.com * noop
+github.com githubassets.com * noop
+github.com githubusercontent.com * noop
+google.com google.com * noop
+google.com gstatic.com * noop
+instagram.com cdninstagram.com * noop
+instagram.com facebook.com * noop
+instagram.com facebook.net * noop
+instagram.com fbcdn.net * noop
+instagram.com fbsbx.com * noop
+instagram.com instagram.com * noop
+instagram.com instagram.net * noop
+instagram.com threads.net * noop
+live.com * 3p-script noop
+live.com azureedge.net * noop
+microsoft.com azureedge.net * noop
+msn.com msn.com * noop
+pinterest.com pinimg.com * noop
+pinterest.com pinterest.net * noop
+pinterest.es pinimg.com * noop
+pinterest.es pinterest.com * noop
+pinterest.es pinterest.net * noop
+quora.com quora.com * noop
+reddit.com reddit.com * noop
+reddit.com reddit.map.fastly.net * noop
+reddit.com redditstatic.com * noop
+new.reddit.com * * block
+www.reddit.com * * block
+samsung.com samsung.com * noop
+skype.com * 3p-script noop
+skype.com skype.com * noop
+skype.com skypeassets.com * noop
+snapchat.com snapchat.com * noop
+spotify.com spotify.com * noop
+threads.net cdninstagram.com * noop
+threads.net facebook.com * noop
+threads.net facebook.net * noop
+threads.net fbcdn.net * noop
+threads.net fbsbx.com * noop
+threads.net instagram.com * noop
+threads.net threads.net * noop
+tiktok.com tiktok.com * noop
+tiktok.com tiktokcdn.com * noop
+twitter.com * * block
+whatsapp.com whatsapp.com * noop
+withgoogle.com google.com * noop
+withgoogle.com gstatic.com * noop
+x.com * * block
+youtube.com * 3p-script noop
+youtube.com google.com * noop
+youtube.com gstatic.com * noop
