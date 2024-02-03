@@ -1,0 +1,58 @@
+no-csp-reports: * true
+no-popups: * true
+no-popups: www.bing.com false
+no-popups: html.duckduckgo.com false
+no-popups: www.google.com false
+no-popups: wikipedia.org false
+no-scripting: * true
+no-scripting: docs.github.com true
+no-scripting: bard.google.com false
+no-scripting: live.com false
+no-scripting: youtube.com false
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+* cdninstagram.com * block
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+* fbsbx.com * block
+* google.com * block
+* instagram.com * block
+* maps.googleapis.com * block
+* meta.com * block
+* reddit.com * block
+* skype.com * block
+* threads.net * block
+* twitter.com * block
+* twitter.net * block
+* x.com * block
+behind-the-scene * 3p noop
+facebook.com * * block
+github.com githubassets.com * noop
+google.com google.com * noop
+google.com googleapis.com * noop
+google.com gstatic.com * noop
+drive.google.com googleusercontent.com * noop
+instagram.com * * block
+live.com * 3p noop
+live.com * 3p-script noop
+onedrive.live.com * 3p-frame noop
+meta.com * * block
+reddit.com * * block
+old.reddit.com redd.it * noop
+old.reddit.com old.reddit.com * noop
+old.reddit.com reddit.map.fastly.net * noop
+old.reddit.com redditmedia.com * noop
+old.reddit.com redditstatic.com * noop
+stackexchange.com sstatic.net * noop
+threads.net * * block
+twitter.com * * block
+x.com * * block
+youtube.com ggpht.com * noop
+youtube.com google.com * noop
+youtube.com googleapis.com * noop
+youtube.com googleusercontent.com * noop
+youtube.com googlevideo.com * noop
+youtube.com gstatic.com * noop
+youtube.com ytimg.com * noop
