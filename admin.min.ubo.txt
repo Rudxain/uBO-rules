@@ -1,0 +1,10 @@
+no-csp-reports: * true
+no-popups: * true
+no-remote-fonts: * true
+no-scripting: * true
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+* * image block
+behind-the-scene * 3p noop
+behind-the-scene * image noop
