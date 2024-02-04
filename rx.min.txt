@@ -5,7 +5,10 @@ no-popups: html.duckduckgo.com false
 no-popups: www.google.com false
 no-popups: wikipedia.org false
 no-scripting: * true
+
+# JIC I `noop` GH
 no-scripting: docs.github.com true
+
 no-scripting: bard.google.com false
 no-scripting: live.com false
 no-scripting: youtube.com false
@@ -41,9 +44,15 @@ google.com googleapis.com * noop
 google.com gstatic.com * noop
 drive.google.com googleusercontent.com * noop
 instagram.com * * block
+
+# MS has an absolute mess here.
+# It's a nightmare to manage specific hostnames.
 live.com * 3p noop
 live.com * 3p-script noop
+# for some reason, the file listing requires multiple iframes...
+# what were MS devs thinking?!
 onedrive.live.com * 3p-frame noop
+
 meta.com * * block
 reddit.com * * block
 stackexchange.com sstatic.net * noop
