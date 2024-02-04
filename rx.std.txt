@@ -22,9 +22,15 @@ no-popups: google.com false
 # MS Edge
 no-popups: ntp.msn.com false
 
+# for security, user-pages are denied
 no-popups: www.newgrounds.com false
+
 no-popups: wikipedia.org false
+
+# YT links are unsafer than NG's,
+# but YT has a "strict" spam-filter system
 no-popups: youtube.com false
+
 no-remote-fonts: support.discord.com true
 no-remote-fonts: reddit.com true
 no-scripting: * true
