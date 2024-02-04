@@ -19,7 +19,11 @@ no-scripting: youtube.com false
 * fbsbx.com * block
 * google.com * block
 * instagram.com * block
+
+# Bard sends requests there,
+# even while not using the Maps plugin
 * maps.googleapis.com * block
+
 * meta.com * block
 * reddit.com * block
 * skype.com * block
