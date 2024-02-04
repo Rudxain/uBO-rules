@@ -1,5 +1,6 @@
 no-csp-reports: * true
 no-popups: * true
+# allow search engines
 no-popups: bing.com false
 no-popups: duckduckgo.com false
 no-popups: github.com false
