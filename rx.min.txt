@@ -26,6 +26,8 @@ no-scripting: youtube.com false
 
 * meta.com * block
 * reddit.com * block
+* reddit.map.fastly.net * block
+* redditstatic.com * block
 * skype.com * block
 * threads.net * block
 * twitter.com * block
@@ -44,11 +46,6 @@ live.com * 3p-script noop
 onedrive.live.com * 3p-frame noop
 meta.com * * block
 reddit.com * * block
-old.reddit.com redd.it * noop
-old.reddit.com old.reddit.com * noop
-old.reddit.com reddit.map.fastly.net * noop
-old.reddit.com redditmedia.com * noop
-old.reddit.com redditstatic.com * noop
 stackexchange.com sstatic.net * noop
 threads.net * * block
 twitter.com * * block
