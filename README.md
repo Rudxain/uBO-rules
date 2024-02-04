@@ -1,4 +1,4 @@
-# uBO-rules
+# [uBO](https://github.com/gorhill/uBlock)-rules
 
 ## Users
 
