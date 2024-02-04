@@ -1,4 +1,10 @@
+no-cosmetic-filtering: * true
+# hide cookie-notice
+no-cosmetic-filtering: stackexchange.com false
+no-cosmetic-filtering: superuser.com false
+
 no-csp-reports: * true
+
 no-popups: * true
 # allow search engines
 no-popups: bing.com false
@@ -6,11 +12,13 @@ no-popups: duckduckgo.com false
 no-popups: github.com false
 no-popups: google.com false
 no-popups: wikipedia.org false
+
 no-remote-fonts: * true
 no-scripting: * true
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
+
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -18,6 +26,7 @@ behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
+
 github.com githubassets.com * noop
 stackexchange.com sstatic.net * noop
 superuser.com sstatic.net * noop
