@@ -33,6 +33,7 @@ no-scripting: discord.com false
 no-scripting: support.discord.com true
 no-scripting: html.duckduckgo.com true
 no-scripting: github.com false
+no-scripting: docs.github.com true
 no-scripting: accounts.google.com false
 no-scripting: bard.google.com false
 no-scripting: chromewebstore.google.com false
