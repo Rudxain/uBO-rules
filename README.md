@@ -14,7 +14,7 @@ My own personal rule-set. Optimized for my needs and desires.
 ## Modes
 
 ### std
-Stands for "standard". It's meant to be used with minimal modifications, as it allows most of the typical content that the user will need
+Stands for "standard". It's meant to be used with minimal modifications, as it allows most of the typical content that the user will need.
 
 ### min
 Minimal `noop`, max restriction. Meant to be modified in an additive way (by adding rules to "Temporary"), which gives more control to the user.
