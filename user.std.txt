@@ -23,10 +23,9 @@ no-scripting: x.com true
 # CDNs
 * akamai.net * noop
 * akamaiedge.net * noop
+* azureedge.net * noop
 * cdninstagram.com * block
 * cloudflare.net * noop
-
-# why is this everywhere?
 * cloudfront.net * noop
 
 * facebook.com * block
