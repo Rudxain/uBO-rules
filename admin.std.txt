@@ -1,3 +1,4 @@
+# most sites don't need CF
 no-cosmetic-filtering: * true
 # hide cookie-notice
 no-cosmetic-filtering: stackexchange.com false
