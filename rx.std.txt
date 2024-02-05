@@ -1,16 +1,20 @@
+# save energy
 no-cosmetic-filtering: * true
+
 no-cosmetic-filtering: bing.com false
 no-cosmetic-filtering: discord.com false
 no-cosmetic-filtering: live.com false
 no-cosmetic-filtering: microsoft.com false
 no-cosmetic-filtering: newgrounds.com false
 no-cosmetic-filtering: reddit.com false
+
+# hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
-no-cosmetic-filtering: twitter.com false
-no-cosmetic-filtering: x.com false
+
 no-cosmetic-filtering: youtube.com false
+
 no-csp-reports: * true
 no-popups: * true
 no-popups: bing.com false
