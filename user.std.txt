@@ -32,15 +32,22 @@ no-scripting: x.com true
 * facebook.net * block
 * fbcdn.net * block
 * fbsbx.com * block
+
 * github.com * noop
+
 * google.com * block
 * apis.google.com * noop
 * googleapis.com * noop
 * gstatic.com * block
+
 * instagram.com * block
+
 * map.fastly.net * noop
+
 * mozilla.net * noop
 * mozilla.org * noop
+
+* msn.com * block
 
 # CCP/Chinese-government doesn't deserve any more user data
 * qq.com * block
@@ -75,10 +82,14 @@ no-scripting: x.com true
 * wechatapp.com * block
 
 * whatsapp.com * block
+
 * wikimedia.org * noop
 * wikipedia.org * noop
+
 * x.com * block
+
 * youtube.com * noop
+
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -86,6 +97,7 @@ behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
+
 facebook.com cdninstagram.com * noop
 facebook.com facebook.com * noop
 facebook.com facebook.net * noop
@@ -93,8 +105,10 @@ facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
 facebook.com instagram.com * noop
 facebook.com threads.net * noop
+
 google.com google.com * noop
 google.com gstatic.com * noop
+
 instagram.com cdninstagram.com * noop
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
@@ -102,7 +116,10 @@ instagram.com fbcdn.net * noop
 instagram.com fbsbx.com * noop
 instagram.com instagram.com * noop
 instagram.com threads.net * noop
+
 live.com * 3p-frame noop
+msn.com msn.com * noop
+
 quora.com quora.com * noop
 reddit.com reddit.com * noop
 reddit.com reddit.map.fastly.net * noop
@@ -126,8 +143,11 @@ tiktok.com tiktok.com * noop
 tiktok.com tiktokcdn.com * noop
 twitter.com * * block
 whatsapp.com whatsapp.com * noop
+
 withgoogle.com google.com * noop
 withgoogle.com gstatic.com * noop
+
 x.com * * block
+
 youtube.com google.com * noop
 youtube.com gstatic.com * noop

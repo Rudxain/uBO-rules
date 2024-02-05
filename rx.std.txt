@@ -66,6 +66,7 @@ no-scripting: youtube.com false
 
 * google.com * block
 * maps.googleapis.com * block
+* msn.com * block
 * reddit.com * block
 * skype.com * block
 
@@ -105,6 +106,8 @@ live.com * 3p-script noop
 onedrive.live.com * 3p-frame noop
 outlook.live.com * 3p-frame noop
 mozilla.org mozilla.net * noop
+msn.com * * block
+ntp.msn.com ntp.msn.com * noop
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
 reddit.com * * block

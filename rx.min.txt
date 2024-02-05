@@ -28,6 +28,7 @@ no-scripting: youtube.com false
 * maps.googleapis.com * block
 
 * meta.com * block
+* msn.com * block
 * reddit.com * block
 * reddit.map.fastly.net * block
 * redditstatic.com * block
@@ -54,6 +55,7 @@ live.com * 3p-script noop
 onedrive.live.com * 3p-frame noop
 
 meta.com * * block
+msn.com * * block
 reddit.com * * block
 stackexchange.com sstatic.net * noop
 threads.net * * block

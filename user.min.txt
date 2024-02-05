@@ -117,7 +117,7 @@ instagram.com threads.net * noop
 live.com * 3p-script noop
 live.com azureedge.net * noop
 microsoft.com azureedge.net * noop
-msn.com msn.com * noop
+ntp.msn.com ntp.msn.com * noop
 pinterest.com pinimg.com * noop
 pinterest.com pinterest.net * noop
 pinterest.es pinimg.com * noop
