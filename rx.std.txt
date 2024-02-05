@@ -26,8 +26,9 @@ no-popups: google.com false
 # MS Edge
 no-popups: ntp.msn.com false
 
-# for security, user-pages are denied
+# for security, user-pages (but mine) are denied
 no-popups: www.newgrounds.com false
+no-popups: rudxain.newgrounds.com false
 
 no-popups: wikipedia.org false
 
