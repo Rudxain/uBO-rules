@@ -1,3 +1,4 @@
+no-cosmetic-filtering: wikipedia.org true
 no-csp-reports: * true
 no-popups: * true
 no-popups: www.bing.com false
