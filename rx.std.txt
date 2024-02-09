@@ -140,8 +140,6 @@ soundcloud.com sndcdn.com * noop
 stackexchange.com sstatic.net * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
-twitter.com * * block
-
 wikipedia.org wikimedia.org * noop
 
 x.com * * block
