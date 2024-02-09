@@ -46,7 +46,10 @@ no-scripting: html.duckduckgo.com true
 no-scripting: github.com false
 no-scripting: docs.github.com true
 no-scripting: accounts.google.com false
-no-scripting: bard.google.com false
+
+# AKA "Bard"
+no-scripting: gemini.google.com false
+
 no-scripting: chromewebstore.google.com false
 no-scripting: drive.google.com false
 no-scripting: mail.google.com false
@@ -92,12 +95,13 @@ discord.com discordapp.net * noop
 discord.com storage.googleapis.com * noop
 
 support.discord.com zdassets.com * noop
+
 github.com githubassets.com * noop
 github.com githubusercontent.com * noop
+
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
-bard.google.com googleusercontent.com * noop
 
 # necessary to download extensions on Edge
 chromewebstore.google.com googleusercontent.com * noop
