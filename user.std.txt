@@ -15,9 +15,6 @@ no-scripting: nitter.net true
 # old reddit doesn't need much
 no-scripting: reddit.com true
 
-# JIC the user allows X
-no-scripting: twitter.com true
-no-scripting: x.com true
 * * 3p-frame block
 
 # CDNs
@@ -71,8 +68,10 @@ no-scripting: x.com true
 * threads.net * block
 * tiktok.com * block
 * tiktokcdn.com * block
+
 * twitter.com * block
 * twitter.net * block
+* x.com * block
 
 # I hate the Chinese government
 * wechat.com * block
@@ -85,8 +84,6 @@ no-scripting: x.com true
 
 * wikimedia.org * noop
 * wikipedia.org * noop
-
-* x.com * block
 
 * youtube.com * noop
 
@@ -141,13 +138,19 @@ threads.net instagram.com * noop
 threads.net threads.net * noop
 tiktok.com tiktok.com * noop
 tiktok.com tiktokcdn.com * noop
-twitter.com * * block
+
+twitter.com twitter.com * noop
+twitter.com twitter.net * noop
+twitter.com x.com * noop
+# future-proofing (in case x no longer redirects)
+x.com twitter.com * noop
+x.com twitter.net * noop
+x.com x.com * noop
+
 whatsapp.com whatsapp.com * noop
 
 withgoogle.com google.com * noop
 withgoogle.com gstatic.com * noop
-
-x.com * * block
 
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
