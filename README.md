@@ -7,7 +7,7 @@ For privileged (Administrator) accounts. These are the only users with (partial)
 
 BTW, remember to disable JIT-compilation:
 - MS Edge: go to ["Enhanced Security"](edge://settings/privacy#SecureMode).
-- Moz Firefox: go to [about:config](about:config) and search "jit". As a bonus, disable Ion and Wasm.
+- Moz Firefox: go to [`about:config`](about:config) and search "jit". As a bonus, disable Ion and Wasm.
 - G Chrome: CLI arg `--js-flags="--jitless"` (not persistent).
 
 ### User
