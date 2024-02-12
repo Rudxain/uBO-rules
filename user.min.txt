@@ -1,26 +1,34 @@
 no-cosmetic-filtering: duckduckgo.com true
-no-cosmetic-filtering: github.com true
 no-cosmetic-filtering: www.google.com true
 no-cosmetic-filtering: mozilla.org true
 no-cosmetic-filtering: wikipedia.org true
 no-cosmetic-filtering: wiktionary.org true
+
 no-csp-reports: * true
 no-large-media: behind-the-scene false
+
 no-scripting: adobe.com true
 no-scripting: apple.com true
+
 no-scripting: duckduckgo.com true
 no-scripting: html.duckduckgo.com true
 no-scripting: www.google.com true
+
+no-scripting: facebook.com true
 no-scripting: nitter.net true
+
 no-scripting: qq.com true
 no-scripting: qq.com.cn true
 no-scripting: qq.net true
 no-scripting: qq.org true
+
 no-scripting: reddit.com true
 no-scripting: samsung.com true
+
 no-scripting: stackexchange.com true
 no-scripting: stackoverflow.com true
 no-scripting: superuser.com true
+
 no-scripting: wechat.com true
 no-scripting: wechat.com.cn true
 no-scripting: wechat.net true
