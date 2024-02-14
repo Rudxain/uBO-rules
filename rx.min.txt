@@ -10,7 +10,7 @@ no-scripting: * true
 # JIC I `noop` GH
 no-scripting: docs.github.com true
 
-no-scripting: bard.google.com false
+no-scripting: gemini.google.com false
 no-scripting: live.com false
 no-scripting: youtube.com false
 * * 3p block
