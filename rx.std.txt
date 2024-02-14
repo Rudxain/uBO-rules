@@ -136,7 +136,6 @@ superuser.com sstatic.net * noop
 wikipedia.org wikimedia.org * noop
 x.com * * block
 youtube.com ggpht.com * noop
-youtube.com google.com * noop
 youtube.com googleapis.com * noop
 youtube.com googleusercontent.com * noop
 youtube.com googlevideo.com * noop
