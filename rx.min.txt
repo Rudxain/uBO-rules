@@ -9,63 +9,69 @@ no-scripting: * true
 
 # JIC I `noop` GH
 no-scripting: docs.github.com true
-
-no-scripting: gemini.google.com false
 no-scripting: live.com false
+no-scripting: gemini.google.com false
 no-scripting: youtube.com false
+
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
-* cdninstagram.com * block
+
 * facebook.com * block
 * facebook.net * block
 * fbcdn.net * block
 * fbsbx.com * block
-* google.com * block
+* cdninstagram.com * block
 * instagram.com * block
 
-# Bard sends requests there,
+* google.com * block
+
+# Gemini/Bard sends requests there,
 # even while not using the Maps plugin
 * maps.googleapis.com * block
 
-* meta.com * block
 * msn.com * block
 * reddit.com * block
 * reddit.map.fastly.net * block
 * redditstatic.com * block
 * skype.com * block
-* threads.net * block
 * twitter.com * block
 * twitter.net * block
 * x.com * block
+
 behind-the-scene * 3p noop
+
 facebook.com * * block
+instagram.com * * block
+threads.net * * block
+reddit.com * * block
+tiktok.com * * block
+twitter.com * * block
+x.com * * block
+
+# user-content is unsafe
 github.com githubassets.com * noop
+
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
+# attachments and own files
 drive.google.com googleusercontent.com * noop
-instagram.com * * block
-
-# MS has an absolute mess here.
-# It's a nightmare to manage specific hostnames.
-live.com * 3p noop
-live.com * 3p-script noop
-# for some reason, the file listing requires multiple iframes...
-# what were MS devs thinking?!
-onedrive.live.com * 3p-frame noop
-
-meta.com * * block
-msn.com * * block
-reddit.com * * block
-stackexchange.com sstatic.net * noop
-threads.net * * block
-twitter.com * * block
-x.com * * block
 youtube.com ggpht.com * noop
-youtube.com google.com * noop
 youtube.com googleapis.com * noop
 youtube.com googleusercontent.com * noop
 youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
 youtube.com ytimg.com * noop
+
+# MS has an absolute mess here.
+# It's a nightmare to manage specific hostnames.
+live.com * 3p noop
+live.com * 3p-script noop
+# for some reason,
+# the file-list requires frames from multiple domains...
+# what were MS devs thinking?!
+onedrive.live.com * 3p-frame noop
+msn.com * * block
+
+stackexchange.com sstatic.net * noop
