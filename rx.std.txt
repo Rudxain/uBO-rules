@@ -41,6 +41,8 @@ no-popups: google.com false
 # but YT has a "strict" spam-filter system
 no-popups: youtube.com false
 
+no-popups: mozilla.org false
+
 # for security, user-pages (but mine) are denied
 no-popups: www.newgrounds.com false
 no-popups: rudxain.newgrounds.com false
