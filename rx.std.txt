@@ -22,15 +22,24 @@ no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
 
 no-csp-reports: * true
-no-popups: * true
-no-popups: bing.com false
-no-popups: discord.com false
-no-popups: duckduckgo.com false
-no-popups: github.com false
-no-popups: google.com false
 
+no-popups: * true
+
+no-popups: bing.com false
 # MS Edge
 no-popups: ntp.msn.com false
+
+no-popups: discord.com false
+
+no-popups: duckduckgo.com false
+
+no-popups: github.com false
+
+no-popups: android.com false
+no-popups: google.com false
+# YT links are unsafer than NG's,
+# but YT has a "strict" spam-filter system
+no-popups: youtube.com false
 
 # for security, user-pages (but mine) are denied
 no-popups: www.newgrounds.com false
@@ -38,12 +47,12 @@ no-popups: rudxain.newgrounds.com false
 
 no-popups: wikipedia.org false
 
-# YT links are unsafer than NG's,
-# but YT has a "strict" spam-filter system
-no-popups: youtube.com false
-
-no-remote-fonts: support.discord.com true
-no-remote-fonts: reddit.com true
+no-remote-fonts: * true
+no-remote-fonts: android.com false
+no-remote-fonts: google.com false
+no-remote-fonts: youtube.com false
+no-remote-fonts: helix-editor.com false
+no-remote-fonts: newgrounds.com false
 
 no-scripting: * true
 
@@ -114,17 +123,25 @@ support.discord.com zdassets.com * noop
 github.com githubassets.com * noop
 github.com githubusercontent.com * noop
 
+android.com googleapis.com * noop
+android.com gstatic.com * noop
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
 
 # necessary to download extensions on Edge
 chromewebstore.google.com googleusercontent.com * noop
-
 drive.google.com googleusercontent.com * noop
 mail.google.com ggpht.com * noop
 mail.google.com googleusercontent.com * noop
 maps.google.com maps.googleapis.com * noop
+
+youtube.com ggpht.com * noop
+youtube.com googleapis.com * noop
+youtube.com googleusercontent.com * noop
+youtube.com googlevideo.com * noop
+youtube.com gstatic.com * noop
+youtube.com ytimg.com * noop
 
 live.com * 3p noop
 live.com * 3p-script noop
@@ -161,10 +178,3 @@ superuser.com sstatic.net * noop
 wikipedia.org wikimedia.org * noop
 
 x.com * * block
-
-youtube.com ggpht.com * noop
-youtube.com googleapis.com * noop
-youtube.com googleusercontent.com * noop
-youtube.com googlevideo.com * noop
-youtube.com gstatic.com * noop
-youtube.com ytimg.com * noop
