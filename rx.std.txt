@@ -177,5 +177,3 @@ stackexchange.com sstatic.net * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
 wikipedia.org wikimedia.org * noop
-
-x.com * * block
