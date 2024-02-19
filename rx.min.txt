@@ -1,11 +1,20 @@
+no-cosmetic-filtering: www.google.com true
+no-cosmetic-filtering: html.duckduckgo.com true
 no-cosmetic-filtering: wikipedia.org true
+no-cosmetic-filtering: rudxain.github.io true
+
 no-csp-reports: * true
 no-popups: * true
 no-popups: www.bing.com false
 no-popups: html.duckduckgo.com false
 no-popups: www.google.com false
 no-popups: wikipedia.org false
+
 no-remote-fonts: * true
+# to load icons from
+# `fonts.googleapis.com` & `gstatic.com`
+no-remote-fonts: google.com false
+
 no-scripting: * true
 
 # JIC I `noop` GH
@@ -22,8 +31,6 @@ no-scripting: youtube.com false
 * facebook.net * block
 * fbcdn.net * block
 * fbsbx.com * block
-* cdninstagram.com * block
-* instagram.com * block
 
 * google.com * block
 
@@ -32,10 +39,13 @@ no-scripting: youtube.com false
 * maps.googleapis.com * block
 
 * msn.com * block
+* skype.com * block
+
 * reddit.com * block
 * reddit.map.fastly.net * block
 * redditstatic.com * block
-* skype.com * block
+
+
 * twitter.com * block
 * twitter.net * block
 * x.com * block
@@ -45,8 +55,11 @@ behind-the-scene * 3p noop
 facebook.com * * block
 instagram.com * * block
 threads.net * * block
+
 reddit.com * * block
+
 tiktok.com * * block
+
 twitter.com * * block
 x.com * * block
 
