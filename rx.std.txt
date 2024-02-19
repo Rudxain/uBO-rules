@@ -2,18 +2,24 @@
 no-cosmetic-filtering: * true
 
 no-cosmetic-filtering: bing.com false
-no-cosmetic-filtering: discord.com false
 no-cosmetic-filtering: live.com false
 no-cosmetic-filtering: microsoft.com false
+
+no-cosmetic-filtering: google.com false
+no-cosmetic-filtering: www.google.com true
+no-cosmetic-filtering: youtube.com false
+
+no-cosmetic-filtering: discord.com false
 no-cosmetic-filtering: newgrounds.com false
 no-cosmetic-filtering: reddit.com false
+
+# surprisingly, there's a filter-list that blocks stuff here!
+no-cosmetic-filtering: github.com false
 
 # hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
-
-no-cosmetic-filtering: youtube.com false
 
 no-csp-reports: * true
 no-popups: * true
@@ -38,27 +44,35 @@ no-popups: youtube.com false
 
 no-remote-fonts: support.discord.com true
 no-remote-fonts: reddit.com true
+
 no-scripting: * true
+
+# search doesn't need it,
 no-scripting: www.bing.com false
+no-scripting: live.com false
+no-scripting: skype.com false
+
 no-scripting: discord.com false
 no-scripting: support.discord.com true
+
 no-scripting: html.duckduckgo.com true
+
 no-scripting: github.com false
 no-scripting: docs.github.com true
-no-scripting: accounts.google.com false
 
+no-scripting: accounts.google.com false
 # AKA "Bard"
 no-scripting: gemini.google.com false
-
 no-scripting: chromewebstore.google.com false
 no-scripting: drive.google.com false
 no-scripting: mail.google.com false
-no-scripting: live.com false
-no-scripting: newgrounds.com false
-no-scripting: pairdrop.net false
-no-scripting: skype.com false
-no-scripting: soundcloud.com false
 no-scripting: youtube.com false
+
+no-scripting: newgrounds.com false
+no-scripting: soundcloud.com false
+
+no-scripting: pairdrop.net false
+
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
