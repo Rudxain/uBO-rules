@@ -19,7 +19,9 @@ no-scripting: nitter.net true
 * cloudflare.com * noop
 * cloudflare.net * noop
 * cloudfront.net * noop
+* edgecastcdn.net * noop
 * map.fastly.net * noop
+* jsdelivr.net * noop
 
 # does this include Gist embeds?
 * github.com * noop
