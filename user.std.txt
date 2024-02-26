@@ -65,11 +65,12 @@ youtube.com gstatic.com * noop
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
-instagram.com cdninstagram.com * noop
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
 instagram.com fbsbx.com * noop
+instagram.com cdninstagram.com * noop
+instagram.com instagram.net * noop
 
 reddit.com redd.it * noop
 reddit.com redditmedia.com * noop
