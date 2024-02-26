@@ -1,10 +1,10 @@
 no-cosmetic-filtering: duckduckgo.com true
-no-cosmetic-filtering: github.com true
-no-cosmetic-filtering: google.com true
+no-cosmetic-filtering: www.google.com true
 no-cosmetic-filtering: mozilla.org true
 no-cosmetic-filtering: wikipedia.org true
 no-cosmetic-filtering: wiktionary.org true
 no-cosmetic-filtering: withgoogle.com true
+
 no-csp-reports: * true
 no-large-media: behind-the-scene false
 
@@ -12,48 +12,28 @@ no-large-media: behind-the-scene false
 no-scripting: html.duckduckgo.com true
 no-scripting: nitter.net true
 
-# old reddit doesn't need much
-no-scripting: reddit.com true
-
 * * 3p-frame block
 
 # CDNs
 * akamai.net * noop
 * akamaiedge.net * noop
+* azure.com * noop
 * azureedge.net * noop
-* cdninstagram.com * block
+* cloudflare.com * noop
 * cloudflare.net * noop
 * cloudfront.net * noop
+* map.fastly.net * noop
 
-* facebook.com * block
-* facebook.net * block
-* fbcdn.net * block
-* fbsbx.com * block
-
+# does this include Gist embeds?
 * github.com * noop
 
-* google.com * block
-* apis.google.com * noop
 * googleapis.com * noop
-* gstatic.com * block
-
-* instagram.com * block
-
-* map.fastly.net * noop
 
 * mozilla.net * noop
 * mozilla.org * noop
 
 * msn.com * block
 
-# CCP/Chinese-government doesn't deserve any more user data
-* qq.com * block
-* qq.com.cn * block
-* qq.net * block
-* qq.org * block
-
-# I absolutely despise quora
-* quora.com * block
 # I simply hate reddit
 * reddit.com * block
 * reddit.map.fastly.net * block
@@ -117,7 +97,6 @@ instagram.com threads.net * noop
 live.com * 3p-frame noop
 msn.com msn.com * noop
 
-quora.com quora.com * noop
 reddit.com reddit.com * noop
 reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
