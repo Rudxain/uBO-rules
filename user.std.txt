@@ -25,18 +25,16 @@ no-scripting: nitter.net true
 * github.com * noop
 
 * googleapis.com * noop
-
-* mozilla.net * noop
-* mozilla.org * noop
+* youtube.com * noop
 
 # some MS sites send requests there,
 # even if unnecessary
 * msn.com * block
 * skype.com * block
 
+* mozilla.net * noop
+* mozilla.org * noop
 * wikimedia.org * noop
-
-* youtube.com * noop
 
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
@@ -49,47 +47,36 @@ behind-the-scene * inline-script noop
 # for MS Edge preloading
 behind-the-scene ntp.msn.com * noop
 
-facebook.com cdninstagram.com * noop
+live.com * 3p-frame noop
+msn.com msn.com * noop
+skype.com skype.com * noop
+
+android.com google.com * noop
+android.com gstatic.com * noop
+google.com gstatic.com * noop
+withgoogle.com google.com * noop
+withgoogle.com gstatic.com * noop
+youtube.com google.com * noop
+youtube.com gstatic.com * noop
+
+# Meta
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
-facebook.com instagram.com * noop
-facebook.com threads.net * noop
-
-google.com gstatic.com * noop
-
 instagram.com cdninstagram.com * noop
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
 instagram.com fbsbx.com * noop
-instagram.com threads.net * noop
-
-live.com * 3p-frame noop
-msn.com msn.com * noop
 
 reddit.com redd.it * noop
-reddit.com reddit.map.fastly.net * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
-skype.com skype.com * noop
-threads.net cdninstagram.com * noop
-threads.net facebook.com * noop
-threads.net facebook.net * noop
-threads.net fbcdn.net * noop
-threads.net fbsbx.com * noop
-threads.net instagram.com * noop
 tiktok.com tiktokcdn.com * noop
 
 twitter.com twitter.net * noop
 twitter.com x.com * noop
-# future-proofing (in case x no longer redirects)
+# if X doesn't redirect
 x.com twitter.com * noop
 x.com twitter.net * noop
-
-withgoogle.com google.com * noop
-withgoogle.com gstatic.com * noop
-
-youtube.com google.com * noop
-youtube.com gstatic.com * noop
