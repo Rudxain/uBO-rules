@@ -26,14 +26,20 @@ no-csp-reports: * true
 no-popups: * true
 
 no-popups: bing.com false
-# MS Edge
+# MS Edge New Tab Page
 no-popups: ntp.msn.com false
 
 no-popups: discord.com false
 
 no-popups: duckduckgo.com false
 
+no-popups: helix-editor.com false
+
 no-popups: github.com false
+# for security, user-pages (but mine) are denied
+no-popups: rudxain.github.io false
+no-popups: www.newgrounds.com false
+no-popups: rudxain.newgrounds.com false
 
 no-popups: android.com false
 no-popups: google.com false
@@ -42,19 +48,17 @@ no-popups: google.com false
 no-popups: youtube.com false
 
 no-popups: mozilla.org false
-
-# for security, user-pages (but mine) are denied
-no-popups: www.newgrounds.com false
-no-popups: rudxain.newgrounds.com false
-
 no-popups: wikipedia.org false
 
 no-remote-fonts: * true
 no-remote-fonts: android.com false
 no-remote-fonts: google.com false
 no-remote-fonts: youtube.com false
+
 no-remote-fonts: helix-editor.com false
+
 no-remote-fonts: newgrounds.com false
+
 
 no-scripting: * true
 
@@ -83,8 +87,6 @@ no-scripting: youtube.com false
 no-scripting: newgrounds.com false
 no-scripting: soundcloud.com false
 
-no-scripting: pairdrop.net false
-
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
@@ -101,11 +103,12 @@ no-scripting: pairdrop.net false
 * google.com * block
 * maps.googleapis.com * block
 * msn.com * block
-* reddit.com * block
 * skype.com * block
 
 behind-the-scene * 3p noop
 behind-the-scene * 3p-script noop
+# JIC, for MS Edge
+behind-the-scene ntp.msn.com * noop
 
 # I prefer to add this to "Temporary",
 # because I rarely search for "Discoverable servers"
@@ -120,8 +123,6 @@ discord.com discordapp.net * noop
 # to send files
 discord.com storage.googleapis.com * noop
 
-support.discord.com zdassets.com * noop
-
 github.com githubassets.com * noop
 github.com githubusercontent.com * noop
 
@@ -133,6 +134,7 @@ google.com gstatic.com * noop
 
 # necessary to download extensions on Edge
 chromewebstore.google.com googleusercontent.com * noop
+
 drive.google.com googleusercontent.com * noop
 mail.google.com ggpht.com * noop
 mail.google.com googleusercontent.com * noop
@@ -149,11 +151,9 @@ live.com * 3p noop
 live.com * 3p-script noop
 onedrive.live.com * 3p-frame noop
 outlook.live.com * 3p-frame noop
+msn.com msn.com * noop
 
 mozilla.org mozilla.net * noop
-
-msn.com * * block
-ntp.msn.com ntp.msn.com * noop
 
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
