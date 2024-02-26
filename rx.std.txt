@@ -51,11 +51,17 @@ no-popups: mozilla.org false
 no-popups: wikipedia.org false
 
 no-remote-fonts: * true
+# My Static Filter
+# *$font,third-party,domain=~android.com|~google.com|~live.com|~newgrounds.com|~www.reddit.com
+
 no-remote-fonts: android.com false
 no-remote-fonts: google.com false
 no-remote-fonts: youtube.com false
 
 no-remote-fonts: helix-editor.com false
+
+no-remote-fonts: live.com false
+no-remote-fonts: microsoft.com false
 
 no-remote-fonts: newgrounds.com false
 
