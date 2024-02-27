@@ -110,6 +110,8 @@ no-scripting: soundcloud.com false
 * cloudfront.net * noop
 
 * google.com * block
+# Gemini/Bard sends requests there,
+# even while not using the Maps plugin
 * maps.googleapis.com * block
 
 * bing.com * block
