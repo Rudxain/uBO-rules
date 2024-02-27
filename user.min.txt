@@ -31,7 +31,8 @@ no-scripting: superuser.com true
 # CDNs
 * akamai.net * noop
 * akamaiedge.net * noop
-# Azure is rarely used by non-MS
+* azure.com * noop
+* azureedge.net * noop
 * cloudflare.com * noop
 * cloudflare.net * noop
 * cloudfront.net * noop
@@ -51,7 +52,6 @@ no-scripting: superuser.com true
 * googleapis.com * noop
 * gstatic.com * block
 
-# MS
 * bing.com * block
 * msn.com * block
 * skype.com * block
@@ -87,19 +87,9 @@ youtube.com * 3p-script noop
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
-msn.com azure.com * noop
-msn.com azureedge.net * noop
-msn.com msn.com * noop
-bing.com azure.com * noop
-bing.com azureedge.net * noop
 bing.com bing.com * noop
 live.com * 3p-script noop
-live.com azure.com * noop
-live.com azureedge.net * noop
-microsoft.com azure.com * noop
-microsoft.com azureedge.net * noop
-skype.com azure.com * noop
-skype.com azureedge.net * noop
+msn.com msn.com * noop
 skype.com skype.com * noop
 skype.com skypeassets.com * noop
 
@@ -109,8 +99,6 @@ reddit.com * 3p block
 reddit.com redd.it * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
-
-spotify.com spotify.com * noop
 
 tiktok.com tiktok.com * noop
 tiktok.com tiktokcdn.com * noop
