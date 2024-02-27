@@ -1,6 +1,5 @@
-no-cosmetic-filtering: duckduckgo.com true
+no-cosmetic-filtering: html.duckduckgo.com true
 no-cosmetic-filtering: www.google.com true
-no-cosmetic-filtering: mozilla.org true
 no-cosmetic-filtering: wikipedia.org true
 no-cosmetic-filtering: wiktionary.org true
 
@@ -15,6 +14,9 @@ no-scripting: duckduckgo.com true
 no-scripting: html.duckduckgo.com true
 no-scripting: www.google.com true
 
+no-scripting: wikipedia.org true
+no-scripting: wiktionary.org true
+
 no-scripting: facebook.com true
 no-scripting: nitter.net true
 no-scripting: reddit.com true
@@ -23,84 +25,39 @@ no-scripting: stackexchange.com true
 no-scripting: stackoverflow.com true
 no-scripting: superuser.com true
 
-no-scripting: qq.com true
-no-scripting: qq.com.cn true
-no-scripting: qq.net true
-no-scripting: qq.org true
-no-scripting: wechat.com true
-no-scripting: wechat.com.cn true
-no-scripting: wechat.net true
-no-scripting: wechat.org true
-no-scripting: wechatapp.com true
-
 * * 3p-frame block
 * * 3p-script block
 
 # CDNs
 * akamai.net * noop
 * akamaiedge.net * noop
+# Azure is rarely used by non-MS
 * cloudflare.com * noop
 * cloudflare.net * noop
 * cloudfront.net * noop
 * edgecastcdn.net * noop
-* jsdelivr.net * noop
 * map.fastly.net * noop
+* jsdelivr.net * noop
 
-* adobe.com * block
 * adobedtm.com * block
-* apple.com * block
-* samsung.com * block
 
 * facebook.com * block
 * facebook.net * block
 * fbcdn.net * block
 * fbsbx.com * block
-* cdninstagram.com * block
-* instagram.com * block
-* instagram.net * block
-* threads.net * block
-* whatsapp.com * block
 
 * google.com * block
+# apis.google.com is deprecated
 * googleapis.com * noop
 * gstatic.com * block
 
-* quora.com * block
-* reddit.com * block
-* reddit.map.fastly.net * block
-* redditstatic.com * block
-
 # MS
 * bing.com * block
-* bingapis.com * block
 * msn.com * block
 * skype.com * block
-* skypeassets.com * block
-
-* snapchat.com * block
-
-* spotify.com * block
-* spotify.net * block
 
 * tiktok.com * block
 * tiktokcdn.com * block
-
-* twitter.com * block
-* twitter.net * block
-* x.com * block
-# this may be owned by X in the future
-* x.net * block
-
-# China
-* qq.com * block
-* qq.com.cn * block
-* qq.net * block
-* qq.org * block
-* wechat.com * block
-* wechat.com.cn * block
-* wechat.net * block
-* wechat.org * block
-* wechatapp.com * block
 
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
@@ -109,64 +66,61 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-adobe.com adobe.com * noop
-apple.com apple.com * noop
-samsung.com samsung.com * noop
-
 # Meta
-facebook.com cdninstagram.com * noop
 facebook.com facebook.com * noop
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
-facebook.com instagram.com * noop
-instagram.com cdninstagram.com * noop
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
 instagram.com fbsbx.com * noop
+instagram.com cdninstagram.com * noop
 instagram.com instagram.com * noop
 instagram.com instagram.net * noop
-threads.net threads.net * noop
-whatsapp.com whatsapp.com * noop
 
 github.com githubassets.com * noop
 
 google.com google.com * noop
 google.com gstatic.com * noop
-withgoogle.com google.com * noop
-withgoogle.com gstatic.com * noop
-# more future-proof than specific domains
 youtube.com * 3p-script noop
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
-mozilla.org mozilla.net * noop
-
-# Edge New-Tab-page
-ntp.msn.com ntp.msn.com * noop
-
-# Azure is a CDN rarely used by 3p,
-# so, only MS should be allowed
-bing.com bing.com * noop
+msn.com azure.com * noop
+msn.com azureedge.net * noop
+msn.com msn.com * noop
+bing.com azure.com * noop
 bing.com azureedge.net * noop
-# MS has a mess here
+bing.com bing.com * noop
 live.com * 3p-script noop
+live.com azure.com * noop
 live.com azureedge.net * noop
+microsoft.com azure.com * noop
 microsoft.com azureedge.net * noop
+skype.com azure.com * noop
 skype.com azureedge.net * noop
 skype.com skype.com * noop
 skype.com skypeassets.com * noop
 
-reddit.com * * block
-old.reddit.com reddit.com * noop
-old.reddit.com reddit.map.fastly.net * noop
-old.reddit.com redditstatic.com * noop
+mozilla.org mozilla.net * noop
+
+reddit.com * 3p block
+reddit.com redd.it * noop
+reddit.com redditmedia.com * noop
+reddit.com redditstatic.com * noop
 
 spotify.com spotify.com * noop
 
 tiktok.com tiktok.com * noop
 tiktok.com tiktokcdn.com * noop
 
-twitter.com * * block
-x.com * * block
+twitter.com * 3p block
+twitter.com twitter.net * noop
+twitter.com twimg.com * noop
+twitter.com x.com * noop
+# if X doesn't redirect
+x.com * 3p block
+x.com twitter.com * noop
+x.com twitter.net * noop
+x.com twimg.com * noop
