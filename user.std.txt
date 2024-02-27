@@ -23,8 +23,6 @@ no-scripting: nitter.net true
 * map.fastly.net * noop
 * jsdelivr.net * noop
 
-# does this include Gist embeds?
-* github.com * noop
 
 * googleapis.com * noop
 * youtube.com * noop
@@ -34,8 +32,6 @@ no-scripting: nitter.net true
 * msn.com * block
 * skype.com * block
 
-* mozilla.net * noop
-* mozilla.org * noop
 * wikimedia.org * noop
 
 behind-the-scene * * noop
@@ -53,18 +49,33 @@ live.com * 3p-frame noop
 msn.com msn.com * noop
 skype.com skype.com * noop
 
+android.com * 3p-script block
 android.com google.com * noop
 android.com gstatic.com * noop
+google.com * 3p-script block
 google.com gstatic.com * noop
+withgoogle.com * 3p-script block
 withgoogle.com google.com * noop
 withgoogle.com gstatic.com * noop
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
+duckduckgo.com * 3p-script block
+
+github.com * 3p-script block
+github.com githubassets.com * noop
+
+mozilla.org * 3p-script block
+mozilla.org mozilla.net * noop
+wikipedia.org * 3p-script block
+wiktionary.org * 3p-script block
+
 # Meta
+facebook.com * 3p-script block
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
+instagram.com * 3p-script block
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
@@ -72,14 +83,18 @@ instagram.com fbsbx.com * noop
 instagram.com cdninstagram.com * noop
 instagram.com instagram.net * noop
 
+reddit.com * 3p-script block
 reddit.com redd.it * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
+tiktok.com * 3p-script block
 tiktok.com tiktokcdn.com * noop
 
+twitter.com * 3p-script block
 twitter.com twitter.net * noop
 twitter.com x.com * noop
 # if X doesn't redirect
+x.com * 3p-script block
 x.com twitter.com * noop
 x.com twitter.net * noop
