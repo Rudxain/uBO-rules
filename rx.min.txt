@@ -10,14 +10,17 @@ no-popups: html.duckduckgo.com false
 no-popups: www.google.com false
 no-popups: wikipedia.org false
 
+# for bookmarks
+no-popups: rudxain.github.io false
+
 no-remote-fonts: * true
-# to load icons from
-# `fonts.googleapis.com` & `gstatic.com`
+# My Static Filter
+# *$font,third-party,domain=~google.com|~onedrive.live.com
 no-remote-fonts: google.com false
+no-remote-fonts: onedrive.live.com false
 
 no-scripting: * true
-
-# JIC I `noop` GH
+no-scripting: html.duckduckgo.com true
 no-scripting: docs.github.com true
 no-scripting: live.com false
 no-scripting: gemini.google.com false
@@ -27,57 +30,16 @@ no-scripting: youtube.com false
 * * 3p-frame block
 * * 3p-script block
 
-* facebook.com * block
-* facebook.net * block
-* fbcdn.net * block
-* fbsbx.com * block
-
 * google.com * block
-
-# Gemini/Bard sends requests there,
-# even while not using the Maps plugin
 * maps.googleapis.com * block
 
+* bing.com * block
 * msn.com * block
 * skype.com * block
 
-* reddit.com * block
-* reddit.map.fastly.net * block
-* redditstatic.com * block
-
-
-* twitter.com * block
-* twitter.net * block
-* x.com * block
-
 behind-the-scene * 3p noop
 
-facebook.com * * block
-instagram.com * * block
-threads.net * * block
-
-reddit.com * * block
-
-tiktok.com * * block
-
-twitter.com * * block
-x.com * * block
-
-# user-content is unsafe
-github.com githubassets.com * noop
-
-google.com google.com * noop
-google.com googleapis.com * noop
-google.com gstatic.com * noop
-# attachments and own files
-drive.google.com googleusercontent.com * noop
-youtube.com ggpht.com * noop
-youtube.com googleapis.com * noop
-youtube.com googleusercontent.com * noop
-youtube.com googlevideo.com * noop
-youtube.com gstatic.com * noop
-youtube.com ytimg.com * noop
-
+bing.com bing.com * noop
 # MS has an absolute mess here.
 # It's a nightmare to manage specific hostnames.
 live.com * 3p noop
@@ -86,6 +48,15 @@ live.com * 3p-script noop
 # the file-list requires frames from multiple domains...
 # what were MS devs thinking?!
 onedrive.live.com * 3p-frame noop
-msn.com * * block
 
-stackexchange.com sstatic.net * noop
+github.com githubassets.com * noop
+
+google.com google.com * noop
+google.com googleapis.com * noop
+google.com gstatic.com * noop
+youtube.com ggpht.com * noop
+youtube.com googleapis.com * noop
+youtube.com googleusercontent.com * noop
+youtube.com googlevideo.com * noop
+youtube.com gstatic.com * noop
+youtube.com ytimg.com * noop
