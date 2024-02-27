@@ -63,6 +63,7 @@ no-remote-fonts: microsoft.com false
 
 no-remote-fonts: newgrounds.com false
 
+no-remote-fonts: www.reddit.com false
 
 no-scripting: * true
 
