@@ -13,6 +13,7 @@ no-scripting: samsung.com true
 no-scripting: duckduckgo.com true
 no-scripting: html.duckduckgo.com true
 no-scripting: www.google.com true
+# Bing redirects with JS
 
 no-scripting: wikipedia.org true
 no-scripting: wiktionary.org true
