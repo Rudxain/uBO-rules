@@ -48,7 +48,7 @@ no-scripting: superuser.com true
 * fbsbx.com * block
 
 * google.com * block
-# apis.google.com is deprecated
+# `apis.google.com` is deprecated
 * googleapis.com * noop
 * gstatic.com * block
 
@@ -59,6 +59,8 @@ no-scripting: superuser.com true
 * tiktok.com * block
 * tiktokcdn.com * block
 
+* wikimedia.org * noop
+
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -66,11 +68,20 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-# Meta
+adobe.com * 3p block
+apple.com * 3p block
+
+duckduckgo.com * 3p block
+html.duckduckgo.com * 3p block
+
+# for grandma
+facebook.com * 3p block
 facebook.com facebook.com * noop
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
+# for mom
+instagram.com * 3p block
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
@@ -81,6 +92,8 @@ instagram.com instagram.net * noop
 
 github.com githubassets.com * noop
 
+# no-JS, so images are loaded manually
+www.google.com * 3p block
 google.com google.com * noop
 google.com gstatic.com * noop
 youtube.com * 3p-script noop
@@ -88,21 +101,22 @@ youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
 bing.com bing.com * noop
-live.com * 3p-script noop
+# MSN isn't essential, but this rule is
 msn.com msn.com * noop
 skype.com skype.com * noop
-skype.com skypeassets.com * noop
 
+mozilla.org * 3p block
 mozilla.org mozilla.net * noop
+wikipedia.org * 3p block
+wiktionary.org * 3p block
 
-reddit.com * 3p block
-reddit.com redd.it * noop
-reddit.com redditmedia.com * noop
-reddit.com redditstatic.com * noop
+# Old Reddit should work by default
 
-tiktok.com tiktok.com * noop
-tiktok.com tiktokcdn.com * noop
+samsung.com * 3p block
 
+tiktok.com * 3p block
+
+nitter.net * 3p block
 twitter.com * 3p block
 twitter.com twitter.net * noop
 twitter.com twimg.com * noop
