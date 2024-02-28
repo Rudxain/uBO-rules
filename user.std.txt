@@ -49,6 +49,9 @@ live.com * 3p-frame noop
 msn.com msn.com * noop
 skype.com skype.com * noop
 
+adobe.com * 3p-script block
+apple.com * 3p-script block
+
 android.com * 3p-script block
 android.com google.com * noop
 android.com gstatic.com * noop
@@ -61,6 +64,7 @@ youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
 duckduckgo.com * 3p-script block
+html.duckduckgo.com * 3p-script block
 
 github.com * 3p-script block
 github.com githubassets.com * noop
@@ -93,14 +97,23 @@ pinterest.es pinimg.com * noop
 pinterest.es pinterest.com * noop
 pinterest.es pinterest.net * noop
 
+reddit.com * 3p block
 reddit.com * 3p-script block
 reddit.com redd.it * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
+samsung.com * 3p-script block
+
+stackexchange.com * 3p-script block
+stackoverflow.com * 3p-script block
+superuser.com * 3p-script block
+
 tiktok.com * 3p-script block
 tiktok.com tiktokcdn.com * noop
 
+nitter.net * 3p block
+nitter.net * 3p-script block
 twitter.com * 3p-script block
 twitter.com twitter.net * noop
 twitter.com x.com * noop
