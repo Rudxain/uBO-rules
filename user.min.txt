@@ -57,7 +57,6 @@ no-scripting: superuser.com true
 * skype.com * block
 
 * tiktok.com * block
-* tiktokcdn.com * block
 
 * wikimedia.org * noop
 
