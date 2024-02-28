@@ -32,8 +32,6 @@ no-scripting: nitter.net true
 * msn.com * block
 * skype.com * block
 
-* wikimedia.org * noop
-
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -82,6 +80,16 @@ instagram.com fbcdn.net * noop
 instagram.com fbsbx.com * noop
 instagram.com cdninstagram.com * noop
 instagram.com instagram.net * noop
+
+pinterest.com * 3p-script block
+# for some reason, `pinimg` serves JS...
+# what?!
+pinterest.com pinimg.com * noop
+pinterest.com pinterest.net * noop
+pinterest.es * 3p-script block
+pinterest.es pinimg.com * noop
+pinterest.es pinterest.com * noop
+pinterest.es pinterest.net * noop
 
 reddit.com * 3p-script block
 reddit.com redd.it * noop
