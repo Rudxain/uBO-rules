@@ -82,6 +82,7 @@ no-scripting: html.duckduckgo.com true
 
 no-scripting: github.com false
 no-scripting: docs.github.com true
+no-scripting: htmlpreview.github.io false
 
 no-scripting: accounts.google.com false
 # AKA "Bard"
@@ -149,6 +150,7 @@ discord.com storage.googleapis.com * noop
 
 github.com githubassets.com * noop
 github.com githubusercontent.com * noop
+htmlpreview.github.io githubusercontent.com * noop
 
 android.com googleapis.com * noop
 android.com gstatic.com * noop
