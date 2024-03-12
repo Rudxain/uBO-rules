@@ -29,8 +29,6 @@ no-popups: bing.com false
 # MS Edge New Tab Page
 no-popups: ntp.msn.com false
 
-no-popups: discord.com false
-
 no-popups: duckduckgo.com false
 
 no-popups: helix-editor.com false
