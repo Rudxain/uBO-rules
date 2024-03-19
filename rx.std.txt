@@ -164,6 +164,7 @@ youtube.com googleusercontent.com * noop
 youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
 youtube.com ytimg.com * noop
+www.youtube.com youtube-ui.l.google.com * noop
 
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
