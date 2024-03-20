@@ -9,12 +9,22 @@ no-cosmetic-filtering: google.com false
 no-cosmetic-filtering: www.google.com true
 no-cosmetic-filtering: youtube.com false
 
+no-cosmetic-filtering: facebook.com false
+no-cosmetic-filtering: instagram.com false
+no-cosmetic-filtering: pinterest.com false
+no-cosmetic-filtering: imgur.com false
+no-cosmetic-filtering: reddit.com false
+no-cosmetic-filtering: tiktok.com false
+no-cosmetic-filtering: twitter.com false
+no-cosmetic-filtering: x.com false
+
 no-cosmetic-filtering: discord.com false
 no-cosmetic-filtering: newgrounds.com false
-no-cosmetic-filtering: reddit.com false
 
 # surprisingly, there's a filter-list that blocks stuff here!
 no-cosmetic-filtering: github.com false
+
+no-cosmetic-filtering: quora.com false
 
 # hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
