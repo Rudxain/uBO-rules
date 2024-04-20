@@ -37,6 +37,9 @@ no-scripting: youtube.com false
 * msn.com * block
 * skype.com * block
 
+# MS and Altice request there, for some reason...
+* facebook.net * block
+
 behind-the-scene * 3p noop
 
 bing.com bing.com * noop
