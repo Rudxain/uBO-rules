@@ -161,6 +161,8 @@ discord.com storage.googleapis.com * noop
 
 github.com githubassets.com * noop
 github.com githubusercontent.com * noop
+# workflow results
+github.com blob.core.windows.net * noop
 htmlpreview.github.io githubusercontent.com * noop
 
 android.com googleapis.com * noop
