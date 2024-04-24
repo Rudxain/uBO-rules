@@ -66,6 +66,8 @@ no-remote-fonts: youtube.com false
 
 no-remote-fonts: helix-editor.com false
 
+no-remote-fonts: rust-lang.org false
+
 no-remote-fonts: live.com false
 no-remote-fonts: microsoft.com false
 
@@ -73,8 +75,8 @@ no-remote-fonts: newgrounds.com false
 
 no-remote-fonts: www.reddit.com false
 
-no-scripting: * true
 
+no-scripting: * true
 # search-page doesn't need it, but
 # search-box submit, image-loading, and Copilot/Chat do.
 no-scripting: www.bing.com false
