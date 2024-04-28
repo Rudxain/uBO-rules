@@ -21,9 +21,6 @@ no-cosmetic-filtering: x.com false
 no-cosmetic-filtering: discord.com false
 no-cosmetic-filtering: newgrounds.com false
 
-# surprisingly, there's a filter-list that blocks stuff here!
-no-cosmetic-filtering: github.com false
-
 no-cosmetic-filtering: quora.com false
 
 # hide cookie notice
@@ -70,6 +67,7 @@ no-remote-fonts: rust-lang.org false
 
 no-remote-fonts: live.com false
 no-remote-fonts: microsoft.com false
+no-remote-fonts: copilot.microsoft.com true
 
 no-remote-fonts: newgrounds.com false
 
@@ -80,6 +78,7 @@ no-scripting: * true
 # search-page doesn't need it, but
 # search-box submit, image-loading, and Copilot/Chat do.
 no-scripting: www.bing.com false
+no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 no-scripting: skype.com false
 
@@ -139,6 +138,13 @@ behind-the-scene * 3p-script noop
 behind-the-scene ntp.msn.com * noop
 
 bing.com bing.com * noop
+bing.com bingapis.com * noop
+bing.com live.com * noop
+bing.com microsoftonline.com * noop
+copilot.microsoft.com bing.com * noop
+copilot.microsoft.com bingapis.com * noop
+microsoft.com live.com * noop
+microsoft.com microsoftonline.com * noop
 live.com * 3p noop
 live.com * 3p-script noop
 onedrive.live.com * 3p-frame noop
