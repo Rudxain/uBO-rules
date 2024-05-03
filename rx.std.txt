@@ -80,7 +80,7 @@ no-scripting: * true
 no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
-no-scripting: skype.com false
+no-scripting: web.skype.com false
 
 no-scripting: discord.com false
 # I wish that
@@ -150,10 +150,13 @@ live.com * 3p-script noop
 onedrive.live.com * 3p-frame noop
 outlook.live.com * 3p-frame noop
 msn.com msn.com * noop
-skype.com azure.com * noop
-skype.com microsoft.com * noop
 skype.com skype.com * noop
 skype.com skypeassets.com * noop
+skype.com azure.com * noop
+skype.com azureedge.net * noop
+skype.com live.com * noop
+skype.com microsoft.com * noop
+skype.com microsoftapp.net * noop
 
 # I prefer to add this to "Temporary",
 # because I rarely search for "Discoverable servers"
