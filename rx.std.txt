@@ -201,11 +201,13 @@ reddit.com reddit.map.fastly.net * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
+# scripting intentionally left disabled
+twitter.com twimg.com * noop
+
 soundcloud.com sndcdn.com * noop
 
 stackexchange.com sstatic.net * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
-
 mozilla.org mozilla.net * noop
 wikipedia.org wikimedia.org * noop
