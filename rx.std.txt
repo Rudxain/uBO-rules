@@ -49,6 +49,7 @@ no-popups: rudxain.newgrounds.com false
 no-popups: android.com false
 no-popups: google.com false
 
+no-popups: rust-lang.org false
 no-popups: mozilla.org false
 no-popups: wikipedia.org false
 
@@ -106,6 +107,8 @@ no-scripting: newgrounds.com false
 no-scripting: www.reddit.com false
 
 no-scripting: soundcloud.com false
+
+no-scripting: play.rust-lang.org false
 
 * * 3p block
 * * 3p-frame block
