@@ -184,8 +184,10 @@ android.com gstatic.com * noop
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
+myaccount.google.com googleusercontent.com * noop
 drive.google.com googleusercontent.com * noop
 mail.google.com googleusercontent.com * noop
+gemini.google.com googleusercontent.com * noop
 maps.google.com maps.googleapis.com * noop
 youtube.com ggpht.com * noop
 youtube.com googleapis.com * noop
