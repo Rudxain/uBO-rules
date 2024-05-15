@@ -57,8 +57,6 @@ github.com githubassets.com * noop
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
-youtube.com ggpht.com * noop
-youtube.com googleusercontent.com * noop
 youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
 youtube.com ytimg.com * noop
