@@ -31,6 +31,10 @@ no-scripting: youtube.com false
 * * 3p-script block
 
 * google.com * block
+# deprecated domain
+* apis.google.com * block
+* fonts.googleapis.com * block
+* fonts.gstatic.com * block
 * maps.googleapis.com * block
 
 * bing.com * block
@@ -56,7 +60,9 @@ github.com githubassets.com * noop
 
 google.com google.com * noop
 google.com googleapis.com * noop
+google.com fonts.googleapis.com * noop
 google.com gstatic.com * noop
+google.com fonts.gstatic.com * noop
 youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
 youtube.com ytimg.com * noop
