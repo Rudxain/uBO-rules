@@ -161,7 +161,7 @@ skype.com live.com * noop
 skype.com microsoft.com * noop
 skype.com microsoftapp.net * noop
 
-# I prefer to add this to "Temporary",
+# I prefer to add these to "Temporary",
 # because I rarely search for "Discoverable servers"
 discord.com algolia.net * noop
 discord.com algolianet.com * noop
@@ -214,5 +214,7 @@ soundcloud.com sndcdn.com * noop
 stackexchange.com sstatic.net * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
+internals.rust-lang.org discourse-cdn.com * noop
+users.rust-lang.org discourse-cdn.com * noop
 mozilla.org mozilla.net * noop
 wikipedia.org wikimedia.org * noop
