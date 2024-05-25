@@ -1,5 +1,5 @@
 # [uBO-R](https://github.com/gorhill/uBlock/wiki/Dashboard:-My-rules)
-> [!warning]
+> [!important]
 > This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
 ## Profiles
