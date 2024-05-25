@@ -19,7 +19,7 @@ An arbitrary average human user. They shouldn't be using "Hard-Mode", because li
 Most rules are "just-in-case", for the sake of future-proofing, and lack of information about the behavior of sites.
 
 ### Rx
-My own personal rule-set. Optimized for my needs and desires.
+My own personal rule-set. Designed for my needs, desires, and convictions.
 
 ## Modes
 
