@@ -7,7 +7,6 @@ no-csp-reports: * true
 no-large-media: behind-the-scene false
 
 no-scripting: html.duckduckgo.com true
-no-scripting: nitter.net true
 
 * * 3p-frame block
 
@@ -112,12 +111,9 @@ superuser.com * 3p-script block
 tiktok.com * 3p-script block
 tiktok.com tiktokcdn.com * noop
 
-nitter.net * 3p block
-nitter.net * 3p-script block
 twitter.com * 3p-script block
 twitter.com twitter.net * noop
 twitter.com x.com * noop
-# if X doesn't redirect
 x.com * 3p-script block
 x.com twitter.com * noop
 x.com twitter.net * noop
