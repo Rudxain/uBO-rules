@@ -1,4 +1,4 @@
-# [uBO](https://github.com/gorhill/uBlock)-R
+# [uBO-R](https://github.com/gorhill/uBlock/wiki/Dashboard:-My-rules)
 > [!warning]
 > This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
