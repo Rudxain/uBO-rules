@@ -1,7 +1,9 @@
-# [uBO](https://github.com/gorhill/uBlock)-R
-These are just templates for general user types
+# [uBO-R](https://github.com/gorhill/uBlock/wiki/Dashboard:-My-rules)
+> [!warning]
+> This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
 ## Profiles
+AKA "User Types"
 
 ### Admin
 For privileged (Administrator) accounts. These are the only users with (partial) `root`/`System` access, so they need **ABSOLUTELY MAXIMUM SECURITY** at the cost of convenience. Since admins don't need to browse many websites, the strict-blocking doesn't affect them much.
