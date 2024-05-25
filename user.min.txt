@@ -19,7 +19,6 @@ no-scripting: wikipedia.org true
 no-scripting: wiktionary.org true
 
 no-scripting: facebook.com true
-no-scripting: nitter.net true
 no-scripting: reddit.com true
 
 no-scripting: stackexchange.com true
@@ -116,12 +115,10 @@ samsung.com * 3p block
 
 tiktok.com * 3p block
 
-nitter.net * 3p block
 twitter.com * 3p block
 twitter.com twitter.net * noop
 twitter.com twimg.com * noop
 twitter.com x.com * noop
-# if X doesn't redirect
 x.com * 3p block
 x.com twitter.com * noop
 x.com twitter.net * noop
