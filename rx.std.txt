@@ -140,12 +140,18 @@ behind-the-scene * 3p-script noop
 # MS Edge preload
 behind-the-scene ntp.msn.com * noop
 
+bing.com akamaiedge.net * noop
+bing.com azure.com * noop
 bing.com bing.com * noop
 bing.com bingapis.com * noop
 bing.com live.com * noop
 bing.com microsoftonline.com * noop
+# images
+www.bing.com * 3p noop
 copilot.microsoft.com bing.com * noop
 copilot.microsoft.com bingapis.com * noop
+microsoft.com akamaiedge.net * noop
+microsoft.com azure.com * noop
 microsoft.com live.com * noop
 microsoft.com microsoftonline.com * noop
 live.com * 3p noop
