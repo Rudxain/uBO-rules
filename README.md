@@ -11,8 +11,10 @@ For privileged (Administrator) accounts. These are the only users with (partial)
 > [!tip]
 > remember to disable JIT-compilation:
 > - MS Edge: Go to "Enhanced Security" (`edge://settings/privacy#SecureMode`)
-> - Moz Firefox: `about:config`, then search "jit". As a bonus, disable [Ion](https://wiki.mozilla.org/IonMonkey) and Wasm.
-> - G Chrome: CLI arg `--js-flags="--jitless"` (not persistent)
+> - Moz Firefox: `about:config`, then search "jit".
+> 	- As a bonus, disable [Ion](https://wiki.mozilla.org/IonMonkey) and Wasm
+> - G Chrome: CLI arg `--js-flags="--jitless"`.
+> 	- Not persistent, unless added to the desktop shortcut: This can be done on Windows (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s07.html)
 
 ### User
 An arbitrary average human user. They shouldn't be using "Hard-Mode", because literally any site they visit could break, and that's an inconvenience.
