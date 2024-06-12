@@ -145,6 +145,7 @@ behind-the-scene ntp.msn.com * noop
 
 bing.com akamaiedge.net * noop
 bing.com azure.com * noop
+bing.com azureedge.net * noop
 bing.com bing.com * noop
 bing.com bingapis.com * noop
 bing.com live.com * noop
@@ -155,12 +156,15 @@ copilot.microsoft.com bing.com * noop
 copilot.microsoft.com bingapis.com * noop
 microsoft.com akamaiedge.net * noop
 microsoft.com azure.com * noop
+microsoft.com azureedge.net * noop
 microsoft.com live.com * noop
 microsoft.com microsoftonline.com * noop
 live.com * 3p noop
 live.com * 3p-script noop
-onedrive.live.com * 3p-frame noop
-outlook.live.com * 3p-frame noop
+live.com azure.com * noop
+live.com azureedge.net * noop
+live.com microsoft.com * noop
+live.com sfx.ms * noop
 msn.com msn.com * noop
 skype.com skype.com * noop
 skype.com skypeassets.com * noop
