@@ -196,7 +196,6 @@ mail.google.com googleusercontent.com * noop
 gemini.google.com googleusercontent.com * noop
 maps.google.com maps.googleapis.com * noop
 youtube.com ggpht.com * noop
-youtube.com googleapis.com * noop
 youtube.com googleusercontent.com * noop
 youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
