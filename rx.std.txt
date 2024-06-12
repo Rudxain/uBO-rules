@@ -61,7 +61,6 @@ no-remote-fonts: * true
 
 no-remote-fonts: android.com false
 no-remote-fonts: google.com false
-no-remote-fonts: youtube.com false
 
 no-remote-fonts: helix-editor.com false
 
