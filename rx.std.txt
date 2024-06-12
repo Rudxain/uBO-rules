@@ -76,6 +76,9 @@ no-remote-fonts: www.reddit.com false
 
 
 no-scripting: * true
+# does B.T.S. affect service-workers?
+no-scripting: behind-the-scene false
+
 # search-page doesn't need it, but
 # search-box submit, image-loading, and Copilot/Chat do.
 no-scripting: www.bing.com false
