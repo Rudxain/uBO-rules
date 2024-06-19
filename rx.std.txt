@@ -64,6 +64,7 @@ no-remote-fonts: google.com false
 
 no-remote-fonts: helix-editor.com false
 
+no-remote-fonts: rust-lang.github.io false
 no-remote-fonts: rust-lang.org false
 
 no-remote-fonts: live.com false
