@@ -85,6 +85,7 @@ no-scripting: behind-the-scene false
 no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
+no-scripting: login.microsoftonline.com false
 no-scripting: web.skype.com false
 
 no-scripting: discord.com false
@@ -155,11 +156,14 @@ bing.com microsoftonline.com * noop
 www.bing.com * 3p noop
 copilot.microsoft.com bing.com * noop
 copilot.microsoft.com bingapis.com * noop
+
 microsoft.com akamaiedge.net * noop
 microsoft.com azure.com * noop
 microsoft.com azureedge.net * noop
 microsoft.com live.com * noop
 microsoft.com microsoftonline.com * noop
+login.microsoftonline.com live.com * noop
+login.microsoftonline.com msauth.net * noop
 live.com * 3p noop
 live.com * 3p-script noop
 live.com azure.com * noop
