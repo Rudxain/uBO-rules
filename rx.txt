@@ -159,7 +159,7 @@ no-scripting: play.rust-lang.org false
 
 behind-the-scene * 3p noop
 behind-the-scene * 3p-script noop
-# MS Edge preload
+# MS Edge
 behind-the-scene ntp.msn.com * noop
 
 bing.com akamaiedge.net * noop
