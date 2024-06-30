@@ -1,13 +1,20 @@
-# save energy
-no-cosmetic-filtering: * true
+# save energy on some devices
+#no-cosmetic-filtering: * true
 
 no-cosmetic-filtering: bing.com false
 no-cosmetic-filtering: live.com false
 no-cosmetic-filtering: microsoft.com false
 
+no-cosmetic-filtering: duckduckgo.com true
+no-cosmetic-filtering: html.duckduckgo.com true
+
 no-cosmetic-filtering: google.com false
 no-cosmetic-filtering: www.google.com true
 no-cosmetic-filtering: youtube.com false
+
+# diff is negligible
+no-cosmetic-filtering: github.com true
+no-cosmetic-filtering: rudxain.github.io true
 
 no-cosmetic-filtering: facebook.com false
 no-cosmetic-filtering: instagram.com false
@@ -28,15 +35,24 @@ no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
 
+# 🦀 = ✅
+no-cosmetic-filtering: helix-editor.com true
+no-cosmetic-filtering: rust-lang.github.io true
+no-cosmetic-filtering: rust-lang.org true
+no-cosmetic-filtering: mozilla.org true
+
+no-cosmetic-filtering: wikipedia.org true
+no-cosmetic-filtering: wiktionary.org true
+
 no-csp-reports: * true
 
 no-popups: * true
 
-no-popups: bing.com false
+no-popups: www.bing.com false
 # MS Edge New Tab Page
-no-popups: ntp.msn.com false
+#no-popups: ntp.msn.com false
 
-no-popups: duckduckgo.com false
+no-popups: html.duckduckgo.com false
 
 no-popups: helix-editor.com false
 
@@ -108,7 +124,8 @@ no-scripting: youtube.com false
 
 no-scripting: newgrounds.com false
 
-# I use O.R., but N.R. needs JS
+# https://github.com/tom-james-watson/old-reddit-redirect
+# TLDR: Old no need JS. New needs JS. New is explicitly opt-in.
 no-scripting: www.reddit.com false
 
 no-scripting: soundcloud.com false
@@ -178,11 +195,6 @@ skype.com azureedge.net * noop
 skype.com live.com * noop
 skype.com microsoft.com * noop
 skype.com microsoftapp.net * noop
-
-# I prefer to add these to "Temporary",
-# because I rarely search for "Discoverable servers"
-discord.com algolia.net * noop
-discord.com algolianet.com * noop
 
 discord.com discord.gg * noop
 discord.com discord.media * noop
