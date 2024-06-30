@@ -45,16 +45,14 @@ live.com * 3p-frame noop
 msn.com msn.com * noop
 skype.com * 3p-frame noop
 
-adobe.com * 3p-script block
+# Adobe is unused
 
 android.com * 3p-script block
 android.com google.com * noop
 android.com gstatic.com * noop
 google.com * 3p-script block
 google.com gstatic.com * noop
-withgoogle.com * 3p-script block
-withgoogle.com google.com * noop
-withgoogle.com gstatic.com * noop
+# `withgoogle` is unused
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
@@ -88,6 +86,7 @@ instagram.com fbcdn.net * noop
 instagram.com fbsbx.com * noop
 instagram.com cdninstagram.com * noop
 instagram.com instagram.net * noop
+# Threads is unused
 
 pinterest.com * 3p-script block
 # for some reason, `pinimg` serves JS...
@@ -99,6 +98,8 @@ pinterest.es pinimg.com * noop
 pinterest.es pinterest.com * noop
 pinterest.es pinterest.net * noop
 
+# to-do: Quora
+
 reddit.com * 3p block
 reddit.com * 3p-script block
 reddit.com * 3p-frame block
@@ -108,8 +109,7 @@ reddit.com redditstatic.com * noop
 
 stackexchange.com * 3p-script block
 stackexchange.com * 3p-frame block
-stackoverflow.com * 3p-script block
-stackoverflow.com * 3p-frame block
+# S.O. is unused
 
 tiktok.com * 3p-script block
 tiktok.com tiktokcdn.com * noop
