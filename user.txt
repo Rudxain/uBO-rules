@@ -98,7 +98,9 @@ pinterest.es pinimg.com * noop
 pinterest.es pinterest.com * noop
 pinterest.es pinterest.net * noop
 
-# to-do: Quora
+quora.com * 3p-script block
+quora.com * 3p-frame block
+quora.com quoracdn.net * noop
 
 reddit.com * 3p block
 reddit.com * 3p-script block
