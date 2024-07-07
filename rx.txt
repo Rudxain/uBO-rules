@@ -112,6 +112,7 @@ no-scripting: support.discord.com true
 no-scripting: html.duckduckgo.com true
 
 no-scripting: gitlab.com false
+no-scripting: about.gitlab.com true
 no-scripting: handbook.gitlab.com true
 no-scripting: gitlab.redox-os.org false
 # 🦀 = ✅
