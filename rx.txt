@@ -12,7 +12,7 @@ no-cosmetic-filtering: google.com false
 no-cosmetic-filtering: www.google.com true
 no-cosmetic-filtering: youtube.com false
 
-# diff is negligible
+no-cosmetic-filtering: gitlab.com true
 no-cosmetic-filtering: github.com true
 no-cosmetic-filtering: rudxain.github.io true
 
@@ -110,6 +110,11 @@ no-scripting: discord.com false
 no-scripting: support.discord.com true
 
 no-scripting: html.duckduckgo.com true
+
+no-scripting: gitlab.com false
+no-scripting: handbook.gitlab.com true
+no-scripting: gitlab.redox-os.org false
+# 🦀 = ✅
 
 no-scripting: github.com false
 no-scripting: docs.github.com true
@@ -209,6 +214,11 @@ github.com githubusercontent.com * noop
 github.com blob.core.windows.net * noop
 htmlpreview.github.io githubusercontent.com * noop
 
+gitlab.com gitlab.net * noop
+gitlab.com cloudflare.com * noop
+gitlab.com jsdelivr.map.fastly.net * noop
+gitlab.com jsdelivr.net * noop
+
 android.com googleapis.com * noop
 android.com gstatic.com * noop
 google.com google.com * noop
@@ -235,9 +245,13 @@ reddit.com reddit.map.fastly.net * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
-# scripting intentionally left disabled
+# scripts intentionally disabled
+twitter.com edgecastcdn.net * noop
 twitter.com twimg.com * noop
+twitter.com x.com * noop
+x.com edgecastcdn.net * noop
 x.com twimg.com * noop
+x.com twitter.com * noop
 
 soundcloud.com sndcdn.com * noop
 
