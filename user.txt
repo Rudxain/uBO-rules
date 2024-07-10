@@ -69,6 +69,9 @@ github.com githubassets.com * noop
 
 mozilla.org * 3p-script block
 mozilla.org mozilla.net * noop
+mozilla.org mozgcp.net * noop
+developer.mozilla.org mdnplay.dev * noop
+
 wikipedia.org * 3p-script block
 wikipedia.org * 3p-frame block
 wiktionary.org * 3p-script block
