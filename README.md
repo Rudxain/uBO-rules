@@ -11,9 +11,7 @@ For privileged (Administrator) accounts. These are the only users with (partial)
 > [!tip]
 > remember to disable JIT-compilation:
 > - MS Edge: Go to "Enhanced Security" (`edge://settings/privacy#SecureMode`)
-> - Moz Firefox: `about:config`, then search "jit".
-> 	- bonus: disable [Ion](https://wiki.mozilla.org/IonMonkey) and Wasm
-> 	- bonus: use [`Securefox.js`](https://github.com/yokoffing/Betterfox)
+> - Moz Firefox: use `Securefox.js`, and enable [these options](https://github.com/yokoffing/Betterfox/blob/c5fca2dbf7289c8dbce901c040683f3cdfdd7926/Securefox.js#L1131-L1162)
 > - G Chrome: CLI arg `--js-flags="--jitless"`.
 > 	- Not persistent, unless added to the desktop shortcut: This can be done on Windows (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s07.html)
 
