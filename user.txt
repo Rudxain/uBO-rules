@@ -21,6 +21,7 @@ no-scripting: html.duckduckgo.com true
 * edgecastcdn.net * noop
 * map.fastly.net * noop
 * jsdelivr.net * noop
+* unpkg.com * noop
 
 * googleapis.com * noop
 * youtube.com * noop
