@@ -162,7 +162,8 @@ no-scripting: play.rust-lang.org false
 * msn.com * block
 * skype.com * block
 
-# MS and Altice request there, for some reason...
+# MS and Altice request FB, for some reason...
+* facebook.com * block
 * facebook.net * block
 
 behind-the-scene * 3p noop
