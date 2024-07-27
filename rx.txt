@@ -251,9 +251,11 @@ reddit.com redditstatic.com * noop
 
 # scripts intentionally disabled
 twitter.com edgecastcdn.net * noop
+twitter.com twitter.map.fastly.net * noop
 twitter.com twimg.com * noop
 twitter.com x.com * noop
 x.com edgecastcdn.net * noop
+x.com twitter.map.fastly.net * noop
 x.com twimg.com * noop
 x.com twitter.com * noop
 
