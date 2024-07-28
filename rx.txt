@@ -250,6 +250,7 @@ reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
 # scripts intentionally disabled
+imgur.com imgur.map.fastly.net * noop
 twitter.com edgecastcdn.net * noop
 twitter.com twitter.map.fastly.net * noop
 twitter.com twimg.com * noop
