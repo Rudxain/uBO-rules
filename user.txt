@@ -27,7 +27,6 @@ no-scripting: html.duckduckgo.com true
 
 # some MS sites send requests there,
 # even if unnecessary
-* adobedtm.com * block
 * msn.com * block
 
 behind-the-scene * * noop
@@ -41,8 +40,8 @@ behind-the-scene * inline-script noop
 # MS Edge
 behind-the-scene ntp.msn.com * noop
 
-live.com * 3p-frame noop
 msn.com msn.com * noop
+live.com * 3p-frame noop
 skype.com * 3p-frame noop
 
 # Adobe is unused
