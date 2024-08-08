@@ -196,6 +196,8 @@ live.com azure.com * noop
 live.com azureedge.net * noop
 live.com microsoft.com * noop
 live.com sfx.ms * noop
+# https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
+onedrive.live.com * 3p-frame noop
 msn.com msn.com * noop
 skype.com skype.com * noop
 skype.com skypeassets.com * noop
