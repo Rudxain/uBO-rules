@@ -143,6 +143,7 @@ no-scripting: play.rust-lang.org false
 
 * facebook.com * block
 * facebook.net * block
+* fbcdn.net * block
 
 behind-the-scene * 3p-script noop
 # MS Edge
