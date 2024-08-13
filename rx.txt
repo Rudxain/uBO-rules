@@ -185,6 +185,8 @@ skype.com live.com * noop
 skype.com microsoft.com * noop
 skype.com microsoftapp.net * noop
 
+html.duckduckgo.com * 3p block
+
 discord.com discord.gg * noop
 discord.com discord.media * noop
 discord.com discordapp.com * noop
