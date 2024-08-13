@@ -72,28 +72,6 @@ no-popups: rust-lang.org false
 no-popups: mozilla.org false
 no-popups: wikipedia.org false
 
-# reminder: icons are also "fonts"
-no-remote-fonts: * true
-# My Static Filter
-# *$font,third-party,domain=~android.com|~google.com|~live.com|~newgrounds.com|~www.reddit.com
-
-no-remote-fonts: android.com false
-no-remote-fonts: google.com false
-
-no-remote-fonts: helix-editor.com false
-
-no-remote-fonts: rust-lang.github.io false
-no-remote-fonts: rust-lang.org false
-
-no-remote-fonts: live.com false
-no-remote-fonts: microsoft.com false
-no-remote-fonts: copilot.microsoft.com true
-
-no-remote-fonts: newgrounds.com false
-
-no-remote-fonts: www.reddit.com false
-
-
 no-scripting: * true
 # does B.T.S. affect service-workers?
 no-scripting: behind-the-scene false
@@ -166,10 +144,9 @@ no-scripting: play.rust-lang.org false
 * facebook.com * block
 * facebook.net * block
 
-behind-the-scene * 3p noop
 behind-the-scene * 3p-script noop
 # MS Edge
-behind-the-scene ntp.msn.com * noop
+#behind-the-scene ntp.msn.com * noop
 
 bing.com akamaiedge.net * noop
 bing.com azure.com * noop
