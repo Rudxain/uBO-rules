@@ -121,7 +121,6 @@ no-scripting: gitlab.redox-os.org false
 
 no-scripting: github.com false
 no-scripting: docs.github.com true
-no-scripting: htmlpreview.github.io false
 
 no-scripting: accounts.google.com false
 # AKA "Bard"
@@ -138,9 +137,9 @@ no-scripting: www.reddit.com false
 
 no-scripting: soundcloud.com false
 
+# nightly
 no-scripting: play.rust-lang.org false
 
-* * 3p block
 * * 3p-frame block
 * * 3p-script block
 
@@ -158,11 +157,12 @@ no-scripting: play.rust-lang.org false
 # even while not using the Maps plugin
 * maps.googleapis.com * block
 
+* adobedtm.com * block
+
 * bing.com * block
 * msn.com * block
 * skype.com * block
 
-# MS and Altice request FB, for some reason...
 * facebook.com * block
 * facebook.net * block
 
