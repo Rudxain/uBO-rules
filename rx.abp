@@ -1,2 +1,6 @@
+[Adblock Plus 2.0]
+! Homepage: https://github.com/Rudxain/uBO-rules
+! Syntax: AdBlock
+
 ! reminder: icons are also "fonts"
 *$font,third-party,domain=~android.com|~google.com|~live.com|~newgrounds.com|~www.reddit.com
