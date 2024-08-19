@@ -233,8 +233,11 @@ reddit.com redditstatic.com * noop
 
 # scripts intentionally disabled
 imgur.com imgur.map.fastly.net * noop
+
 twitter.com edgecastcdn.net * noop
 twitter.com twitter.map.fastly.net * noop
+# looks like Twitter copied Pinterest's homework:
+# `twimg` serves scripts too
 twitter.com twimg.com * noop
 twitter.com x.com * noop
 x.com edgecastcdn.net * noop
