@@ -94,9 +94,6 @@ no-scripting: html.duckduckgo.com true
 no-scripting: gitlab.com false
 no-scripting: about.gitlab.com true
 no-scripting: handbook.gitlab.com true
-no-scripting: gitlab.redox-os.org false
-# 🦀 = ✅
-
 no-scripting: github.com false
 no-scripting: docs.github.com true
 
