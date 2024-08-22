@@ -1,11 +1,12 @@
 no-cosmetic-filtering: html.duckduckgo.com true
-no-cosmetic-filtering: www.google.com true
 no-cosmetic-filtering: wikipedia.org true
 no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 no-large-media: behind-the-scene false
 
+# if DDG gets compromised,
+# it'll serve malicious scripts
 no-scripting: html.duckduckgo.com true
 
 # CDNs
@@ -22,7 +23,7 @@ no-scripting: html.duckduckgo.com true
 * unpkg.com * noop
 
 * googleapis.com * noop
-* youtube.com * noop
+#* youtube.com * noop
 * youtube-nocookie.com * noop
 
 # some MS sites send requests there,
@@ -37,18 +38,15 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-# MS Edge
-behind-the-scene ntp.msn.com * noop
+# MS Edge is unused :(
 
 msn.com msn.com * noop
 live.com * 3p-frame noop
-skype.com * 3p-frame noop
+# Skype is unused
 
 # Adobe is unused
 
-android.com * 3p-script block
-android.com google.com * noop
-android.com gstatic.com * noop
+# Android is unused
 google.com * 3p-script block
 google.com gstatic.com * noop
 # `withgoogle` is unused
@@ -64,12 +62,10 @@ html.duckduckgo.com * 3p-script block
 html.duckduckgo.com * 3p-frame block
 
 github.com * 3p-script block
+github.com * 3p-frame block
 github.com githubassets.com * noop
 
-mozilla.org * 3p-script block
-mozilla.org mozilla.net * noop
-mozilla.org mozgcp.net * noop
-developer.mozilla.org mdnplay.dev * noop
+# Mozilla is unused
 
 wikipedia.org * 3p-script block
 wikipedia.org * 3p-frame block
@@ -81,7 +77,6 @@ facebook.com * 3p-script block
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
-instagram.com * 3p-script block
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
@@ -112,12 +107,9 @@ stackexchange.com * 3p-script block
 stackexchange.com * 3p-frame block
 # S.O. is unused
 
-tiktok.com * 3p-script block
-tiktok.com tiktokcdn.com * noop
+# TikTok is unused
 
-twitter.com * 3p-script block
 twitter.com twitter.net * noop
 twitter.com x.com * noop
-x.com * 3p-script block
 x.com twitter.com * noop
 x.com twitter.net * noop
