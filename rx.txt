@@ -89,6 +89,9 @@ no-scripting: soundcloud.com false
 # nightly
 no-scripting: play.rust-lang.org false
 
+# Text:Large; Color:Auto
+no-scripting: wikipedia.org false
+
 * * 3p-frame block
 * * 3p-script block
 
