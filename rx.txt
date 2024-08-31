@@ -46,32 +46,6 @@ no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 
-no-popups: * true
-
-no-popups: www.bing.com false
-# MS Edge New Tab Page
-#no-popups: ntp.msn.com false
-
-no-popups: html.duckduckgo.com false
-
-no-popups: helix-editor.com false
-
-no-popups: github.com false
-# for security, user-pages (but mine) are denied
-no-popups: rudxain.github.io false
-no-popups: gitlab.com false
-
-no-popups: www.newgrounds.com false
-no-popups: rudxain.newgrounds.com false
-
-no-popups: android.com false
-no-popups: www.google.com false
-no-popups: mail.google.com false
-
-no-popups: rust-lang.org false
-no-popups: mozilla.org false
-no-popups: wikipedia.org false
-
 no-scripting: * true
 # does B.T.S. affect service-workers?
 no-scripting: behind-the-scene false
