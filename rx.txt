@@ -92,15 +92,6 @@ no-scripting: play.rust-lang.org false
 * * 3p-frame block
 * * 3p-script block
 
-# I'm aware this is controversial.
-# I included this because uBO GUI doesn't allow `noop`ing
-# all CF sub-domains for a specific hostname.
-# Instead, it shows a list of gibberish sub-domains,
-# forcing me to `noop` each one individually.
-# Since CF is omnipresent, this is a big inconvenience.
-# Besides, I use DecentralEyes, so this isn't a serious issue.
-* cloudfront.net * noop
-
 * google.com * block
 # Gemini/Bard sends requests there,
 # even while not using the Maps plugin
