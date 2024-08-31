@@ -93,8 +93,9 @@ no-scripting: play.rust-lang.org false
 * * 3p-script block
 
 * google.com * block
-# Gemini/Bard sends requests there,
-# even while not using the Maps plugin
+
+# Gemini/Bard requests it unconditionally
+# https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
 * adobedtm.com * block
