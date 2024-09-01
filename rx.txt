@@ -55,7 +55,6 @@ no-scripting: behind-the-scene false
 no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
-no-scripting: login.microsoftonline.com false
 no-scripting: web.skype.com false
 
 no-scripting: discord.com false
@@ -97,10 +96,11 @@ no-scripting: wikipedia.org false
 
 * google.com * block
 
-# Gemini/Bard requests it unconditionally
+# Gemini requests it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
+# MS requests it
 * adobedtm.com * block
 
 * bing.com * block
@@ -111,47 +111,22 @@ no-scripting: wikipedia.org false
 * facebook.net * block
 * fbcdn.net * block
 
+# useless?
 behind-the-scene * 3p-script noop
-# MS Edge
-#behind-the-scene ntp.msn.com * noop
 
-bing.com akamaiedge.net * noop
-bing.com azure.com * noop
-bing.com azureedge.net * noop
 bing.com bing.com * noop
-bing.com bingapis.com * noop
-bing.com live.com * noop
-bing.com microsoftonline.com * noop
-# images
-www.bing.com * 3p noop
+www.bing.com * 3p-script noop
 copilot.microsoft.com bing.com * noop
-copilot.microsoft.com bingapis.com * noop
-
-microsoft.com akamaiedge.net * noop
-microsoft.com azure.com * noop
-microsoft.com azureedge.net * noop
-microsoft.com live.com * noop
-microsoft.com microsoftonline.com * noop
-login.microsoftonline.com live.com * noop
-login.microsoftonline.com msauth.net * noop
-live.com * 3p noop
+copilot.microsoft.com * 3p-script noop
 live.com * 3p-script noop
-live.com azure.com * noop
-live.com azureedge.net * noop
-live.com microsoft.com * noop
-live.com sfx.ms * noop
 # https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
 onedrive.live.com * 3p-frame noop
-msn.com msn.com * noop
 skype.com skype.com * noop
-skype.com skypeassets.com * noop
-skype.com azure.com * noop
-skype.com azureedge.net * noop
-skype.com live.com * noop
-skype.com microsoft.com * noop
-skype.com microsoftapp.net * noop
+web.skype.com * 3p-script noop
 
 html.duckduckgo.com * 3p block
+html.duckduckgo.com * 3p-script block
+html.duckduckgo.com * 3p-frame block
 
 discord.com discord.gg * noop
 discord.com discord.media * noop
@@ -161,40 +136,24 @@ discord.com discordapp.net * noop
 discord.com storage.googleapis.com * noop
 
 github.com githubassets.com * noop
-github.com githubusercontent.com * noop
-# workflow results
-github.com blob.core.windows.net * noop
-htmlpreview.github.io githubusercontent.com * noop
 
 gitlab.com gitlab.net * noop
 gitlab.com cloudflare.com * noop
 gitlab.com jsdelivr.map.fastly.net * noop
 gitlab.com jsdelivr.net * noop
 
-android.com googleapis.com * noop
-android.com gstatic.com * noop
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
-myaccount.google.com googleusercontent.com * noop
-drive.google.com googleusercontent.com * noop
-mail.google.com googleusercontent.com * noop
-gemini.google.com googleusercontent.com * noop
 maps.google.com maps.googleapis.com * noop
-youtube.com ggpht.com * noop
-youtube.com googleusercontent.com * noop
-youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
-youtube.com ytimg.com * noop
 www.youtube.com youtube-ui.l.google.com * noop
 
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
 newgrounds.com ungrounded.net * noop
 
-reddit.com redd.it * noop
 reddit.com reddit.map.fastly.net * noop
-reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
 # scripts intentionally disabled
@@ -213,13 +172,6 @@ x.com twitter.com * noop
 
 soundcloud.com sndcdn.com * noop
 
-stackexchange.com sstatic.net * noop
-stackoverflow.com sstatic.net * noop
-superuser.com sstatic.net * noop
-
 rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
-mozilla.org mozilla.net * noop
-
-wikipedia.org wikimedia.org * noop
