@@ -58,8 +58,7 @@ no-scripting: live.com false
 no-scripting: web.skype.com false
 
 no-scripting: discord.com false
-# I wish that
-# subdomain-propagation wasn't mandatory
+# subdomain-propagation makes me do this
 no-scripting: support.discord.com true
 
 no-scripting: html.duckduckgo.com true
@@ -127,13 +126,6 @@ web.skype.com * 3p-script noop
 html.duckduckgo.com * 3p block
 html.duckduckgo.com * 3p-script block
 html.duckduckgo.com * 3p-frame block
-
-discord.com discord.gg * noop
-discord.com discord.media * noop
-discord.com discordapp.com * noop
-discord.com discordapp.net * noop
-# to send files
-discord.com storage.googleapis.com * noop
 
 github.com githubassets.com * noop
 
