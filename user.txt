@@ -9,6 +9,9 @@ no-large-media: behind-the-scene false
 # it'll serve malicious scripts
 no-scripting: html.duckduckgo.com true
 
+# https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
+* adsninja.ca * block
+
 # CDNs
 * akamai.net * noop
 * akamaiedge.net * noop
