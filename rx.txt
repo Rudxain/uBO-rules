@@ -93,6 +93,9 @@ no-scripting: wikipedia.org false
 * * 3p-frame block
 * * 3p-script block
 
+# https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
+* adsninja.ca * block
+
 * google.com * block
 
 # Gemini requests it unconditionally
