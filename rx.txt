@@ -46,54 +46,6 @@ no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 
-no-popups: * true
-
-no-popups: www.bing.com false
-# MS Edge New Tab Page
-#no-popups: ntp.msn.com false
-
-no-popups: html.duckduckgo.com false
-
-no-popups: helix-editor.com false
-
-no-popups: github.com false
-# for security, user-pages (but mine) are denied
-no-popups: rudxain.github.io false
-no-popups: gitlab.com false
-
-no-popups: www.newgrounds.com false
-no-popups: rudxain.newgrounds.com false
-
-no-popups: android.com false
-no-popups: www.google.com false
-no-popups: mail.google.com false
-
-no-popups: rust-lang.org false
-no-popups: mozilla.org false
-no-popups: wikipedia.org false
-
-# reminder: icons are also "fonts"
-no-remote-fonts: * true
-# My Static Filter
-# *$font,third-party,domain=~android.com|~google.com|~live.com|~newgrounds.com|~www.reddit.com
-
-no-remote-fonts: android.com false
-no-remote-fonts: google.com false
-
-no-remote-fonts: helix-editor.com false
-
-no-remote-fonts: rust-lang.github.io false
-no-remote-fonts: rust-lang.org false
-
-no-remote-fonts: live.com false
-no-remote-fonts: microsoft.com false
-no-remote-fonts: copilot.microsoft.com true
-
-no-remote-fonts: newgrounds.com false
-
-no-remote-fonts: www.reddit.com false
-
-
 no-scripting: * true
 # does B.T.S. affect service-workers?
 no-scripting: behind-the-scene false
@@ -103,12 +55,10 @@ no-scripting: behind-the-scene false
 no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
-no-scripting: login.microsoftonline.com false
 no-scripting: web.skype.com false
 
 no-scripting: discord.com false
-# I wish that
-# subdomain-propagation wasn't mandatory
+# subdomain-propagation makes me do this
 no-scripting: support.discord.com true
 
 no-scripting: html.duckduckgo.com true
@@ -116,12 +66,8 @@ no-scripting: html.duckduckgo.com true
 no-scripting: gitlab.com false
 no-scripting: about.gitlab.com true
 no-scripting: handbook.gitlab.com true
-no-scripting: gitlab.redox-os.org false
-# 🦀 = ✅
-
 no-scripting: github.com false
 no-scripting: docs.github.com true
-no-scripting: htmlpreview.github.io false
 
 no-scripting: accounts.google.com false
 # AKA "Bard"
@@ -138,123 +84,80 @@ no-scripting: www.reddit.com false
 
 no-scripting: soundcloud.com false
 
+# nightly
 no-scripting: play.rust-lang.org false
 
-* * 3p block
+# Text:Large; Color:Auto
+no-scripting: wikipedia.org false
+
 * * 3p-frame block
 * * 3p-script block
 
-# I'm aware this is controversial.
-# I included this because uBO GUI doesn't allow `noop`ing
-# all CF sub-domains for a specific hostname.
-# Instead, it shows a list of gibberish sub-domains,
-# forcing me to `noop` each one individually.
-# Since CF is omnipresent, this is a big inconvenience.
-# Besides, I use DecentralEyes, so this isn't a serious issue.
-* cloudfront.net * noop
+# https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
+* adsninja.ca * block
 
 * google.com * block
-# Gemini/Bard sends requests there,
-# even while not using the Maps plugin
+
+# Gemini requests it unconditionally
+# https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
+
+# MS requests it
+* adobedtm.com * block
 
 * bing.com * block
 * msn.com * block
 * skype.com * block
 
-# MS and Altice request FB, for some reason...
 * facebook.com * block
 * facebook.net * block
+* fbcdn.net * block
 
-behind-the-scene * 3p noop
+# useless?
 behind-the-scene * 3p-script noop
-# MS Edge
-behind-the-scene ntp.msn.com * noop
 
-bing.com akamaiedge.net * noop
-bing.com azure.com * noop
-bing.com azureedge.net * noop
 bing.com bing.com * noop
-bing.com bingapis.com * noop
-bing.com live.com * noop
-bing.com microsoftonline.com * noop
-# images
-www.bing.com * 3p noop
+www.bing.com * 3p-script noop
 copilot.microsoft.com bing.com * noop
-copilot.microsoft.com bingapis.com * noop
-
-microsoft.com akamaiedge.net * noop
-microsoft.com azure.com * noop
-microsoft.com azureedge.net * noop
-microsoft.com live.com * noop
-microsoft.com microsoftonline.com * noop
-login.microsoftonline.com live.com * noop
-login.microsoftonline.com msauth.net * noop
-live.com * 3p noop
+copilot.microsoft.com * 3p-script noop
 live.com * 3p-script noop
-live.com azure.com * noop
-live.com azureedge.net * noop
-live.com microsoft.com * noop
-live.com sfx.ms * noop
 # https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
 onedrive.live.com * 3p-frame noop
-msn.com msn.com * noop
 skype.com skype.com * noop
-skype.com skypeassets.com * noop
-skype.com azure.com * noop
-skype.com azureedge.net * noop
-skype.com live.com * noop
-skype.com microsoft.com * noop
-skype.com microsoftapp.net * noop
+web.skype.com * 3p-script noop
 
-discord.com discord.gg * noop
-discord.com discord.media * noop
-discord.com discordapp.com * noop
-discord.com discordapp.net * noop
-# to send files
-discord.com storage.googleapis.com * noop
+html.duckduckgo.com * 3p block
+html.duckduckgo.com * 3p-script block
+html.duckduckgo.com * 3p-frame block
 
 github.com githubassets.com * noop
-github.com githubusercontent.com * noop
-# workflow results
-github.com blob.core.windows.net * noop
-htmlpreview.github.io githubusercontent.com * noop
 
 gitlab.com gitlab.net * noop
 gitlab.com cloudflare.com * noop
 gitlab.com jsdelivr.map.fastly.net * noop
 gitlab.com jsdelivr.net * noop
 
-android.com googleapis.com * noop
-android.com gstatic.com * noop
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
-myaccount.google.com googleusercontent.com * noop
-drive.google.com googleusercontent.com * noop
-mail.google.com googleusercontent.com * noop
-gemini.google.com googleusercontent.com * noop
 maps.google.com maps.googleapis.com * noop
-youtube.com ggpht.com * noop
-youtube.com googleusercontent.com * noop
-youtube.com googlevideo.com * noop
 youtube.com gstatic.com * noop
-youtube.com ytimg.com * noop
 www.youtube.com youtube-ui.l.google.com * noop
 
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
 newgrounds.com ungrounded.net * noop
 
-reddit.com redd.it * noop
 reddit.com reddit.map.fastly.net * noop
-reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
 # scripts intentionally disabled
 imgur.com imgur.map.fastly.net * noop
+
 twitter.com edgecastcdn.net * noop
 twitter.com twitter.map.fastly.net * noop
+# looks like Twitter copied Pinterest's homework:
+# `twimg` serves scripts too
 twitter.com twimg.com * noop
 twitter.com x.com * noop
 x.com edgecastcdn.net * noop
@@ -264,13 +167,6 @@ x.com twitter.com * noop
 
 soundcloud.com sndcdn.com * noop
 
-stackexchange.com sstatic.net * noop
-stackoverflow.com sstatic.net * noop
-superuser.com sstatic.net * noop
-
 rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
-mozilla.org mozilla.net * noop
-
-wikipedia.org wikimedia.org * noop
