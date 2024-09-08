@@ -22,3 +22,8 @@ Most rules are "just-in-case", for the sake of future-proofing, and lack of info
 
 ### Rx
 My own personal rule-set. Designed for my needs, desires, and convictions.
+
+## Syntax
+uBO doesn't support comments on dyn-rules, so I decided to use `#` for single-line comments.
+
+uBO auto-removes syntactically-invalid lines, so this hack works, as long as each comment is placed on its own dedicated line. Adding "side comments" will turn the whole line into a comment, so be careful
