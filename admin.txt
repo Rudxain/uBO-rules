@@ -1,4 +1,4 @@
-# most sites don't need CF
+# no need for CF, most of the time
 no-cosmetic-filtering: * true
 # hide cookie-notice
 no-cosmetic-filtering: stackexchange.com false
@@ -6,6 +6,9 @@ no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
 
 no-csp-reports: * true
+
+no-large-media: * true
+no-large-media: behind-the-scene false
 
 no-popups: * true
 no-popups: www.bing.com false
@@ -21,16 +24,9 @@ no-scripting: * true
 * * 3p-frame block
 * * 3p-script block
 
-# is this too much?
-#* * image block
-
-behind-the-scene * * noop
-behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
-behind-the-scene * image noop
-behind-the-scene * inline-script noop
 
 github.com githubassets.com * noop
 
