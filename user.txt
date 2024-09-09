@@ -88,21 +88,10 @@ instagram.com cdninstagram.com * noop
 instagram.com instagram.net * noop
 # Threads is unused
 
-pinterest.com * 3p-script block
-# for some reason, `pinimg` serves JS...
-# WTF?!
-pinterest.com pinimg.com * noop
-pinterest.com pinterest.net * noop
-pinterest.es * 3p-script block
-pinterest.es pinimg.com * noop
-pinterest.es pinterest.com * noop
-pinterest.es pinterest.net * noop
+# Pinterest is unused
 
-quora.com * 3p-script block
-quora.com * 3p-frame block
 quora.com quoracdn.net * noop
 
-reddit.com redd.it * noop
 reddit.com redditmedia.com * noop
 reddit.com redditstatic.com * noop
 
