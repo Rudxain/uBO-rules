@@ -3,6 +3,7 @@
 
 no-cosmetic-filtering: bing.com false
 no-cosmetic-filtering: live.com false
+no-cosmetic-filtering: skype.com false
 no-cosmetic-filtering: microsoft.com false
 
 no-cosmetic-filtering: duckduckgo.com true
@@ -21,21 +22,23 @@ no-cosmetic-filtering: instagram.com false
 no-cosmetic-filtering: pinterest.com false
 no-cosmetic-filtering: imgur.com false
 no-cosmetic-filtering: reddit.com false
+no-cosmetic-filtering: quora.com false
 no-cosmetic-filtering: tiktok.com false
 no-cosmetic-filtering: twitter.com false
 no-cosmetic-filtering: x.com false
-
 no-cosmetic-filtering: discord.com false
-no-cosmetic-filtering: newgrounds.com false
 
-no-cosmetic-filtering: quora.com false
+# NG is well-behaved, but there's some annoyances
+no-cosmetic-filtering: newgrounds.com false
 
 # hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
 
-# 🦀 = ✅
+no-cosmetic-filtering: debian.org true
+
+# 🦀✅
 no-cosmetic-filtering: helix-editor.com true
 no-cosmetic-filtering: rust-lang.github.io true
 no-cosmetic-filtering: rust-lang.org true
@@ -53,7 +56,7 @@ no-scripting: behind-the-scene false
 # search-page doesn't need it, but
 # search-box submit, image-loading, and Copilot/Chat do.
 no-scripting: www.bing.com false
-no-scripting: copilot.microsoft.com false
+#no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 no-scripting: web.skype.com false
 
@@ -63,7 +66,6 @@ no-scripting: support.discord.com true
 
 no-scripting: html.duckduckgo.com true
 
-no-scripting: gitlab.com false
 no-scripting: about.gitlab.com true
 no-scripting: handbook.gitlab.com true
 no-scripting: github.com false
@@ -72,14 +74,17 @@ no-scripting: docs.github.com true
 no-scripting: accounts.google.com false
 # AKA "Bard"
 no-scripting: gemini.google.com false
+# Docs doesn't need JS on mobile...
+# why?
 no-scripting: drive.google.com false
 no-scripting: mail.google.com false
 no-scripting: youtube.com false
 
-no-scripting: newgrounds.com false
+# some devices
+#no-scripting: newgrounds.com false
 
 # https://github.com/tom-james-watson/old-reddit-redirect
-# TLDR: Old no need JS. New needs JS. New is explicitly opt-in.
+# TLDR: Old no need JS. New needs JS. New is opt-in.
 no-scripting: www.reddit.com false
 
 no-scripting: soundcloud.com false
@@ -96,25 +101,28 @@ no-scripting: wikipedia.org false
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
 * adsninja.ca * block
 
+# generally useless,
+# and `apis.google.com` is deprecated
 * google.com * block
 
 # Gemini requests it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
-# MS requests it
+# MS requests these
 * adobedtm.com * block
-
 * bing.com * block
 * msn.com * block
 * skype.com * block
 
+# I despise Meta
 * facebook.com * block
 * facebook.net * block
 * fbcdn.net * block
+* fbsbx.com * block
 
-# useless?
 behind-the-scene * 3p-script noop
+behind-the-scene * 3p-frame noop
 
 bing.com bing.com * noop
 www.bing.com * 3p-script noop
@@ -133,9 +141,6 @@ html.duckduckgo.com * 3p-frame block
 github.com githubassets.com * noop
 
 gitlab.com gitlab.net * noop
-gitlab.com cloudflare.com * noop
-gitlab.com jsdelivr.map.fastly.net * noop
-gitlab.com jsdelivr.net * noop
 
 google.com google.com * noop
 google.com googleapis.com * noop
@@ -151,9 +156,10 @@ newgrounds.com ungrounded.net * noop
 reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
 
-# scripts intentionally disabled
+# intentional no-script
 imgur.com imgur.map.fastly.net * noop
 
+# intentional no-script
 twitter.com edgecastcdn.net * noop
 twitter.com twitter.map.fastly.net * noop
 # looks like Twitter copied Pinterest's homework:
@@ -164,6 +170,10 @@ x.com edgecastcdn.net * noop
 x.com twitter.map.fastly.net * noop
 x.com twimg.com * noop
 x.com twitter.com * noop
+
+# intentional no-script
+quora.com quoracdn.net.cdn.cloudflare.net * noop
+quora.com quoracdn.net * noop
 
 soundcloud.com sndcdn.com * noop
 
