@@ -98,9 +98,6 @@ no-scripting: wikipedia.org false
 * * 3p-frame block
 * * 3p-script block
 
-# https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
-* adsninja.ca * block
-
 # generally useless,
 # and `apis.google.com` is deprecated
 * google.com * block
@@ -109,8 +106,6 @@ no-scripting: wikipedia.org false
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
-# MS requests these
-* adobedtm.com * block
 * bing.com * block
 * msn.com * block
 * skype.com * block
