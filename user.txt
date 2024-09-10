@@ -42,9 +42,10 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
 # MS Edge is unused :(
+# FIREFOX SUPREMACY!!!
 
 msn.com msn.com * noop
-live.com * 3p-frame noop
+# `live.com` is unused
 # Skype is unused
 
 # Adobe is unused
@@ -53,6 +54,8 @@ live.com * 3p-frame noop
 google.com * 3p-script block
 google.com gstatic.com * noop
 # `withgoogle` is unused
+youtube.com * 3p-script block
+youtube.com * 3p-frame block
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
 
@@ -90,10 +93,7 @@ instagram.com instagram.net * noop
 
 # Pinterest is unused
 
-quora.com quoracdn.net * noop
-
-reddit.com redditmedia.com * noop
-reddit.com redditstatic.com * noop
+# Quora is unused
 
 stackexchange.com * 3p-script block
 stackexchange.com * 3p-frame block
@@ -101,7 +101,6 @@ stackexchange.com * 3p-frame block
 
 # TikTok is unused
 
-twitter.com twitter.net * noop
+# unused, but just-in-case
 twitter.com x.com * noop
 x.com twitter.com * noop
-x.com twitter.net * noop
