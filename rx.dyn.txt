@@ -75,6 +75,9 @@ no-scripting: handbook.gitlab.com true
 no-scripting: github.com false
 no-scripting: docs.github.com true
 
+# FF Android ♾️
+# https://github.com/uBlockOrigin/uBlock-issues/discussions/3240
+#no-scripting: www.google.com false
 no-scripting: accounts.google.com false
 # AKA "Bard"
 no-scripting: gemini.google.com false
