@@ -49,6 +49,7 @@ no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 
+no-large-media: * true
 no-large-media: behind-the-scene false
 
 no-remote-fonts: quora.com true
