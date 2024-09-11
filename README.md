@@ -24,6 +24,6 @@ Most rules are "just-in-case", for the sake of future-proofing, and lack of info
 My own personal rule-set. Designed for my needs, desires, and convictions.
 
 ## Syntax
-uBO doesn't support comments on dyn-rules, so I decided to use `#` for single-line comments.
+[uBO doesn't support comments on dyn-rules](https://github.com/gorhill/uBlock/issues/333).
 
-uBO auto-removes syntactically-invalid lines, so this hack works, as long as each comment is placed on its own dedicated line. Adding "side comments" will turn the whole line into a comment, so be careful
+uBO auto-removes syntactically-invalid lines, and [`#` is unlikely to become valid](https://github.com/gorhill/uMatrix/issues/314#issuecomment-128793820), so this hack _works_... as long as each comment is placed on **its own line** (side-comments will turn the **whole** line into a comment), so be careful
