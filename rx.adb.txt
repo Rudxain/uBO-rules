@@ -2,6 +2,7 @@
 ! Homepage: https://github.com/Rudxain/uBO-rules
 
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
+! https://github.com/easylist/easylist/discussions/20004
 ||adsninja.ca^$all
 
 ! MS requests it, and I hate Adobe
