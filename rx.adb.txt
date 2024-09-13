@@ -8,7 +8,6 @@
 ! MS requests it, and I hate Adobe
 ||adobedtm.com^$all
 
-! 2024-09
 ! this is annoying while no-script.
 stackexchange.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
 stackoverflow.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
