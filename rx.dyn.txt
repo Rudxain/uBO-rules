@@ -107,6 +107,16 @@ no-scripting: wikipedia.org false
 * * 3p-frame block
 * * 3p-script block
 
+# MS requests it, and I hate Adobe
+* adobedtm.com * block
+
+# https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
+# https://github.com/easylist/easylist/discussions/20004
+* adsninja.ca * block
+
+# why is this white-listed?
+* googleadservices.com * block
+
 # generally useless,
 # and `apis.google.com` is deprecated
 * google.com * block
