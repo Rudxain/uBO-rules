@@ -1,13 +1,6 @@
 ![Adblock Plus 2.0]
 ! Homepage: https://github.com/Rudxain/uBO-rules
 
-! https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
-! https://github.com/easylist/easylist/discussions/20004
-||adsninja.ca^$all
-
-! MS requests it, and I hate Adobe
-||adobedtm.com^$all
-
-! this is annoying while no-script.
+! this is annoying while no-script
 stackexchange.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
 stackoverflow.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
