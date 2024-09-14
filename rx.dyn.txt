@@ -92,10 +92,6 @@ no-scripting: youtube.com false
 # some devices
 #no-scripting: newgrounds.com false
 
-# https://github.com/tom-james-watson/old-reddit-redirect
-# TLDR: Old no need JS. New needs JS. New is opt-in.
-no-scripting: www.reddit.com false
-
 no-scripting: soundcloud.com false
 
 # nightly
@@ -138,6 +134,8 @@ no-scripting: wikipedia.org false
 behind-the-scene * 3p-script noop
 behind-the-scene * 3p-frame noop
 
+# as you can see,
+# MS is an absolute dumpster fire of spaghetti
 bing.com bing.com * noop
 www.bing.com * 3p-script noop
 copilot.microsoft.com bing.com * noop
@@ -145,6 +143,8 @@ copilot.microsoft.com * 3p-script noop
 live.com * 3p-script noop
 # https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
 onedrive.live.com * 3p-frame noop
+# I rarely use it,
+# but I keep it JIC
 skype.com skype.com * noop
 web.skype.com * 3p-script noop
 
@@ -167,6 +167,7 @@ newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
 newgrounds.com ungrounded.net * noop
 
+# intentional no-script
 reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
 
