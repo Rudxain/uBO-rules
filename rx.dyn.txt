@@ -42,6 +42,7 @@ no-cosmetic-filtering: debian.org true
 no-cosmetic-filtering: helix-editor.com true
 no-cosmetic-filtering: rust-lang.github.io true
 no-cosmetic-filtering: rust-lang.org true
+no-cosmetic-filtering: docs.rs true
 no-cosmetic-filtering: crates.io true
 no-cosmetic-filtering: mozilla.org true
 
