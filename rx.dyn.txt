@@ -194,6 +194,7 @@ x.com twitter.com * noop
 quora.com quoracdn.net.cdn.cloudflare.net * noop
 quora.com quoracdn.net * noop
 
+soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
 rust-lang.github.io cdnjs.cloudflare.com * noop
