@@ -4,3 +4,5 @@
 ! this is annoying while no-script
 stackexchange.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
 stackoverflow.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
+superuser.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
+askubuntu.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
