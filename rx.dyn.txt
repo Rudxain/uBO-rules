@@ -1,40 +1,33 @@
-# save energy on some devices
-#no-cosmetic-filtering: * true
+no-cosmetic-filtering: * true
 
-no-cosmetic-filtering: bing.com false
-no-cosmetic-filtering: live.com false
-no-cosmetic-filtering: skype.com false
-no-cosmetic-filtering: microsoft.com false
+# Bing servers always redirect to `www`
+no-cosmetic-filtering: www.bing.com false
+no-cosmetic-filtering: www.microsoft.com false
 
-no-cosmetic-filtering: duckduckgo.com true
 no-cosmetic-filtering: html.duckduckgo.com true
 
-no-cosmetic-filtering: google.com false
-no-cosmetic-filtering: www.google.com true
-no-cosmetic-filtering: youtube.com false
+# `m.youtube.com` doesn't seem to need it
+no-cosmetic-filtering: www.youtube.com false
 
-no-cosmetic-filtering: gitlab.com true
 no-cosmetic-filtering: github.com true
 no-cosmetic-filtering: rudxain.github.io true
 
-no-cosmetic-filtering: facebook.com false
-no-cosmetic-filtering: instagram.com false
-no-cosmetic-filtering: pinterest.com false
-no-cosmetic-filtering: imgur.com false
-no-cosmetic-filtering: reddit.com false
+no-cosmetic-filtering: www.facebook.com false
+no-cosmetic-filtering: www.instagram.com false
+no-cosmetic-filtering: www.reddit.com false
+no-cosmetic-filtering: new.reddit.com false
 no-cosmetic-filtering: quora.com false
 no-cosmetic-filtering: tiktok.com false
 no-cosmetic-filtering: twitter.com false
 no-cosmetic-filtering: x.com false
-no-cosmetic-filtering: discord.com false
 
-# NG is well-behaved, but there's some annoyances
 no-cosmetic-filtering: newgrounds.com false
 
 # hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
 no-cosmetic-filtering: superuser.com false
+no-cosmetic-filtering: askubuntu.com false
 
 no-cosmetic-filtering: debian.org true
 
@@ -51,6 +44,7 @@ no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 
+# 0x10 KB
 no-large-media: * true
 no-large-media: behind-the-scene false
 
