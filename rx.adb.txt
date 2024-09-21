@@ -6,3 +6,7 @@ stackexchange.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
 stackoverflow.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
 superuser.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
 askubuntu.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
+
+! annoyance: sticky sign-in bottom-bar
+twitter.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+x.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
