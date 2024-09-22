@@ -58,7 +58,6 @@ no-scripting: behind-the-scene false
 # search-page doesn't need it, but
 # search-box submit, image-loading, and Copilot/Chat do.
 no-scripting: www.bing.com false
-#no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 no-scripting: web.skype.com false
 
@@ -73,7 +72,7 @@ no-scripting: handbook.gitlab.com true
 no-scripting: github.com false
 no-scripting: docs.github.com true
 
-# FF Android ♾️
+# FF Android
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3240
 #no-scripting: www.google.com false
 no-scripting: accounts.google.com false
@@ -85,12 +84,11 @@ no-scripting: drive.google.com false
 no-scripting: mail.google.com false
 no-scripting: youtube.com false
 
-# some devices
 #no-scripting: newgrounds.com false
 
 no-scripting: soundcloud.com false
 
-# nightly
+# Nightly
 no-scripting: play.rust-lang.org false
 
 # Text:Large; Color:Auto
@@ -113,7 +111,7 @@ no-scripting: wikipedia.org false
 # and `apis.google.com` is deprecated
 * google.com * block
 
-# Gemini requests it unconditionally
+# Bard requests it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
@@ -127,15 +125,19 @@ no-scripting: wikipedia.org false
 * fbcdn.net * block
 * fbsbx.com * block
 
-behind-the-scene * 3p-script noop
+# JIC
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
 behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
 
 # as you can see,
 # MS is an absolute dumpster fire of spaghetti
 bing.com bing.com * noop
 www.bing.com * 3p-script noop
-copilot.microsoft.com bing.com * noop
-copilot.microsoft.com * 3p-script noop
 live.com * 3p-script noop
 # https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
 onedrive.live.com * 3p-frame noop
@@ -171,6 +173,10 @@ reddit.com redditstatic.com * noop
 imgur.com imgur.map.fastly.net * noop
 
 # intentional no-script
+instagram.com cdninstagram.com * noop
+instagram.com fbcdn.net * noop
+
+# intentional no-script
 twitter.com edgecastcdn.net * noop
 twitter.com twitter.map.fastly.net * noop
 twitter.com twitter.net * noop
@@ -191,6 +197,8 @@ quora.com quoracdn.net * noop
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
+# intentional no-script
 rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
+# I'm sorry, Ferris 😭
