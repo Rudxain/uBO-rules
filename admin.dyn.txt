@@ -1,5 +1,5 @@
-# no need for CF, most of the time
 no-cosmetic-filtering: * true
+
 # hide cookie-notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
@@ -45,3 +45,7 @@ github.com githubassets.com * noop
 stackexchange.com sstatic.net * noop
 stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
+
+# https://github.com/tom-james-watson/old-reddit-redirect
+reddit.com reddit.map.fastly.net * noop
+reddit.com redditstatic.com * noop
