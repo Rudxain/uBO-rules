@@ -9,15 +9,12 @@ no-cosmetic-filtering: html.duckduckgo.com true
 # `m.youtube.com` doesn't seem to need it
 no-cosmetic-filtering: www.youtube.com false
 
-no-cosmetic-filtering: github.com true
-no-cosmetic-filtering: rudxain.github.io true
-
+no-cosmetic-filtering: www.newgrounds.com false
 no-cosmetic-filtering: www.facebook.com false
 no-cosmetic-filtering: www.instagram.com false
 no-cosmetic-filtering: www.reddit.com false
 no-cosmetic-filtering: new.reddit.com false
-no-cosmetic-filtering: quora.com false
-no-cosmetic-filtering: tiktok.com false
+no-cosmetic-filtering: www.quora.com false
 no-cosmetic-filtering: twitter.com false
 no-cosmetic-filtering: x.com false
 
@@ -29,13 +26,14 @@ no-cosmetic-filtering: askubuntu.com false
 
 no-cosmetic-filtering: debian.org true
 
+no-cosmetic-filtering: rudxain.github.io true
+
 # 🦀✅
 no-cosmetic-filtering: helix-editor.com true
 no-cosmetic-filtering: rust-lang.github.io true
 no-cosmetic-filtering: rust-lang.org true
 no-cosmetic-filtering: docs.rs true
 no-cosmetic-filtering: crates.io true
-no-cosmetic-filtering: mozilla.org true
 
 no-cosmetic-filtering: wikipedia.org true
 no-cosmetic-filtering: wiktionary.org true
@@ -46,8 +44,14 @@ no-csp-reports: * true
 no-large-media: * true
 no-large-media: behind-the-scene false
 
-no-remote-fonts: quora.com true
+no-remote-fonts: duckduckgo.com true
+
+no-remote-fonts: facebook.com true
+no-remote-fonts: instagram.com true
 no-remote-fonts: reddit.com true
+no-remote-fonts: quora.com true
+no-remote-fonts: twitter.com true
+no-remote-fonts: x.com true
 
 no-scripting: * true
 # does B.T.S. effect service-workers?
@@ -117,7 +121,7 @@ no-scripting: wikipedia.org false
 * msn.com * block
 * skype.com * block
 
-# I despise Meta
+# I hate Meta
 * facebook.com * block
 * facebook.net * block
 * fbcdn.net * block
@@ -171,8 +175,13 @@ reddit.com redditstatic.com * noop
 imgur.com imgur.map.fastly.net * noop
 
 # intentional no-script
+facebook.com facebook.com * noop
+facebook.com facebook.net * noop
+facebook.com fbcdn.net * noop
+facebook.com fbsbx.com * noop
 instagram.com cdninstagram.com * noop
 instagram.com fbcdn.net * noop
+# let's pretend "Threads" doesn't exist 🙃
 
 # intentional no-script
 twitter.com edgecastcdn.net * noop
