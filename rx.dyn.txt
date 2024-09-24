@@ -21,8 +21,6 @@ no-cosmetic-filtering: tiktok.com false
 no-cosmetic-filtering: twitter.com false
 no-cosmetic-filtering: x.com false
 
-no-cosmetic-filtering: newgrounds.com false
-
 # hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
