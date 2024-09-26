@@ -6,6 +6,7 @@ no-cosmetic-filtering: www.microsoft.com false
 
 no-cosmetic-filtering: html.duckduckgo.com true
 
+no-cosmetic-filtering: gemini.google.com false
 # `m.youtube.com` doesn't seem to need it
 no-cosmetic-filtering: www.youtube.com false
 
@@ -40,7 +41,7 @@ no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 
-# 0x10 KB
+# 0x20 KB
 no-large-media: * true
 no-large-media: behind-the-scene false
 
