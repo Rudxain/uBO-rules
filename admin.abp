@@ -1,10 +1,5 @@
-![Adblock Plus 2.0]
-! Homepage: https://github.com/Rudxain/uBO-rules
-
 *$font,third-party
 
-stackexchange.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
-stackoverflow.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
-superuser.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
-! AskDebian doesn't exist 😕
-askubuntu.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^.js-top-bar.l0.t0.ps-fixed.s-topbar
+! AskDebian doesn't exist 😕,
+! only forums.
