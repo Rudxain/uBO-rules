@@ -19,6 +19,8 @@ no-cosmetic-filtering: www.quora.com false
 no-cosmetic-filtering: twitter.com false
 no-cosmetic-filtering: x.com false
 
+no-cosmetic-filtering: knowyourmeme.com false
+
 # hide cookie notice
 no-cosmetic-filtering: stackexchange.com false
 no-cosmetic-filtering: stackoverflow.com false
