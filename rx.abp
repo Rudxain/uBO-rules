@@ -1,5 +1,4 @@
-![Adblock Plus 2.0]
-! Homepage: https://github.com/Rudxain/uBO-rules
+! https://github.com/Rudxain/uBO-rules
 
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/3240
 www.google.com##^meta[http-equiv="refresh"]
