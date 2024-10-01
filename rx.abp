@@ -9,5 +9,7 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^.js-top-bar.l0
 ! sticky sign-in bottom-bar
 twitter.com,x.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
 
+knowyourmeme.com##^.ad-unit-wrapper
+
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
