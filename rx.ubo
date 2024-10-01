@@ -77,12 +77,17 @@ no-scripting: handbook.gitlab.com true
 no-scripting: github.com false
 no-scripting: docs.github.com true
 
+# CIC-PTD
+no-scripting: app.clockify.me false
+no-scripting: www.figma.com false
+
 no-scripting: accounts.google.com false
 # AKA "Bard"
 no-scripting: gemini.google.com false
-# Docs doesn't need JS on mobile...
-# why?
+# it doesn't need JS on mobile... why?
+#no-scripting: docs.google.com false
 no-scripting: drive.google.com false
+no-scripting: meet.google.com false
 no-scripting: mail.google.com false
 no-scripting: youtube.com false
 
@@ -155,6 +160,9 @@ html.duckduckgo.com * 3p-frame block
 github.com githubassets.com * noop
 
 gitlab.com gitlab.net * noop
+
+# CIC-PTD
+figma.com cloudfront.net * noop
 
 google.com google.com * noop
 google.com googleapis.com * noop
