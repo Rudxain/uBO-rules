@@ -3,7 +3,11 @@
 > This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
 ## Profiles
-AKA "User Types"
+AKA "User Types".
+
+Every `*.abp` file must be paired with its corresponding `*.ubo` file. So if you use `admin.abp` you must also apply `admin.ubo`, and vice-versa (they are mutually dependent)
+
+If there's no such corresponding file (which is the case for `user.*`), you are free to use the "unpaired" file.
 
 ### Admin
 For privileged (Administrator) accounts. These are the only users with (partial) `root`/`System` access (AKA "sudoers"), so they need **ABSOLUTELY MAXIMUM SECURITY** at the cost of convenience. Since admins don't need to browse many websites, the strict-blocking doesn't affect them much.
