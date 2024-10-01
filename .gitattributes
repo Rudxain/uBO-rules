@@ -1,2 +1,4 @@
 # https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#using-gitattributes
 *.abp linguist-language=AdBlock linguist-detectable
+# https://github.com/github-linguist/linguist/issues/6926
+#*.ubo linguist-language=uBlock linguist-detectable
