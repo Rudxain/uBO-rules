@@ -1,12 +1,14 @@
 ![Adblock Plus 2.0]
 ! Homepage: https://github.com/Rudxain/uBO-rules
 
-! this is annoying while no-script
-stackexchange.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
-stackoverflow.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
-superuser.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
-askubuntu.com##.js-top-bar.l0.t0.ps-fixed.s-topbar
+! https://github.com/uBlockOrigin/uBlock-issues/discussions/3240
+www.google.com##^meta[http-equiv="refresh"]
+www.google.com##^noscript
 
-! annoyance: sticky sign-in bottom-bar
-twitter.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
-x.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^.js-top-bar.l0.t0.ps-fixed.s-topbar
+
+! sticky sign-in bottom-bar
+twitter.com,x.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+
+! splash-screen, JS hides it
+ifunny.co##^#AppStub
