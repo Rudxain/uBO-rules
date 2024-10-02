@@ -21,12 +21,6 @@ no-cosmetic-filtering: x.com false
 
 no-cosmetic-filtering: knowyourmeme.com false
 
-# hide cookie notice
-no-cosmetic-filtering: stackexchange.com false
-no-cosmetic-filtering: stackoverflow.com false
-no-cosmetic-filtering: superuser.com false
-no-cosmetic-filtering: askubuntu.com false
-
 no-cosmetic-filtering: debian.org true
 
 no-cosmetic-filtering: rudxain.github.io true
