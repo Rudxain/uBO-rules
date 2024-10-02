@@ -1,13 +1,5 @@
 no-cosmetic-filtering: * true
-
-# hide cookie-notice
-no-cosmetic-filtering: stackexchange.com false
-no-cosmetic-filtering: stackoverflow.com false
-no-cosmetic-filtering: superuser.com false
-no-cosmetic-filtering: askubuntu.com false
-
 no-csp-reports: * true
-
 no-large-media: * true
 no-large-media: behind-the-scene false
 
