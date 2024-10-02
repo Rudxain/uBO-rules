@@ -2,12 +2,34 @@
 > [!important]
 > This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
+Tip: Don't just 📋CP. Remember to search commented-out rules and filters. They are optional, but can enhance the experience on specific devices and scenarios.
+
+You can easily find them using these regexes (`*.ubo` & `*.abp` respectively):
+```regex
+^#\S.+
+```
+```regex
+^!\S.+
+```
+
 ## Profiles
 AKA "User Types".
 
-Every `*.abp` file must be paired with its corresponding `*.ubo` file. So if you use `admin.abp` you must also apply `admin.ubo`, and vice-versa (they are mutually dependent)
+All file-names that have a stem (`basename` without extension) in common are considered to belong to the same profile. When you apply a profile to uBO, you are expected to use **all** files from said profile.
 
-If there's no such corresponding file (which is the case for `user.*`), you are free to use the "unpaired" file.
+To check if a list of files are part of the same profile, you can use the `common_stem` fn:
+```ts
+const get_stem = (path: string) => {
+	const basename = path.substring(path.lastIndexOf('/') + 1)
+	const dot_i = basename.lastIndexOf('.')
+	return dot_i == -1 ? basename : basename.substring(0, dot_i)
+}
+
+const common_stem = (paths: Set<string>) =>
+	[...paths].slice(1).every((path, _, path_ls) =>
+		get_stem(path_ls[0]) == get_stem(path)
+	)
+```
 
 ### Admin
 For privileged (Administrator) accounts. These are the only users with (partial) `root`/`System` access (AKA "sudoers"), so they need **ABSOLUTELY MAXIMUM SECURITY** at the cost of convenience. Since admins don't need to browse many websites, the strict-blocking doesn't affect them much.
