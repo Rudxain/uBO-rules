@@ -10,8 +10,8 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
-! sticky sign-in bottom-bar
-twitter.com,x.com##.r-yz1j6i.r-qo02w8.r-l5o3uw.css-175oi2r
+! header
+twitter.com,x.com###layers
 
 knowyourmeme.com##^.ad-unit-wrapper
 
