@@ -12,7 +12,14 @@ old.reddit.com##^.listingsignupbar
 ! header
 twitter.com,x.com###layers
 
+! 2024/10
+! "View full profile"
+!www.instagram.com##.xzkaem6
+! this breaks video play
+
 knowyourmeme.com##^.ad-unit-wrapper
 
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
+
+wordpress.com##^#marketingbar
