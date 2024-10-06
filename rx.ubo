@@ -43,6 +43,14 @@ no-large-media: behind-the-scene false
 
 no-remote-fonts: duckduckgo.com true
 
+# Welcome to the Hall of Shame.
+# these hosts are 1+ of these:
+# - hated (I have personal "beef" with them)
+# - misbehaved or hostile
+# - annoying
+# - crappy
+# - boring (no type-face diversity 🥱)
+# they don't deserve my cache storage
 no-remote-fonts: facebook.com true
 no-remote-fonts: instagram.com true
 no-remote-fonts: imgur.com true
