@@ -3,6 +3,10 @@
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/3240
 !www.google.com##^meta[http-equiv="refresh"]
 
+! reduce scrolling
+eslint.org##^header
+eslint.org##^.docs-nav
+
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^header.ps-fixed.s-topbar.js-top-bar
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
 
