@@ -26,4 +26,6 @@ knowyourmeme.com##^.ad-unit-wrapper
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
 
+substack.com##^#nojs-banner
+
 wordpress.com##^#marketingbar
