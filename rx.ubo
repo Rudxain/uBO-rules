@@ -182,11 +182,10 @@ newgrounds.com ungrounded.net * noop
 reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
 
-# Imgur redirects from hot-links
-# to bloated HTML+CSS+JS pages.
-# This redirection depends
-# on some HTTP request headers
-# being set to specific values
+# `https://i.imgur.com/*.*` (hot-links) only redirects
+# to `https://imgur.com/*` (bloated HTML+CSS+JS page)
+# if `Sec-*` HTTP request-headers are set to specific values
+# https://developer.mozilla.org/en-US/docs/Glossary/Fetch_metadata_request_header
 #imgur.com imgur.map.fastly.net * noop
 
 # intentional no-script
