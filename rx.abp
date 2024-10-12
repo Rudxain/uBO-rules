@@ -13,19 +13,18 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
-! header
-twitter.com,x.com###layers
-
-! 2024/10
-! "View full profile"
-!www.instagram.com##.xzkaem6
-! this breaks video play
-
-knowyourmeme.com##^.ad-unit-wrapper
-
-! splash-screen, JS hides it
-ifunny.co##^#AppStub
-
 substack.com##^#nojs-banner
 
 wordpress.com##^#marketingbar
+
+! Oct 2024. top-bar header
+medium.com##^.o
+
+! TO-DO: check if EasyList has the cosmetic equivalent.
+! Oct 9, 2024
+ethanzuckerman.com##^.obfx-sharing
+
+! TO-DO: check if EasyList has the cosmetic equivalent.
+! Oct 9, 2024
+! https://www.scrummanager.com/blog/2023/03/criterios-de-aceptacion-definicion-y-ejemplos
+www.scrummanager.com##^#pronamic_cookie_holder
