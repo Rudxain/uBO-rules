@@ -47,6 +47,9 @@ Any human user, usually my family or friends. They shouldn't be using "Hard-Mode
 Most rules are "just-in-case", for the sake of future-proofing, and lack of information about the behavior of sites.
 
 ### Rx
+> [!tip]
+> Install [Libredirect](https://github.com/libredirect/browser_extension)
+
 My own personal rule-set. Designed for my needs, desires, and convictions.
 
 ## Syntax
