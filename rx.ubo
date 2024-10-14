@@ -148,7 +148,7 @@ figma.com cloudfront.net * noop
 google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
-maps.google.com maps.googleapis.com * noop
+#maps.google.com maps.googleapis.com * noop
 youtube.com gstatic.com * noop
 youtube.com youtube-ui.l.google.com * noop
 
