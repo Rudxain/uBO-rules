@@ -165,6 +165,9 @@ reddit.com redditstatic.com * noop
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
+# mostly `es` sub-domain
+discourse.group discourse-cdn.com * noop
+
 # intentional no-script
 rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
