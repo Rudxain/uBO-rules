@@ -26,7 +26,7 @@ const get_stem = (path: string) => {
 }
 
 const common_stem = (paths: Set<string>) =>
-	[...paths].slice(1).every((path, _, path_ls) =>
+	[...paths].every((path, _, path_ls) =>
 		get_stem(path_ls[0]) == get_stem(path)
 	)
 ```
