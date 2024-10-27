@@ -25,7 +25,7 @@ const get_stem = (path: string) => {
 	return dot_i == -1 ? basename : basename.substring(0, dot_i)
 }
 
-const common_stem = (paths: Set<string>) =>
+const common_stem = (paths: ReadonlySet<string>) =>
 	[...paths].every((path, _, path_ls) =>
 		get_stem(path_ls[0]) == get_stem(path)
 	)
