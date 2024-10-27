@@ -35,7 +35,7 @@ const common_stem = (paths: ReadonlySet<string>) =>
 For privileged (Administrator) accounts. These are the only users with (partial) `root`/`System` access (AKA "sudoers"), so they need **ABSOLUTELY MAXIMUM SECURITY** at the cost of convenience. Since admins don't need to browse many websites, the strict-blocking doesn't affect them much.
 
 > [!tip]
-> remember to disable JIT-compilation:
+> Disable JIT-compilation:
 > - MS Edge: Go to "Enhanced Security" (`edge://settings/privacy#SecureMode`)
 > - Moz Firefox: use `Securefox.js`, and uncomment [these options](https://github.com/yokoffing/Betterfox/blob/c5fca2dbf7289c8dbce901c040683f3cdfdd7926/Securefox.js#L1131-L1162)
 > - G Chrome: CLI arg `--js-flags="--jitless"`.
