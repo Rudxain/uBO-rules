@@ -53,8 +53,6 @@ no-scripting: support.discord.com true
 
 no-scripting: html.duckduckgo.com true
 
-no-scripting: about.gitlab.com true
-no-scripting: handbook.gitlab.com true
 no-scripting: github.com false
 no-scripting: docs.github.com true
 
@@ -139,8 +137,6 @@ html.duckduckgo.com * 3p-script block
 html.duckduckgo.com * 3p-frame block
 
 github.com githubassets.com * noop
-
-gitlab.com gitlab.net * noop
 
 # CIC-PTD
 figma.com cloudfront.net * noop
