@@ -17,19 +17,24 @@ AKA "User Types".
 
 All file-names that have a stem (`basename` without extension) in common are considered to belong to the same profile. When you apply a profile to uBO, you are expected to use **all** files from said profile.
 
-To check if a list of files are part of the same profile, you can use the `common_stem` fn:
+To check if a list of files are part of the same profile, use the `common_stem` fn:
 ```ts
 const get_stem = (path: string) => {
+	// `-1` is implicitly offset to `0`,
+	// this is intentional.
 	const basename = path.substring(path.lastIndexOf('/') + 1)
 	const dot_i = basename.lastIndexOf('.')
 	return dot_i == -1 ? basename : basename.substring(0, dot_i)
 }
 
 const common_stem = (paths: ReadonlySet<string>) =>
+	// `Iterator`-helpers are not yet supported by Firefox-ESR,
+	// and even if they were they wouldn't be helpful enough
 	[...paths].every((path, _, path_ls) =>
 		get_stem(path_ls[0]) == get_stem(path)
 	)
 ```
+These fns are intended to be "normative", therefore, any bugs in them should be considered "specification mistakes" rather than "implementation bugs". I am 100% confident that both fns are bug-free!
 
 ### Admin
 For privileged (Administrator) accounts. These are the only users with (partial) `root`/`System` access (AKA "sudoers"), so they need **ABSOLUTELY MAXIMUM SECURITY** at the cost of convenience. Since admins don't need to browse many websites, the strict-blocking doesn't affect them much.
