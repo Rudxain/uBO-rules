@@ -37,6 +37,8 @@ no-large-media: behind-the-scene false
 #no-large-media: localhost false
 
 no-remote-fonts: duckduckgo.com true
+# CIC-PTD
+no-remote-fonts: fullstackopen.com true
 no-remote-fonts: reddit.com true
 
 no-scripting: * true
@@ -142,6 +144,11 @@ html.duckduckgo.com * 3p-script block
 html.duckduckgo.com * 3p-frame block
 
 github.com githubassets.com * noop
+
+# CIC-PTD
+fullstackopen.com * 3p block
+fullstackopen.com * 3p-frame block
+fullstackopen.com * 3p-script block
 
 google.com google.com * noop
 google.com googleapis.com * noop
