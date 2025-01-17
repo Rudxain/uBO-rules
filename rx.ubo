@@ -10,7 +10,6 @@ no-cosmetic-filtering: gemini.google.com false
 # `m.youtube.com` doesn't seem to need it
 no-cosmetic-filtering: www.youtube.com false
 
-no-cosmetic-filtering: www.newgrounds.com false
 no-cosmetic-filtering: www.reddit.com false
 no-cosmetic-filtering: new.reddit.com false
 
