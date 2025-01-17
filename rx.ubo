@@ -34,12 +34,16 @@ no-csp-reports: * true
 no-large-media: * true
 no-large-media: behind-the-scene false
 
+#no-large-media: localhost false
+
 no-remote-fonts: duckduckgo.com true
 no-remote-fonts: reddit.com true
 
 no-scripting: * true
 # does B.T.S. effect service-workers?
 no-scripting: behind-the-scene false
+
+no-scripting: localhost false
 
 # search-page doesn't need it, but
 # search-box submit, image-loading, and Copilot/Chat do.
