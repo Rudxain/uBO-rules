@@ -16,6 +16,8 @@ old.reddit.com##^.listingsignupbar
 ! header
 twitter.com,x.com###layers
 
+knowyourmeme.com##^.ad-unit-wrapper
+
 substack.com##^#nojs-banner
 
 wordpress.com##^#marketingbar
