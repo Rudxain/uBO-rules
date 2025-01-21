@@ -1,8 +1,5 @@
 ! https://github.com/Rudxain/uBO-rules
 
-! https://github.com/uBlockOrigin/uBlock-issues/discussions/3240
-!www.google.com##^meta[http-equiv="refresh"]
-
 ! reduce scrolling
 eslint.org##^header
 eslint.org##^.docs-nav
