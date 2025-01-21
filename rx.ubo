@@ -76,7 +76,7 @@ no-scripting: gemini.google.com false
 # it doesn't need JS on mobile... why?
 #no-scripting: docs.google.com false
 no-scripting: drive.google.com false
-no-scripting: meet.google.com false
+#no-scripting: meet.google.com false
 no-scripting: mail.google.com false
 no-scripting: youtube.com false
 
