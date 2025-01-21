@@ -13,6 +13,9 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
+! header
+twitter.com,x.com###layers
+
 substack.com##^#nojs-banner
 
 wordpress.com##^#marketingbar
