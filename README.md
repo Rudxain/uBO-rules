@@ -47,7 +47,7 @@ For privileged (Administrator) accounts. These are the only users with (partial)
 > 	- Not persistent, unless added to the desktop shortcut: This can be done on Windows (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/exec-variables.html)
 
 ### User
-Any human user, usually my family or friends. They shouldn't be using "Hard-Mode", because literally any site they visit could break, and that's an inconvenience.
+Any human user, usually my family or friends. They shouldn't be using "Medium-Mode", because literally any site they visit could break, and that's an inconvenience.
 
 Most rules are "just-in-case", for the sake of future-proofing, and lack of information about the behavior of sites.
 
