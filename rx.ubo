@@ -3,6 +3,7 @@ no-cosmetic-filtering: * true
 # Bing servers always redirect to `www`
 no-cosmetic-filtering: www.bing.com false
 no-cosmetic-filtering: www.microsoft.com false
+no-cosmetic-filtering: outlook.live.com false
 
 no-cosmetic-filtering: html.duckduckgo.com true
 
