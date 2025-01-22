@@ -25,6 +25,8 @@ wordpress.com##^#marketingbar
 ! Oct 2024. top-bar header
 medium.com##^.o
 
+latimes.com##^.google-dfp-ad-wrapper
+
 ! TO-DO: check if EasyList has the cosmetic equivalent.
 ! Oct 9, 2024
 ethanzuckerman.com##^.obfx-sharing
