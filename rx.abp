@@ -1,5 +1,8 @@
 ! https://github.com/Rudxain/uBO-rules
 
+! Jan 2025
+outlook.live.com###LeftRail
+
 ! reduce scrolling
 eslint.org##^header
 eslint.org##^.docs-nav
