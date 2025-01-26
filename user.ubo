@@ -12,6 +12,8 @@ no-scripting: html.duckduckgo.com true
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
 * adsninja.ca * block
 
+* hcaptcha.com * noop
+
 # CDNs
 * akamai.net * noop
 * akamaiedge.net * noop
