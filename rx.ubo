@@ -108,7 +108,7 @@ no-scripting: wikipedia.org false
 # and `apis.google.com` is deprecated
 * google.com * block
 
-# Bard requests it unconditionally
+# Bard & Keep request it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
