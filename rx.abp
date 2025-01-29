@@ -40,11 +40,9 @@ ethanzuckerman.com##^.obfx-sharing
 www.scrummanager.com##^#pronamic_cookie_holder
 
 ! Jan 2025
-! Newsletter
+! newsletter
 www.thankgodimatheist.com##^.widget_mc4wp_form_widget
 ! Discord
 www.thankgodimatheist.com##^#text-9
-
-! is this written properly?
-||*/apple-podcasts$image
-||*/spotify$image
+||www.thankgodimatheist.com/images/*-podcast
+/spotify-podcast-badge
