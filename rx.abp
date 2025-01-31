@@ -1,5 +1,7 @@
 ! https://github.com/Rudxain/uBO-rules
 
+/disable-devtool$script
+
 ! Jan 2025
 outlook.live.com###LeftRail
 
