@@ -1,11 +1,12 @@
-! https://github.com/Rudxain/uBO-rules
+! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
 /disable-devtool$script
 
-! Jan 2025
+! Jan & Feb 2025
 outlook.live.com###LeftRail
+outlook.live.com###headerButtonsRegionId
 
-! reduce scrolling
+! less scrolling
 eslint.org##^header
 eslint.org##^.docs-nav
 
@@ -48,3 +49,4 @@ www.thankgodimatheist.com##^.widget_mc4wp_form_widget
 www.thankgodimatheist.com##^#text-9
 ||www.thankgodimatheist.com/images/*-podcast
 /spotify-podcast-badge
+
