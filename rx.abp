@@ -1,9 +1,9 @@
-! https://github.com/Rudxain/uBO-rules
+! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
-! Jan 2025
 outlook.live.com###LeftRail
+outlook.live.com###headerButtonsRegionId
 
-! reduce scrolling
+! less scrolling
 eslint.org##^header
 eslint.org##^.docs-nav
 
