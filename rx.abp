@@ -19,6 +19,12 @@ old.reddit.com##^.listingsignupbar
 ! header
 twitter.com,x.com###layers
 
+instagram.com##._acc8
+! Borrowed from EasyList Notifications:
+! mobile signup popup
+instagram.com##+js(set-session-storage-item, lodum, 1)
+instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
+
 knowyourmeme.com##^.ad-unit-wrapper
 
 ! splash-screen, JS hides it
