@@ -172,6 +172,11 @@ newgrounds.com ungrounded.net * noop
 reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
 
+# intentional no-script
+www.instagram.com static.cdninstagram.com * noop
+www.instagram.com instagram.fhex5-1.fna.fbcdn.net * noop
+www.instagram.com instagram.fhex5-2.fna.fbcdn.net * noop
+
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
