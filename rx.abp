@@ -1,5 +1,11 @@
 ! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
+onedrive.live.com##.od-QuotaBanner-upsell
+! March 2025
+onedrive.live.com##.getMoreStorageButton_860752dd
+onedrive.live.com##.buyStorageButton_860752dd
+onedrive.live.com##.storageUpsellBanner_860752dd
+
 outlook.live.com###LeftRail
 outlook.live.com###headerButtonsRegionId
 
