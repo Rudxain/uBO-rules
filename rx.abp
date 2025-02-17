@@ -2,6 +2,12 @@
 
 /disable-devtool$script
 
+||bggenerator.com/*-promo
+bggenerator.com###toppage
+bggenerator.com##^#portfolio
+bggenerator.com##^#about
+bggenerator.com##^#footer
+
 onedrive.live.com##.od-QuotaBanner-upsell
 outlook.live.com###LeftRail
 outlook.live.com###headerButtonsRegionId
@@ -19,7 +25,6 @@ old.reddit.com##^.listingsignupbar
 ! header
 twitter.com,x.com###layers
 
-! Borrowed from EasyList Notifications:
 ! mobile signup popup
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)

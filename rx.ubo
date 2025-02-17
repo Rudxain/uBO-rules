@@ -1,5 +1,7 @@
 no-cosmetic-filtering: * true
 
+no-cosmetic-filtering: bggenerator.com false
+
 # Bing servers always redirect to `www`
 no-cosmetic-filtering: www.bing.com false
 no-cosmetic-filtering: www.microsoft.com false
@@ -45,6 +47,8 @@ no-remote-fonts: reddit.com true
 no-scripting: * true
 # does B.T.S. effect service-workers?
 no-scripting: behind-the-scene false
+
+no-scripting: bggenerator.com false
 
 # "why not include file-scheme?"
 # because I don't need it
