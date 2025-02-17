@@ -1,5 +1,11 @@
 ! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
+||bggenerator.com/*-promo
+bggenerator.com###toppage
+bggenerator.com##^#portfolio
+bggenerator.com##^#about
+bggenerator.com##^#footer
+
 onedrive.live.com##.od-QuotaBanner-upsell
 ! March 2025
 onedrive.live.com##.getMoreStorageButton_860752dd
@@ -22,7 +28,6 @@ old.reddit.com##^.listingsignupbar
 ! header
 twitter.com,x.com###layers
 
-! Borrowed from EasyList Notifications:
 ! mobile signup popup
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
