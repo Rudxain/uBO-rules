@@ -122,6 +122,9 @@ no-scripting: wikipedia.org false
 * facebook.net * block
 * fbsbx.com * block
 
+* paypal-dynamic-cdn.map.fastly.net * block
+* paypalobjects.com * block
+
 # JIC
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
