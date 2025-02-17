@@ -46,6 +46,8 @@ no-scripting: * true
 # does B.T.S. effect service-workers?
 no-scripting: behind-the-scene false
 
+no-scripting: bggenerator.com false
+
 # "why not include file-scheme?"
 # because I don't need it
 no-scripting: localhost false
