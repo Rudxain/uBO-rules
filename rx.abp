@@ -2,7 +2,9 @@
 
 /disable-devtool$script
 
-! Jan & Feb 2025
+||bggenerator.com/images/image-toolkit-promo.jpg$image
+bggenerator.com##^#footer
+
 onedrive.live.com##.od-QuotaBanner-upsell
 outlook.live.com###LeftRail
 outlook.live.com###headerButtonsRegionId
@@ -20,8 +22,6 @@ old.reddit.com##^.listingsignupbar
 ! header
 twitter.com,x.com###layers
 
-instagram.com##._acc8
-! Borrowed from EasyList Notifications:
 ! mobile signup popup
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
