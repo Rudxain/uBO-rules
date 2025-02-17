@@ -29,10 +29,16 @@ twitter.com,x.com###layers
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 
-knowyourmeme.com##^.ad-unit-wrapper
-
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
+
+knowyourmeme.com##^.ad-unit-wrapper
+
+fandom.com##^.top-ads-container
+# Apr 2025
+fandom.com##^#global-top-navigation
+fandom.com##^#global-explore-navigation
+fandom.com##^.page__right-rail
 
 substack.com##^#nojs-banner
 
