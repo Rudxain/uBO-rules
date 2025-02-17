@@ -26,10 +26,12 @@ instagram.com##._acc8
 instagram.com##+js(set-session-storage-item, lodum, 1)
 instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 
-knowyourmeme.com##^.ad-unit-wrapper
-
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
+
+knowyourmeme.com##^.ad-unit-wrapper
+
+fandom.com##^.top-ads-container
 
 substack.com##^#nojs-banner
 
