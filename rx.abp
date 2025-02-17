@@ -2,7 +2,12 @@
 
 /disable-devtool$script
 
-||bggenerator.com/images/image-toolkit-promo.jpg$image
+||bggenerator.com/*-promo
+||bggenerator.com/image
+bggenerator.com###toppage
+bggenerator.com##^#portfolio
+bggenerator.com##^#about
+bggenerator.com##footer
 bggenerator.com##^#footer
 
 onedrive.live.com##.od-QuotaBanner-upsell
