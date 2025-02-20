@@ -3,7 +3,6 @@
 /disable-devtool$script
 
 ||bggenerator.com/*-promo
-||bggenerator.com/image
 bggenerator.com###toppage
 bggenerator.com##^#portfolio
 bggenerator.com##^#about
