@@ -12,6 +12,8 @@ You can easily find them using these regexes (`*.ubo` & `*.abp` respectively):
 ^!\S.+
 ```
 
+Typically, cosmetic-filtering is only necessary if scripting is enabled, that's why you'll see some filters in `*.abp` being disabled in `*.ubo` by default, as I enable CF+JS manually.
+
 ## Profiles
 AKA "User Types".
 
