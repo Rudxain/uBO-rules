@@ -22,6 +22,9 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
+! account sign-in
+bsky.app##nav
+
 ! header
 twitter.com,x.com###layers
 
