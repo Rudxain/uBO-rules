@@ -174,7 +174,10 @@ google.com googleapis.com * noop
 google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
 youtube.com gstatic.com * noop
-youtube.com youtube-ui.l.google.com * noop
+# youtube-ui.l.google.com
+# www3.l.google.com
+# future-proofing
+youtube.com google.com * noop
 
 #newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
