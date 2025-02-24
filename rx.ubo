@@ -178,6 +178,9 @@ youtube.com gstatic.com * noop
 # www3.l.google.com
 # future-proofing
 youtube.com google.com * noop
+# fix broken playback
+m.youtube.com static.doubleclick.net * noop
+www.youtube.com static.doubleclick.net * noop
 
 #newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
