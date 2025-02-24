@@ -60,6 +60,9 @@ youtube.com * 3p-script block
 youtube.com * 3p-frame block
 youtube.com google.com * noop
 youtube.com gstatic.com * noop
+# fix broken playback
+m.youtube.com static.doubleclick.net * noop
+www.youtube.com static.doubleclick.net * noop
 
 duckduckgo.com * 3p-script block
 duckduckgo.com * 3p-frame block
