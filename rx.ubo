@@ -55,8 +55,9 @@ no-scripting: bggenerator.com false
 no-scripting: localhost false
 
 # search-page doesn't need it, but
-# search-box submit, image-loading, and Copilot/Chat do.
+# search-box submit and image-loading do
 no-scripting: www.bing.com false
+no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 no-scripting: web.skype.com false
 
@@ -145,7 +146,6 @@ behind-the-scene * inline-script noop
 # intentional no-script
 bsky.app bsky-web.b-cdn.net * noop
 
-# as you can see,
 # MS is an absolute dumpster fire of spaghetti
 bing.com bing.com * noop
 www.bing.com * 3p-script noop
@@ -156,6 +156,8 @@ onedrive.live.com * 3p-frame noop
 # but I keep it JIC
 skype.com skype.com * noop
 web.skype.com * 3p-script noop
+microsoft.com azureedge.net * noop
+microsoft.com t-msedge.net * noop
 
 html.duckduckgo.com * 3p block
 html.duckduckgo.com * 3p-script block
