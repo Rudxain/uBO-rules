@@ -59,7 +59,6 @@ no-scripting: localhost false
 no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
-no-scripting: web.skype.com false
 
 no-scripting: discord.com false
 # subdomain-propagation makes me do this
@@ -75,7 +74,7 @@ no-scripting: app.clockify.me false
 no-scripting: www.figma.com false
 
 # https://www.google.com/httpservice/retry/enablejs
-# "Turn on JavaScript to keep searching" 
+# "Turn on JavaScript to keep searching"
 no-scripting: www.google.com false
 # Big G is getting scummier by the minute
 
@@ -153,10 +152,6 @@ www.bing.com * 3p-script noop
 live.com * 3p-script noop
 # https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
 onedrive.live.com * 3p-frame noop
-# I rarely use it,
-# but I keep it JIC
-skype.com skype.com * noop
-web.skype.com * 3p-script noop
 microsoft.com azureedge.net * noop
 microsoft.com t-msedge.net * noop
 
