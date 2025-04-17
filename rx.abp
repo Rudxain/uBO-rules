@@ -43,6 +43,10 @@ ifunny.co##^#AppStub
 knowyourmeme.com##^.ad-unit-wrapper
 
 fandom.com##^.top-ads-container
+# Apr 2025
+fandom.com##^#global-top-navigation
+fandom.com##^#global-explore-navigation
+fandom.com##^.page__right-rail
 
 substack.com##^#nojs-banner
 
