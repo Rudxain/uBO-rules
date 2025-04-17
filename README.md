@@ -2,6 +2,14 @@
 > [!important]
 > This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
+> [!tip]
+> If you just want to read text, I recommend a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) web-browser such as [Lynx](https://lynx.invisible-island.net) or [`w3m`](https://en.wikipedia.org/wiki/W3m).
+> Not loading a JIT-interpreter is much more efficient than not using it, same goes for audio-visual decoding+rendering.
+>
+> If you're on Android, [Termux has your back](https://github.com/termux/termux-packages/tree/69a05a2cfdcc5e30cbadbc0e884175175b9904e3/packages/lynx)! (`pkg i lynx`)
+>
+> Google (and other domains) only forces you to run JS if the browser supports it.
+
 Tip: Don't just 📋CP. Remember to search commented-out rules and filters. They are optional, but can enhance the experience on specific devices and scenarios.
 
 You can easily find them using these regexes (`*.ubo` & `*.abp` respectively):
