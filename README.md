@@ -30,8 +30,6 @@ const get_stem = (path: string) => {
 }
 
 const common_stem = (paths: ReadonlySet<string>) =>
-	// `Iterator`-helpers are not yet supported by Firefox-ESR,
-	// and even if they were they wouldn't be helpful enough
 	[...paths].every((path, _, path_ls) =>
 		get_stem(path_ls[0]) == get_stem(path)
 	)
