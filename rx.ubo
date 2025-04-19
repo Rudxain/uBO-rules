@@ -141,11 +141,6 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-# Currently, I only use it because of Toby Fox
-# (not a "critical" necessity).
-# intentional no-script
-bsky.app bsky-web.b-cdn.net * noop
-
 # MS is an absolute dumpster fire of spaghetti
 bing.com bing.com * noop
 www.bing.com * 3p-script noop
@@ -192,6 +187,14 @@ reddit.com redditstatic.com * noop
 
 # intentional no-script
 www.instagram.com static.cdninstagram.com * noop
+
+deviantart.com deviantart.net * noop
+www.deviantart.com static.parastorage.com * noop
+
+# Currently, I only use it because of Toby Fox
+# (not a "critical" necessity).
+# intentional no-script
+bsky.app bsky-web.b-cdn.net * noop
 
 x.com abs.twimg.com * noop
 x.com twimg.twitter.map.fastly.net * noop
