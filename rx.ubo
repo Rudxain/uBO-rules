@@ -193,6 +193,9 @@ reddit.com redditstatic.com * noop
 # intentional no-script
 www.instagram.com static.cdninstagram.com * noop
 
+x.com abs.twimg.com * noop
+x.com twimg.twitter.map.fastly.net * noop
+
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
