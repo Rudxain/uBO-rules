@@ -28,7 +28,7 @@ old.reddit.com##^.listingsignupbar
 ! account sign-in
 bsky.app##nav
 
-! header
+! header/footer
 twitter.com,x.com###layers
 
 ! mobile signup popup
