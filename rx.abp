@@ -29,7 +29,7 @@ old.reddit.com##^.listingsignupbar
 bsky.app##nav
 
 ! header/footer
-twitter.com,x.com###layers
+x.com###layers
 
 ! mobile signup popup
 instagram.com##+js(set-session-storage-item, lodum, 1)
