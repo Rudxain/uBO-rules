@@ -180,7 +180,7 @@ youtube.com google.com * noop
 m.youtube.com static.doubleclick.net * noop
 www.youtube.com static.doubleclick.net * noop
 
-#newgrounds.com cdnjs.cloudflare.com * noop
+newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
 newgrounds.com ungrounded.net * noop
 
