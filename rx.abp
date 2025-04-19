@@ -31,7 +31,7 @@ old.reddit.com##^.listingsignupbar
 bsky.app##nav
 
 ! header/footer
-twitter.com,x.com###layers
+x.com###layers
 ! Apr 2025
 ! "New to X?" sign-up, and another useless element.
 ! Hiding the loading animation saves processing power
