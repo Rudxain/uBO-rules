@@ -30,8 +30,12 @@ old.reddit.com##^.listingsignupbar
 ! account sign-in
 bsky.app##nav
 
-! header
+! header/footer
 twitter.com,x.com###layers
+! Apr 2025
+! "New to X?" sign-up, and another useless element.
+! Hiding the loading animation saves processing power
+x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-jxzhtn
 
 ! mobile signup popup
 instagram.com##+js(set-session-storage-item, lodum, 1)
