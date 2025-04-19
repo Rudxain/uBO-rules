@@ -44,7 +44,7 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
 # MS Edge is unused :(
-# FIREFOX SUPREMACY!!!
+# FIREFOX SUPREMACY!!! 🦊🔥
 
 msn.com msn.com * noop
 # `live.com` is unused
@@ -102,6 +102,6 @@ stackexchange.com * 3p-frame block
 
 # TikTok is unused
 
-# unused, but just-in-case
 twitter.com x.com * noop
 x.com twitter.com * noop
+x.com twimg.com * noop
