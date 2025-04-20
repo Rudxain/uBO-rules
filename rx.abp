@@ -43,7 +43,7 @@ ifunny.co##^#AppStub
 knowyourmeme.com##^.ad-unit-wrapper
 
 fandom.com##^.top-ads-container
-# Apr 2025
+! Apr 2025
 fandom.com##^#global-top-navigation
 fandom.com##^#global-explore-navigation
 fandom.com##^.page__right-rail
@@ -73,4 +73,3 @@ www.thankgodimatheist.com##^.widget_mc4wp_form_widget
 www.thankgodimatheist.com##^#text-9
 ||www.thankgodimatheist.com/images/*-podcast
 /spotify-podcast-badge
-
