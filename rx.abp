@@ -26,6 +26,7 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
 
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
+www.reddit.com##^#right-sidebar-container
 
 ! account sign-in
 bsky.app##nav
