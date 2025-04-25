@@ -6,7 +6,7 @@ instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
-! header/footer
+! Twitter header/footer
 x.com###layers
 
 knowyourmeme.com##^.ad-unit-wrapper
