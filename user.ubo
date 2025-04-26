@@ -77,8 +77,10 @@ github.com githubassets.com * noop
 
 wikipedia.org * 3p-script block
 wikipedia.org * 3p-frame block
+wikipedia.org wikimedia.org * noop
 wiktionary.org * 3p-script block
 wiktionary.org * 3p-frame block
+wiktionary.org  wikimedia.org * noop
 
 # Meta
 facebook.com * 3p-script block
