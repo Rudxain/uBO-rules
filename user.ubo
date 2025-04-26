@@ -51,6 +51,7 @@ msn.com msn.com * noop
 
 # Adobe is unused
 
+android.com google.com * noop
 android.com gstatic.com * noop
 google.com * 3p-script block
 google.com gstatic.com * noop
