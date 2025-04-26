@@ -212,3 +212,5 @@ rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
 play.rust-lang.org cloudfront.net * noop
+
+wikipedia.org wikimedia.org * noop
