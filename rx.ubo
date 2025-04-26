@@ -162,6 +162,7 @@ fullstackopen.com * 3p block
 fullstackopen.com * 3p-frame block
 fullstackopen.com * 3p-script block
 
+android.com google.com * noop
 android.com gstatic.com * noop
 google.com google.com * noop
 google.com googleapis.com * noop
