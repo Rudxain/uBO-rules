@@ -21,6 +21,9 @@ no-remote-fonts: * true
 
 no-scripting: * true
 no-scripting: html.duckduckgo.com true
+# https://www.google.com/httpservice/retry/enablejs
+# "Turn on JavaScript to keep searching"
+no-scripting: www.google.com false
 
 * * 3p block
 * * 3p-frame block
@@ -33,6 +36,8 @@ behind-the-scene * 3p-script noop
 html.duckduckgo.com * 3p block
 html.duckduckgo.com * 3p-frame block
 html.duckduckgo.com * 3p-script block
+
+www.google.com www.gstatic.com * noop
 
 github.com githubassets.com * noop
 
