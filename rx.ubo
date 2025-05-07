@@ -73,10 +73,7 @@ no-scripting: docs.github.com true
 no-scripting: app.clockify.me false
 no-scripting: www.figma.com false
 
-# https://www.google.com/httpservice/retry/enablejs
-# "Turn on JavaScript to keep searching"
 no-scripting: www.google.com false
-# Big G is getting scummier by the minute
 
 no-scripting: accounts.google.com false
 # AKA "Bard"
