@@ -1,5 +1,7 @@
 *$font,third-party
 
+github.com##^.js-header-wrapper
+
 /disable-devtool$script
 
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^header.ps-fixed.s-topbar.js-top-bar
