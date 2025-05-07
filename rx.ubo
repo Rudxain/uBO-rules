@@ -82,7 +82,6 @@ no-scripting: gemini.google.com false
 #no-scripting: docs.google.com false
 no-scripting: drive.google.com false
 #no-scripting: meet.google.com false
-no-scripting: keep.google.com false
 no-scripting: mail.google.com false
 no-scripting: youtube.com false
 
