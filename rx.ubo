@@ -11,8 +11,10 @@ no-cosmetic-filtering: outlook.live.com false
 no-cosmetic-filtering: html.duckduckgo.com true
 
 no-cosmetic-filtering: gemini.google.com false
-# `m.youtube.com` doesn't seem to need it
+# `m.youtube.com` rarely needs it
 no-cosmetic-filtering: www.youtube.com false
+
+no-cosmetic-filtering: x.com false
 
 no-cosmetic-filtering: www.reddit.com false
 no-cosmetic-filtering: new.reddit.com false
@@ -36,8 +38,9 @@ no-csp-reports: * true
 # 0x20 KB
 no-large-media: * true
 no-large-media: behind-the-scene false
-
 #no-large-media: localhost false
+# unbreak voice messages
+#no-large-media: discord.com false
 
 no-remote-fonts: duckduckgo.com true
 # CIC-PTD
@@ -50,9 +53,7 @@ no-scripting: behind-the-scene false
 
 no-scripting: bggenerator.com false
 
-# "why not include file-scheme?"
-# because I don't need it
-no-scripting: localhost false
+#no-scripting: localhost false
 
 # search-page doesn't need it, but
 # search-box submit and image-loading do
@@ -71,7 +72,6 @@ no-scripting: docs.github.com true
 
 # CIC-PTD
 no-scripting: app.clockify.me false
-no-scripting: www.figma.com false
 
 no-scripting: www.google.com false
 
@@ -89,6 +89,7 @@ no-scripting: youtube.com false
 
 no-scripting: soundcloud.com false
 
+no-scripting: crates.io false
 # Nightly
 no-scripting: play.rust-lang.org false
 
@@ -153,7 +154,7 @@ html.duckduckgo.com * 3p-frame block
 github.com githubassets.com * noop
 
 # CIC-PTD
-figma.com cloudfront.net * noop
+www.figma.com cloudfront.net * noop
 fullstackopen.com * 3p block
 fullstackopen.com * 3p-frame block
 fullstackopen.com * 3p-script block

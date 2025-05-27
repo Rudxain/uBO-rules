@@ -21,8 +21,8 @@ outlook.live.com###headerButtonsRegionId
 eslint.org##^header
 eslint.org##^.docs-nav
 
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^header
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^header
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^#left-sidebar
 
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
@@ -53,19 +53,20 @@ substack.com##^#nojs-banner
 
 wordpress.com##^#marketingbar
 
+gavinhoward.com##^.copyright
+
+dev.to##^#topbar
+dev.to##^.crayons-article-actions
+
 ! Oct 2024. top-bar header
 medium.com##^.o
 
 latimes.com##^.google-dfp-ad-wrapper
 
-! TO-DO: check if EasyList has the cosmetic equivalent.
-! Oct 9, 2024
 ethanzuckerman.com##^.obfx-sharing
 
-! TO-DO: check if EasyList has the cosmetic equivalent.
-! Oct 9, 2024
-! https://www.scrummanager.com/blog/2023/03/criterios-de-aceptacion-definicion-y-ejemplos
-www.scrummanager.com##^#pronamic_cookie_holder
+scrummanager.com##^#pronamic_cookie_holder
+scrummanager.com##^.cookies
 
 ! Jan 2025
 ! newsletter

@@ -4,8 +4,8 @@ github.com##^.js-header-wrapper
 
 /disable-devtool$script
 
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^header.ps-fixed.s-topbar.js-top-bar
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com##^#left-sidebar
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^header
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^#left-sidebar
 
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
