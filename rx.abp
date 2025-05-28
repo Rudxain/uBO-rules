@@ -44,7 +44,6 @@ ifunny.co##^#AppStub
 knowyourmeme.com##^.ad-unit-wrapper
 
 fandom.com##^.top-ads-container
-! Apr 2025
 fandom.com##^#global-top-navigation
 fandom.com##^#global-explore-navigation
 fandom.com##^.page__right-rail
@@ -67,6 +66,8 @@ ethanzuckerman.com##^.obfx-sharing
 
 scrummanager.com##^#pronamic_cookie_holder
 scrummanager.com##^.cookies
+
+coolors.co##^#page-loader
 
 ! Jan 2025
 ! newsletter
