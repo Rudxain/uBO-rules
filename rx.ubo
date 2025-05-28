@@ -14,6 +14,11 @@ no-cosmetic-filtering: gemini.google.com false
 # `m.youtube.com` rarely needs it
 no-cosmetic-filtering: www.youtube.com false
 
+no-cosmetic-filtering: m.facebook.com false
+no-cosmetic-filtering: web.facebook.com false
+no-cosmetic-filtering: www.facebook.com false
+no-cosmetic-filtering: www.instagram.com false
+
 no-cosmetic-filtering: x.com false
 
 no-cosmetic-filtering: www.reddit.com false
@@ -185,6 +190,10 @@ reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
 
 # intentional no-script
+facebook.com facebook.com * noop
+m.facebook.com z-m-static.xx.fbcdn.net * noop
+web.facebook.com static.xx.fbcdn.net * noop
+www.facebook.com static.xx.fbcdn.net * noop
 www.instagram.com static.cdninstagram.com * noop
 
 deviantart.com deviantart.net * noop
