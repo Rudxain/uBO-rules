@@ -1,5 +1,10 @@
 ! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
+# "Upgrade now" nav-bar button
+soundcloud.com##.creatorSubscriptionsButton
+soundcloud.com##.header__upsellWrapper
+soundcloud.com##.header__creatorUpsell
+
 ||bggenerator.com/*-promo
 bggenerator.com###toppage
 bggenerator.com##^#portfolio
