@@ -14,6 +14,8 @@ no-cosmetic-filtering: gemini.google.com false
 # `m.youtube.com` rarely needs it
 no-cosmetic-filtering: www.youtube.com false
 
+no-cosmetic-filtering: soundcloud.com false
+
 no-cosmetic-filtering: m.facebook.com false
 no-cosmetic-filtering: web.facebook.com false
 no-cosmetic-filtering: www.facebook.com false
