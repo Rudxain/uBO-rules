@@ -77,9 +77,6 @@ no-scripting: html.duckduckgo.com true
 no-scripting: github.com false
 no-scripting: docs.github.com true
 
-# CIC-PTD
-no-scripting: app.clockify.me false
-
 no-scripting: www.google.com false
 
 no-scripting: accounts.google.com false
