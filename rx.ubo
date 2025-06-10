@@ -52,7 +52,10 @@ no-large-media: behind-the-scene false
 no-remote-fonts: duckduckgo.com true
 # CIC-PTD
 no-remote-fonts: fullstackopen.com true
+no-remote-fonts: facebook.com true
+no-remote-fonts: instagram.com true
 no-remote-fonts: reddit.com true
+no-remote-fonts: x.com true
 
 no-scripting: * true
 # does B.T.S. effect service-workers?
