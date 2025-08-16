@@ -1,8 +1,3 @@
-! from EasyList Notifications:
-! mobile signup popup
-instagram.com##+js(set-session-storage-item, lodum, 1)
-instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
-
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
