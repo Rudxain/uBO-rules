@@ -16,10 +16,12 @@ no-cosmetic-filtering: www.youtube.com false
 
 no-cosmetic-filtering: soundcloud.com false
 
+# Meta Inc.
 no-cosmetic-filtering: m.facebook.com false
 no-cosmetic-filtering: web.facebook.com false
 no-cosmetic-filtering: www.facebook.com false
 no-cosmetic-filtering: www.instagram.com false
+no-cosmetic-filtering: www.threads.com false
 
 no-cosmetic-filtering: x.com false
 
@@ -49,12 +51,23 @@ no-large-media: behind-the-scene false
 # unbreak voice messages
 #no-large-media: discord.com false
 
+no-popups: meta.com true
+no-popups: facebook.com true
+no-popups: instagram.com true
+no-popups: threads.com true
+
 no-remote-fonts: duckduckgo.com true
+
 # CIC-PTD
 no-remote-fonts: fullstackopen.com true
+
+no-remote-fonts: meta.com true
 no-remote-fonts: facebook.com true
 no-remote-fonts: instagram.com true
+no-remote-fonts: threads.com true
+
 no-remote-fonts: reddit.com true
+
 no-remote-fonts: x.com true
 
 no-scripting: * true
@@ -74,6 +87,17 @@ no-scripting: live.com false
 no-scripting: discord.com false
 # subdomain-propagation makes me do this
 no-scripting: support.discord.com true
+
+no-scripting: meta.com true
+no-scripting: www.meta.com true
+no-scripting: facebook.com true
+no-scripting: m.facebook.com true
+no-scripting: web.facebook.com true
+no-scripting: www.facebook.com true
+no-scripting: instagram.com true
+no-scripting: www.instagram.com true
+no-scripting: threads.com true
+no-scripting: www.threads.com true
 
 no-scripting: html.duckduckgo.com true
 
@@ -128,10 +152,14 @@ no-scripting: wikipedia.org false
 * msn.com * block
 * skype.com * block
 
-# I hate Meta
+* meta.com * block
 * facebook.com * block
 * facebook.net * block
+* fbcdn.net * block
 * fbsbx.com * block
+* cdninstagram.com * block
+* instagram.com * block
+* threads.com * block
 
 * paypal-dynamic-cdn.map.fastly.net * block
 * paypalobjects.com * block
@@ -191,12 +219,15 @@ newgrounds.com ungrounded.net * noop
 reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
 
-# intentional no-script
-facebook.com facebook.com * noop
-m.facebook.com z-m-static.xx.fbcdn.net * noop
-web.facebook.com static.xx.fbcdn.net * noop
-www.facebook.com static.xx.fbcdn.net * noop
-www.instagram.com static.cdninstagram.com * noop
+meta.com * 3p block
+facebook.com * 3p block
+m.facebook.com * * block
+web.facebook.com * * block
+www.facebook.com * * block
+instagram.com * 3p block
+www.instagram.com * * block
+threads.com * 3p block
+www.threads.com * * block
 
 deviantart.com deviantart.net * noop
 www.deviantart.com static.parastorage.com * noop
