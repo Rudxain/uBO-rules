@@ -44,9 +44,14 @@ bsky.app##nav
 ! Twitter header/footer
 x.com###layers
 
-! mobile signup popup
-instagram.com##+js(set-session-storage-item, lodum, 1)
-instagram.com##+js(set-session-storage-item, loggedOutCTAIsShown, 1)
+||meta.com^$all
+||facebook.com^$all
+||facebook.net^$all
+||fbcdn.net^$all
+||fbsbx.com^$all
+||instagram.com^$all
+||cdninstagram.com^$all
+||threads.com^$all
 
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
