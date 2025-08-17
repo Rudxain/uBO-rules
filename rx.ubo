@@ -114,7 +114,6 @@ no-scripting: gemini.google.com false
 no-scripting: drive.google.com false
 #no-scripting: meet.google.com false
 no-scripting: mail.google.com false
-no-scripting: youtube.com false
 
 #no-scripting: newgrounds.com false
 
@@ -197,11 +196,12 @@ android.com gstatic.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
+
+# intentional no-script
 youtube.com gstatic.com * noop
 # youtube-ui.l.google.com
 # www3.l.google.com
-# future-proofing
-youtube.com google.com * noop
+youtube.com l.google.com * noop
 # fix broken playback
 m.youtube.com static.doubleclick.net * noop
 www.youtube.com static.doubleclick.net * noop
