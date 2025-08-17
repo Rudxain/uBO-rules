@@ -195,9 +195,9 @@ maps.google.com maps.googleapis.com * noop
 
 # intentional no-script
 youtube.com gstatic.com * noop
-# youtube-ui.l.google.com
-# www3.l.google.com
-youtube.com l.google.com * noop
+youtube.com www.google.com * noop
+youtube.com youtube-ui.l.google.com * noop
+youtube.com www3.l.google.com * noop
 # fix broken playback
 m.youtube.com static.doubleclick.net * noop
 www.youtube.com static.doubleclick.net * noop
