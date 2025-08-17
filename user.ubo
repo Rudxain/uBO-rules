@@ -5,6 +5,11 @@ no-cosmetic-filtering: wiktionary.org true
 no-csp-reports: * true
 no-large-media: behind-the-scene false
 
+no-remote-fonts: meta.com true
+no-remote-fonts: facebook.com true
+no-remote-fonts: instagram.com true
+no-remote-fonts: threads.com true
+
 # if DDG gets compromised,
 # it'll serve malicious scripts
 no-scripting: html.duckduckgo.com true
@@ -34,6 +39,15 @@ no-scripting: html.duckduckgo.com true
 # some MS sites send requests there,
 # even if unnecessary
 * msn.com * block
+
+* meta.com * block
+* facebook.com * block
+* facebook.net * block
+* fbcdn.net * block
+* fbsbx.com * block
+* cdninstagram.com * block
+* instagram.com * block
+* threads.com * block
 
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
@@ -85,18 +99,33 @@ wiktionary.org * 3p-script block
 wiktionary.org * 3p-frame block
 wiktionary.org  wikimedia.org * noop
 
-# Meta
+meta.com meta.com * noop
+meta.com * 3p-script block
+meta.com * 3p-frame block
+facebook.com facebook.com * noop
+facebook.com * 3p block
 facebook.com * 3p-script block
+facebook.com * 3p-frame block
 facebook.com facebook.net * noop
 facebook.com fbcdn.net * noop
 facebook.com fbsbx.com * noop
+instagram.com instagram.com * noop
+instagram.com * 3p block
+instagram.com * 3p-script block
+instagram.com * 3p-frame block
 instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
-instagram.com fbsbx.com * noop
 instagram.com cdninstagram.com * noop
-instagram.com instagram.net * noop
-# Threads is unused
+threads.com threads.com * noop
+threads.com * 3p block
+threads.com * 3p-script block
+threads.com * 3p-frame block
+threads.com facebook.com * noop
+threads.com facebook.net * noop
+threads.com fbcdn.net * noop
+threads.com cdninstagram.com * noop
+threads.com instagram.com * noop
 
 # Pinterest is unused
 
