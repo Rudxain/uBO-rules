@@ -194,6 +194,8 @@ fullstackopen.com * 3p block
 fullstackopen.com * 3p-frame block
 fullstackopen.com * 3p-script block
 
+# ideally, it should be `android.org`
+# and it shouldn't depend on Google
 android.com google.com * noop
 android.com gstatic.com * noop
 google.com google.com * noop
