@@ -41,8 +41,10 @@ www.reddit.com##^#right-sidebar-container
 ! account sign-in
 bsky.app##nav
 
-! Twitter header/footer
-x.com###layers
+||twitter.com^$all
+||x.com^$all
+||twimg.com^$all
+||twitter.map.fastly.net^$all
 
 ||meta.com^$all
 ||facebook.com^$all
