@@ -140,10 +140,6 @@ no-scripting: wikipedia.org false
 # why is this white-listed?
 * googleadservices.com * block
 
-# generally useless,
-# and `apis.google.com` is deprecated
-* google.com * block
-
 # Bard & Keep request it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
@@ -198,7 +194,6 @@ fullstackopen.com * 3p-script block
 # and it shouldn't depend on Google
 android.com google.com * noop
 android.com gstatic.com * noop
-google.com google.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
