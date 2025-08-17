@@ -82,8 +82,6 @@ no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 
-no-scripting: discord.com false
-# subdomain-propagation makes me do this
 no-scripting: support.discord.com true
 
 no-scripting: meta.com true
