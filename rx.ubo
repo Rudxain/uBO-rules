@@ -8,7 +8,7 @@ no-cosmetic-filtering: www.microsoft.com false
 no-cosmetic-filtering: onedrive.live.com false
 no-cosmetic-filtering: outlook.live.com false
 
-no-cosmetic-filtering: html.duckduckgo.com true
+no-cosmetic-filtering: lite.duckduckgo.com true
 
 no-cosmetic-filtering: gemini.google.com false
 # `m.youtube.com` rarely needs it
@@ -96,6 +96,7 @@ no-scripting: threads.com true
 no-scripting: www.threads.com true
 
 no-scripting: html.duckduckgo.com true
+no-scripting: lite.duckduckgo.com true
 
 no-scripting: github.com false
 no-scripting: docs.github.com true
@@ -174,8 +175,11 @@ microsoft.com azureedge.net * noop
 microsoft.com t-msedge.net * noop
 
 html.duckduckgo.com * 3p block
-html.duckduckgo.com * 3p-script block
 html.duckduckgo.com * 3p-frame block
+html.duckduckgo.com * 3p-script block
+lite.duckduckgo.com * 3p block
+lite.duckduckgo.com * 3p-frame block
+lite.duckduckgo.com * 3p-script block
 
 github.com githubassets.com * noop
 
