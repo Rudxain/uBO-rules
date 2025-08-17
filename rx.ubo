@@ -74,8 +74,6 @@ no-scripting: * true
 # does B.T.S. effect service-workers?
 no-scripting: behind-the-scene false
 
-no-scripting: bggenerator.com false
-
 #no-scripting: localhost false
 
 # search-page doesn't need it, but
