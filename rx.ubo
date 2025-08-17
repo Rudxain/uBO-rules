@@ -252,4 +252,7 @@ internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
 play.rust-lang.org cloudfront.net * noop
 
+# intentional no-script
+developer.mozilla.org mdnplay.dev * noop
+
 wikipedia.org wikimedia.org * noop
