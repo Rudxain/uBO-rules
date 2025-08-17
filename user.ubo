@@ -1,4 +1,4 @@
-no-cosmetic-filtering: html.duckduckgo.com true
+no-cosmetic-filtering: lite.duckduckgo.com true
 no-cosmetic-filtering: wikipedia.org true
 no-cosmetic-filtering: wiktionary.org true
 
@@ -10,9 +10,12 @@ no-remote-fonts: facebook.com true
 no-remote-fonts: instagram.com true
 no-remote-fonts: threads.com true
 
+no-remote-fonts: lite.duckduckgo.com true
+
 # if DDG gets compromised,
 # it'll serve malicious scripts
 no-scripting: html.duckduckgo.com true
+no-scripting: lite.duckduckgo.com true
 
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
 * adsninja.ca * block
@@ -68,6 +71,7 @@ msn.com msn.com * noop
 android.com google.com * noop
 android.com gstatic.com * noop
 google.com * 3p-script block
+google.com * 3p-frame block
 google.com gstatic.com * noop
 # `withgoogle` is unused
 youtube.com * 3p-script block
@@ -78,13 +82,15 @@ youtube.com gstatic.com * noop
 m.youtube.com static.doubleclick.net * noop
 www.youtube.com static.doubleclick.net * noop
 
-duckduckgo.com * 3p-script block
 duckduckgo.com * 3p-frame block
 # DDG only allows images with JS,
 # so 3p is useless for no-script
 html.duckduckgo.com * 3p block
 html.duckduckgo.com * 3p-script block
 html.duckduckgo.com * 3p-frame block
+lite.duckduckgo.com * 3p block
+lite.duckduckgo.com * 3p-script block
+lite.duckduckgo.com * 3p-frame block
 
 github.com * 3p-script block
 github.com * 3p-frame block
