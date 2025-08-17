@@ -147,6 +147,11 @@ no-scripting: wikipedia.org false
 * instagram.com * block
 * threads.com * block
 
+* twimg.com * block
+* twitter.map.fastly.net * block
+* twitter.com * block
+* x.com * block
+
 * paypal-dynamic-cdn.map.fastly.net * block
 * paypalobjects.com * block
 
@@ -225,8 +230,8 @@ www.deviantart.com static.parastorage.com * noop
 # intentional no-script
 bsky.app bsky-web.b-cdn.net * noop
 
-x.com abs.twimg.com * noop
-x.com twimg.twitter.map.fastly.net * noop
+twitter.com * * block
+x.com * * block
 
 # intentional no-script
 soundcloud.com cloudfront.net * noop
