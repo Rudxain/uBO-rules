@@ -111,10 +111,6 @@ no-scripting: drive.google.com false
 #no-scripting: meet.google.com false
 no-scripting: mail.google.com false
 
-#no-scripting: newgrounds.com false
-
-no-scripting: soundcloud.com false
-
 no-scripting: crates.io false
 # Nightly
 no-scripting: play.rust-lang.org false
@@ -233,6 +229,7 @@ bsky.app bsky-web.b-cdn.net * noop
 x.com abs.twimg.com * noop
 x.com twimg.twitter.map.fastly.net * noop
 
+# intentional no-script
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
