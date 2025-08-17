@@ -102,7 +102,6 @@ no-scripting: docs.github.com true
 
 no-scripting: www.google.com false
 
-no-scripting: accounts.google.com false
 # AKA "Bard"
 no-scripting: gemini.google.com false
 # it doesn't need JS on mobile... why?
