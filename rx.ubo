@@ -241,6 +241,11 @@ x.com * * block
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
+steam.com steampowered.com * noop
+steam.com steamstatic.com * noop
+steampowered.com steamstatic.com * noop
+store.steampowered.com valve.map.fastly.net * noop
+
 # mostly `es` sub-domain
 discourse.group discourse-cdn.com * noop
 
