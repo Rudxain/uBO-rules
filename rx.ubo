@@ -48,8 +48,6 @@ no-csp-reports: * true
 no-large-media: * true
 no-large-media: behind-the-scene false
 #no-large-media: localhost false
-# unbreak voice messages
-#no-large-media: discord.com false
 
 no-popups: meta.com true
 no-popups: facebook.com true
@@ -82,7 +80,10 @@ no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 
+# only applies when I enable JS for main domain.
 no-scripting: support.discord.com true
+# I really hate disbloat,
+# but it's required by DR-FATE
 
 no-scripting: meta.com true
 no-scripting: www.meta.com true
