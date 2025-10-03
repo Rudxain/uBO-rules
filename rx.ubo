@@ -2,7 +2,7 @@ no-cosmetic-filtering: * true
 
 no-cosmetic-filtering: bggenerator.com false
 
-# Bing servers always redirect to `www`
+# bing servers always redirect to `www`
 no-cosmetic-filtering: www.bing.com false
 no-cosmetic-filtering: www.microsoft.com false
 no-cosmetic-filtering: onedrive.live.com false
@@ -16,7 +16,7 @@ no-cosmetic-filtering: www.youtube.com false
 
 no-cosmetic-filtering: soundcloud.com false
 
-# Meta Inc.
+# meta inc.
 no-cosmetic-filtering: m.facebook.com false
 no-cosmetic-filtering: web.facebook.com false
 no-cosmetic-filtering: www.facebook.com false
@@ -122,7 +122,7 @@ no-scripting: wikipedia.org false
 * * 3p-frame block
 * * 3p-script block
 
-# MS requests it, and I hate Adobe
+# M$ requests it, and I hate adoobee
 * adobedtm.com * block
 
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
@@ -166,7 +166,7 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-# MS is an absolute dumpster fire of spaghetti
+# M$ is an absolute dumpster fire of spaghetti
 bing.com bing.com * noop
 www.bing.com * 3p-script noop
 live.com * 3p-script noop
@@ -193,7 +193,7 @@ fullstackopen.com * 3p-script block
 educacioncontinuada.ucateba.edu.do cdn.jsdelivr.net * noop
 
 # ideally, it should be `android.org`
-# and it shouldn't depend on Google
+# and it shouldn't depend on gluegle
 android.com google.com * noop
 android.com gstatic.com * noop
 google.com googleapis.com * noop

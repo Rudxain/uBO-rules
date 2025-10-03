@@ -8,7 +8,7 @@
 >
 > If you're on Android, [Termux has your back](https://github.com/termux/termux-packages/tree/69a05a2cfdcc5e30cbadbc0e884175175b9904e3/packages/lynx)! (`pkg i lynx`)
 >
-> Google (and other domains) only forces you to run JS if the browser supports it.
+> gluegle (and other domains) only forces you to run JS if the browser supports it.
 
 Tip: Don't just 📋CP. Remember to search commented-out rules and filters. They are optional, but can enhance the experience on specific devices and scenarios.
 
@@ -49,10 +49,10 @@ For privileged (Administrator) accounts. These are the only users with (partial)
 
 > [!tip]
 > Disable JIT-compilation:
-> - MS Edge: Go to "Enhanced Security" (`edge://settings/privacy#SecureMode`)
-> - Moz Firefox: use `Securefox.js`, and uncomment [these options](https://github.com/yokoffing/Betterfox/blob/c5fca2dbf7289c8dbce901c040683f3cdfdd7926/Securefox.js#L1131-L1162)
-> - G Chrome: CLI arg `--js-flags="--jitless"`.
-> 	- Not persistent, unless added to the desktop shortcut: This can be done on Windows (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/exec-variables.html)
+> - [M$](https://consumerrights.wiki/w/Microsoft) [edging](https://consumerrights.wiki/w/Microsoft_Edge): Go to "Enhanced Security" (`edge://settings/privacy#SecureMode`)
+> - [Moz](https://consumerrights.wiki/w/Mozilla) [Firefox](https://consumerrights.wiki/w/Firefox): use `Securefox.js`, and uncomment [these options](https://github.com/yokoffing/Betterfox/blob/c5fca2dbf7289c8dbce901c040683f3cdfdd7926/Securefox.js#L1131-L1162)
+> - [gluegle](https://consumerrights.wiki/w/Google) [chrome](https://consumerrights.wiki/w/Google_Chrome): CLI arg `--js-flags="--jitless"`.
+> 	- Not persistent, unless added to the desktop shortcut: This can be done on [winbloats](https://consumerrights.wiki/w/Windows) (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/exec-variables.html)
 
 ### User
 Any human user, usually my family or friends. They shouldn't be using "Medium-Mode", because literally any site they visit could break, and that's an inconvenience.
