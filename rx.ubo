@@ -189,6 +189,9 @@ fullstackopen.com * 3p block
 fullstackopen.com * 3p-frame block
 fullstackopen.com * 3p-script block
 
+# intentional no-script
+educacioncontinuada.ucateba.edu.do cdn.jsdelivr.net * noop
+
 # ideally, it should be `android.org`
 # and it shouldn't depend on Google
 android.com google.com * noop
