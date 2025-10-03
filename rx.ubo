@@ -185,7 +185,6 @@ lite.duckduckgo.com * 3p-script block
 github.com githubassets.com * noop
 
 # CIC-PTD
-www.figma.com cloudfront.net * noop
 fullstackopen.com * 3p block
 fullstackopen.com * 3p-frame block
 fullstackopen.com * 3p-script block
