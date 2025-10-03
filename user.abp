@@ -1,7 +1,7 @@
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 
-! Twitter header/footer
+! twitter header/footer
 x.com###layers
 
 knowyourmeme.com##^.ad-unit-wrapper
