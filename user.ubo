@@ -39,7 +39,7 @@ no-scripting: lite.duckduckgo.com true
 #* youtube.com * noop
 * youtube-nocookie.com * noop
 
-# some MS sites send requests there,
+# some M$ sites send requests there,
 # even if unnecessary
 * msn.com * block
 
@@ -60,13 +60,8 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-# MS Edge is unused :(
-# FIREFOX SUPREMACY!!! 🦊🔥
-
 msn.com msn.com * noop
 # `live.com` is unused
-
-# Adobe is unused
 
 android.com google.com * noop
 android.com gstatic.com * noop
