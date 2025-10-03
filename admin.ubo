@@ -7,13 +7,13 @@ no-csp-reports: * true
 no-large-media: * true
 no-large-media: behind-the-scene false
 
-# Deb links are much safer than Bing,
+# Deb links are much safer than bing,
 # but both are kinda OS-specific.
 # You should only uncomment what you need.
 no-popups: * true
 # for Deb-based-distro
 #no-popups: debian.org false
-# for Windows & MS Edge
+# for winbloats & M$ edging
 #no-popups: www.bing.com false
 no-popups: html.duckduckgo.com false
 no-popups: lite.duckduckgo.com false
