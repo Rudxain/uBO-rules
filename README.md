@@ -49,10 +49,9 @@ For privileged (Administrator) accounts. These are the only users with (partial)
 
 > [!tip]
 > Disable JIT-compilation:
-> - [M$](https://consumerrights.wiki/w/Microsoft) [edging](https://consumerrights.wiki/w/Microsoft_Edge): Go to "Enhanced Security" (`edge://settings/privacy#SecureMode`)
 > - [Moz](https://consumerrights.wiki/w/Mozilla) [Firefox](https://consumerrights.wiki/w/Firefox): use `Securefox.js`, and uncomment [these options](https://github.com/yokoffing/Betterfox/blob/c5fca2dbf7289c8dbce901c040683f3cdfdd7926/Securefox.js#L1131-L1162)
-> - [gluegle](https://consumerrights.wiki/w/Google) [chrome](https://consumerrights.wiki/w/Google_Chrome): CLI arg `--js-flags="--jitless"`.
-> 	- Not persistent, unless added to the desktop shortcut: This can be done on [winbloats](https://consumerrights.wiki/w/Windows) (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/exec-variables.html)
+> - Chromium (e.g. [gluegle](https://consumerrights.wiki/w/Google) [chrome](https://consumerrights.wiki/w/Google_Chrome), [M$](https://consumerrights.wiki/w/Microsoft) [edging](https://consumerrights.wiki/w/Microsoft_Edge), ...): CLI arg `--js-flags="--jitless"`.
+> 	- add it to the desktop shortcut (to make it persistent): This can be done on [winbloats](https://consumerrights.wiki/w/Windows) (Properties -> Shortcut -> Target) and any system that supports the [FD spec](https://specifications.freedesktop.org/desktop-entry-spec/latest/exec-variables.html)
 
 ### User
 Any human user, usually my family or friends. They shouldn't be using "Medium-Mode", because literally any site they visit could break, and that's an inconvenience.
