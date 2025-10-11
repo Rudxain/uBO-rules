@@ -189,7 +189,6 @@ fullstackopen.com * 3p block
 fullstackopen.com * 3p-frame block
 fullstackopen.com * 3p-script block
 
-# intentional no-script
 educacioncontinuada.ucateba.edu.do cdn.jsdelivr.net * noop
 
 # ideally, it should be `android.org`
@@ -200,7 +199,6 @@ google.com googleapis.com * noop
 google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
 
-# intentional no-script
 youtube.com gstatic.com * noop
 youtube.com www.google.com * noop
 youtube.com youtube-ui.l.google.com * noop
@@ -234,13 +232,11 @@ www.deviantart.com static.parastorage.com * noop
 
 # Currently, I only use it because of Toby Fox
 # (not a "critical" necessity).
-# intentional no-script
 bsky.app bsky-web.b-cdn.net * noop
 
 twitter.com * * block
 x.com * * block
 
-# intentional no-script
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
 
@@ -252,13 +248,11 @@ store.steampowered.com valve.map.fastly.net * noop
 # mostly `es` sub-domain
 discourse.group discourse-cdn.com * noop
 
-# intentional no-script
 rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
 play.rust-lang.org cloudfront.net * noop
 
-# intentional no-script
 developer.mozilla.org mdnplay.dev * noop
 
 wikipedia.org wikimedia.org * noop
