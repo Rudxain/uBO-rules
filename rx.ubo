@@ -59,6 +59,8 @@ no-remote-fonts: duckduckgo.com true
 # CIC-PTD
 no-remote-fonts: fullstackopen.com true
 
+no-remote-fonts: discord.com true
+
 no-remote-fonts: meta.com true
 no-remote-fonts: facebook.com true
 no-remote-fonts: instagram.com true
