@@ -70,6 +70,8 @@ no-remote-fonts: reddit.com true
 
 no-remote-fonts: x.com true
 
+no-remote-fonts: youtube.com true
+
 no-scripting: * true
 # does B.T.S. effect service-workers?
 no-scripting: behind-the-scene false
