@@ -70,6 +70,8 @@ no-remote-fonts: reddit.com true
 
 no-remote-fonts: x.com true
 
+no-remote-fonts: soundcloud.com true
+
 no-remote-fonts: youtube.com true
 
 no-scripting: * true
