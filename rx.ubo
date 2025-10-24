@@ -207,12 +207,6 @@ google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
 
 youtube.com gstatic.com * noop
-youtube.com www.google.com * noop
-youtube.com youtube-ui.l.google.com * noop
-youtube.com www3.l.google.com * noop
-# fix broken playback
-m.youtube.com static.doubleclick.net * noop
-www.youtube.com static.doubleclick.net * noop
 
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
