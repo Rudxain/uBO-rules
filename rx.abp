@@ -2,11 +2,6 @@
 
 /disable-devtool$script
 
-! unbreak AdGuard Annoyances
-! AI Overview
-@@://www.google.com/async/folsrch?*&async=_basejs:*,_basecomb:*&q=$xmlhttprequest,domain=www.google.com
-www.google.com#@#div[data-q][data-al]
-
 # "Upgrade now" nav-bar button
 soundcloud.com##.creatorSubscriptionsButton
 soundcloud.com##.header__upsellWrapper
