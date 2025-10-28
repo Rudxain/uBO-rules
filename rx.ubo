@@ -10,6 +10,7 @@ no-cosmetic-filtering: outlook.live.com false
 
 no-cosmetic-filtering: lite.duckduckgo.com true
 
+no-cosmetic-filtering: www.google.com false
 no-cosmetic-filtering: gemini.google.com false
 # `m.youtube.com` rarely needs it
 no-cosmetic-filtering: www.youtube.com false
