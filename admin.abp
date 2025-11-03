@@ -10,3 +10,6 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com#
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 www.reddit.com##^#right-sidebar-container
+
+! https://github.com/uBlockOrigin/uBlock-issues/discussions/3967
+*##^link[rel="apple-touch-icon"]
