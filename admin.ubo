@@ -56,5 +56,4 @@ superuser.com sstatic.net * noop
 #askubuntu.com sstatic.net * noop
 
 # https://github.com/tom-james-watson/old-reddit-redirect
-reddit.com reddit.map.fastly.net * noop
 reddit.com redditstatic.com * noop
