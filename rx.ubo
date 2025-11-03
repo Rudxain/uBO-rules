@@ -2,46 +2,35 @@ no-cosmetic-filtering: * true
 
 no-cosmetic-filtering: bggenerator.com false
 
-# bing servers always redirect to `www`
+# bing servers redirect to `www`
 no-cosmetic-filtering: www.bing.com false
 no-cosmetic-filtering: www.microsoft.com false
-no-cosmetic-filtering: onedrive.live.com false
-no-cosmetic-filtering: outlook.live.com false
+no-cosmetic-filtering: live.com false
 
 no-cosmetic-filtering: lite.duckduckgo.com true
 
+no-cosmetic-filtering: eslint.org false
+
 no-cosmetic-filtering: www.google.com false
 no-cosmetic-filtering: gemini.google.com false
-# `m.youtube.com` rarely needs it
-no-cosmetic-filtering: www.youtube.com false
+no-cosmetic-filtering: youtube.com false
 
 no-cosmetic-filtering: soundcloud.com false
 
 # meta inc.
-no-cosmetic-filtering: m.facebook.com false
-no-cosmetic-filtering: web.facebook.com false
-no-cosmetic-filtering: www.facebook.com false
-no-cosmetic-filtering: www.instagram.com false
+no-cosmetic-filtering: facebook.com false
+no-cosmetic-filtering: instagram.com false
 no-cosmetic-filtering: www.threads.com false
 
 no-cosmetic-filtering: x.com false
 
-no-cosmetic-filtering: www.reddit.com false
-no-cosmetic-filtering: new.reddit.com false
+no-cosmetic-filtering: quora.com false
+
+no-cosmetic-filtering: reddit.com false
 
 no-cosmetic-filtering: debian.org true
 
 no-cosmetic-filtering: rudxain.github.io true
-
-# 🦀✅
-no-cosmetic-filtering: helix-editor.com true
-no-cosmetic-filtering: rust-lang.github.io true
-no-cosmetic-filtering: rust-lang.org true
-no-cosmetic-filtering: docs.rs true
-no-cosmetic-filtering: crates.io true
-
-no-cosmetic-filtering: wikipedia.org true
-no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 
@@ -55,27 +44,8 @@ no-popups: facebook.com true
 no-popups: instagram.com true
 no-popups: threads.com true
 
-no-remote-fonts: duckduckgo.com true
-
-no-remote-fonts: github.com true
-
-# CIC-PTD
-no-remote-fonts: fullstackopen.com true
-
-no-remote-fonts: discord.com true
-
-no-remote-fonts: meta.com true
-no-remote-fonts: facebook.com true
-no-remote-fonts: instagram.com true
-no-remote-fonts: threads.com true
-
-no-remote-fonts: reddit.com true
-
-no-remote-fonts: x.com true
-
-no-remote-fonts: soundcloud.com true
-
-no-remote-fonts: youtube.com true
+no-remote-fonts: * true
+no-remote-fonts: behind-the-scene false
 
 no-scripting: * true
 # does B.T.S. effect service-workers?
@@ -83,9 +53,6 @@ no-scripting: behind-the-scene false
 
 #no-scripting: localhost false
 
-# search-page doesn't need it, but
-# search-box submit and image-loading do
-no-scripting: www.bing.com false
 no-scripting: copilot.microsoft.com false
 no-scripting: live.com false
 
@@ -110,22 +77,21 @@ no-scripting: lite.duckduckgo.com true
 
 no-scripting: docs.github.com true
 
+# gluegle is annoying
+no-scripting: accounts.google.com false
 no-scripting: www.google.com false
 
 # AKA "Bard"
 no-scripting: gemini.google.com false
 # it doesn't need JS on mobile... why?
 #no-scripting: docs.google.com false
-no-scripting: drive.google.com false
+#no-scripting: drive.google.com false
 #no-scripting: meet.google.com false
-no-scripting: mail.google.com false
+#no-scripting: mail.google.com false
 
 no-scripting: crates.io false
 # Nightly
 no-scripting: play.rust-lang.org false
-
-# Text:Large; Color:Auto
-no-scripting: wikipedia.org false
 
 * * 3p-frame block
 * * 3p-script block
@@ -136,6 +102,8 @@ no-scripting: wikipedia.org false
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
 # https://github.com/easylist/easylist/discussions/20004
 * adsninja.ca * block
+
+* amazon-adsystem.com * block
 
 # why is this white-listed?
 * googleadservices.com * block
@@ -176,7 +144,6 @@ behind-the-scene * inline-script noop
 
 # M$ is an absolute dumpster fire of spaghetti
 bing.com bing.com * noop
-www.bing.com * 3p-script noop
 live.com * 3p-script noop
 # https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
 onedrive.live.com * 3p-frame noop
@@ -199,15 +166,15 @@ fullstackopen.com * 3p-script block
 
 educacioncontinuada.ucateba.edu.do cdn.jsdelivr.net * noop
 
-# ideally, it should be `android.org`
-# and it shouldn't depend on gluegle
-android.com google.com * noop
 android.com gstatic.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
 
 youtube.com gstatic.com * noop
+# captions
+m.youtube.com www.google.com * noop
+www.youtube.com www.google.com * noop
 
 newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
@@ -215,8 +182,7 @@ newgrounds.com ungrounded.net * noop
 
 # The only reason this is here
 # is because my account hasn't been deleted
-# (by me, crackers, or the admins).
-reddit.com reddit.map.fastly.net * noop
+# (by me, crackers, or admins).
 reddit.com redditstatic.com * noop
 
 meta.com * 3p block
@@ -228,9 +194,6 @@ instagram.com * 3p block
 www.instagram.com * * block
 threads.com * 3p block
 www.threads.com * * block
-
-deviantart.com deviantart.net * noop
-www.deviantart.com static.parastorage.com * noop
 
 # Currently, I only use it because of Toby Fox
 # (not a "critical" necessity).
@@ -253,8 +216,10 @@ discourse.group discourse-cdn.com * noop
 rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
-play.rust-lang.org cloudfront.net * noop
+
+fandom.com * 3p block
 
 developer.mozilla.org mdnplay.dev * noop
 
+wikipedia.org * 3p block
 wikipedia.org wikimedia.org * noop
