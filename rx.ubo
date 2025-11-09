@@ -4,7 +4,7 @@ no-cosmetic-filtering: bggenerator.com false
 
 # bing servers redirect to `www`
 no-cosmetic-filtering: www.bing.com false
-no-cosmetic-filtering: www.microsoft.com false
+no-cosmetic-filtering: microsoft.com false
 no-cosmetic-filtering: live.com false
 
 no-cosmetic-filtering: lite.duckduckgo.com true
@@ -54,7 +54,6 @@ no-scripting: behind-the-scene false
 #no-scripting: localhost false
 
 no-scripting: copilot.microsoft.com false
-no-scripting: live.com false
 
 # only applies when I enable JS for main domain.
 no-scripting: support.discord.com true
@@ -112,7 +111,6 @@ no-scripting: play.rust-lang.org false
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
 
-* bing.com * block
 * msn.com * block
 * skype.com * block
 
@@ -142,13 +140,8 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
-# M$ is an absolute dumpster fire of spaghetti
-bing.com bing.com * noop
-live.com * 3p-script noop
-# https://learn.microsoft.com/en-us/sharepoint/required-urls-and-ports
-onedrive.live.com * 3p-frame noop
-microsoft.com azureedge.net * noop
-microsoft.com t-msedge.net * noop
+# ~14MB?! is this a joke?
+www.microsoft.com * * block
 
 html.duckduckgo.com * 3p block
 html.duckduckgo.com * 3p-frame block
