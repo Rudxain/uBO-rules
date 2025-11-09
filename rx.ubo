@@ -163,7 +163,10 @@ android.com gstatic.com * noop
 google.com googleapis.com * noop
 google.com gstatic.com * noop
 maps.google.com maps.googleapis.com * noop
-
+# honestly impressive!
+support.google.com * * block
+support.google.com googleapis.com * block
+support.google.com gstatic.com * block
 youtube.com gstatic.com * noop
 # captions
 m.youtube.com www.google.com * noop
