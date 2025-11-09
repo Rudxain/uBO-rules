@@ -61,7 +61,6 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
 msn.com msn.com * noop
-# `live.com` is unused
 
 android.com google.com * noop
 android.com gstatic.com * noop
