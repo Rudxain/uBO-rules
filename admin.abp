@@ -10,3 +10,5 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com#
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 www.reddit.com##^#right-sidebar-container
+
+youtube.com##[href="/premium"]
