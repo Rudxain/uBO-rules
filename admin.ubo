@@ -46,6 +46,7 @@ lite.duckduckgo.com * 3p-frame block
 lite.duckduckgo.com * 3p-script block
 
 www.google.com www.gstatic.com * noop
+support.google.com * * block
 
 github.com githubassets.com * noop
 
