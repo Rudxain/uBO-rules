@@ -2,6 +2,9 @@
 
 /disable-devtool$script
 
+! https://consumerrights.wiki/index.php?title=YouTube&oldid=30163#Offline_video_DRM
+youtube.com##[href="/premium"]
+
 ! "Upgrade now" nav-bar button
 soundcloud.com##.creatorSubscriptionsButton
 soundcloud.com##.header__upsellWrapper
