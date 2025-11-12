@@ -12,6 +12,7 @@ old.reddit.com##^.listingsignupbar
 www.reddit.com##^#right-sidebar-container
 
 youtube.com##[href="/premium"]
+||youtube.com/premium$all
 
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/3967
 *##^link[rel="apple-touch-icon"]
