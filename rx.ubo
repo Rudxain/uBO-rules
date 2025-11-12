@@ -28,6 +28,24 @@ no-cosmetic-filtering: quora.com false
 
 no-cosmetic-filtering: reddit.com false
 
+# web-app is so obscenely bloated that CF could do more harm than good,
+# that's why CF is only enabled here.
+# For ref, merely opening the DOM-inspector crashes Firefox with 4GB RAM.
+# The web-app is a zip-bomb for RAM+swap.
+no-cosmetic-filtering: support.discord.com false
+# Saying "discord is bloated" is not just an understatement,
+# it's far too sympathetic for something worse than
+# microplastics in molten uranium mixed with diarrhea.
+# It's so far beyond incompetent that it'd make
+# an ant look fast at walking around the galaxy.
+# Electrons in a CPU move at 99.9% light-speed;
+# If an app takes 3s (several Earth rotations) just to reflow the fucking UI,
+# and they haven't fixed it in years, they're definitely morons.
+# I'd be pleased to never receive a job offer from them,
+# as working there would be torture.
+# The main reason I use it is because of DR-FATE.
+# https://consumerrights.wiki/w/Discord
+
 no-cosmetic-filtering: debian.org true
 
 no-cosmetic-filtering: rudxain.github.io true
@@ -55,10 +73,8 @@ no-scripting: behind-the-scene false
 
 no-scripting: copilot.microsoft.com false
 
-# only applies when I enable JS for main domain.
+# only applies when I enable JS for main domain
 no-scripting: support.discord.com true
-# I really hate disbloat,
-# but it's required by DR-FATE
 
 no-scripting: meta.com true
 no-scripting: www.meta.com true
@@ -180,6 +196,8 @@ newgrounds.com ungrounded.net * noop
 # is because my account hasn't been deleted
 # (by me, crackers, or admins).
 reddit.com redditstatic.com * noop
+
+support.discord.com * 3p block
 
 meta.com * 3p block
 facebook.com * 3p block
