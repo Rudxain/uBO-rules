@@ -4,18 +4,8 @@ no-cosmetic-filtering: wiktionary.org true
 
 no-csp-reports: * true
 no-large-media: behind-the-scene false
-
-no-remote-fonts: meta.com true
-no-remote-fonts: facebook.com true
-no-remote-fonts: instagram.com true
-no-remote-fonts: threads.com true
-
+no-large-media: lite.duckduckgo.com true
 no-remote-fonts: lite.duckduckgo.com true
-
-# if DDG gets compromised,
-# it'll serve malicious scripts
-no-scripting: html.duckduckgo.com true
-no-scripting: lite.duckduckgo.com true
 
 # https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
 * adsninja.ca * block
@@ -43,14 +33,12 @@ no-scripting: lite.duckduckgo.com true
 # even if unnecessary
 * msn.com * block
 
-* meta.com * block
 * facebook.com * block
 * facebook.net * block
 * fbcdn.net * block
 * fbsbx.com * block
 * cdninstagram.com * block
 * instagram.com * block
-* threads.com * block
 
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
@@ -80,11 +68,7 @@ duckduckgo.com * 3p-frame block
 # DDG only allows images with JS,
 # so 3p is useless for no-script
 html.duckduckgo.com * 3p block
-html.duckduckgo.com * 3p-script block
-html.duckduckgo.com * 3p-frame block
 lite.duckduckgo.com * 3p block
-lite.duckduckgo.com * 3p-script block
-lite.duckduckgo.com * 3p-frame block
 
 github.com * 3p-script block
 github.com * 3p-frame block
@@ -99,7 +83,6 @@ wiktionary.org * 3p-script block
 wiktionary.org * 3p-frame block
 wiktionary.org  wikimedia.org * noop
 
-meta.com meta.com * noop
 meta.com * 3p-script block
 meta.com * 3p-frame block
 facebook.com facebook.com * noop
@@ -117,7 +100,6 @@ instagram.com facebook.com * noop
 instagram.com facebook.net * noop
 instagram.com fbcdn.net * noop
 instagram.com cdninstagram.com * noop
-threads.com threads.com * noop
 threads.com * 3p block
 threads.com * 3p-script block
 threads.com * 3p-frame block

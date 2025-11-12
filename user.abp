@@ -1,10 +1,19 @@
+! if DDG gets compromised,
+! it'll serve malicious scripts
+*$script,inline-script,important,domain=html.duckduckgo.com
+*$script,inline-script,important,domain=lite.duckduckgo.com
+
 ! https://consumerrights.wiki/index.php?title=YouTube&oldid=30163#Offline_video_DRM
 youtube.com##[href="/premium"]
+||youtube.com/premium$all,important
 
-reddit.com##^.premium-banner
-old.reddit.com##^.listingsignupbar
+! https://consumerrights.wiki/w/Reddit
+reddit.com##.premium-banner
+old.reddit.com##.listingsignupbar
+old.reddit.com##.buygold
+old.reddit.com##div > ul > li > [href*="/premium"]
+reddit.com##div > [href*="/premium"]
+||reddit.com/premium$all,important
 
 ! twitter header/footer
 x.com###layers
-
-knowyourmeme.com##^.ad-unit-wrapper
