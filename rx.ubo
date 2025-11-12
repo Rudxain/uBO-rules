@@ -1,37 +1,9 @@
-no-cosmetic-filtering: * true
-
-no-cosmetic-filtering: bggenerator.com false
-
-# bing servers redirect to `www`
-no-cosmetic-filtering: www.bing.com false
-no-cosmetic-filtering: microsoft.com false
-no-cosmetic-filtering: live.com false
-
 no-cosmetic-filtering: lite.duckduckgo.com true
 
-no-cosmetic-filtering: eslint.org false
-
-no-cosmetic-filtering: www.google.com false
-no-cosmetic-filtering: gemini.google.com false
-no-cosmetic-filtering: youtube.com false
-
-no-cosmetic-filtering: soundcloud.com false
-
-# meta inc.
-no-cosmetic-filtering: facebook.com false
-no-cosmetic-filtering: instagram.com false
-no-cosmetic-filtering: www.threads.com false
-
-no-cosmetic-filtering: x.com false
-
-no-cosmetic-filtering: quora.com false
-
-no-cosmetic-filtering: reddit.com false
-
-# web-app is so obscenely bloated that CF could do more harm than good,
-# that's why CF is only enabled here.
+# web-app is so obscenely bloated that CF could do more harm than good.
 # For ref, merely opening the DOM-inspector crashes Firefox with 4GB RAM.
-# The web-app is a zip-bomb for RAM+swap.
+# it's a zip-bomb for RAM+swap.
+no-cosmetic-filtering: discord.com true
 no-cosmetic-filtering: support.discord.com false
 # Saying "discord is bloated" is not just an understatement,
 # it's far too sympathetic for something worse than
@@ -45,8 +17,6 @@ no-cosmetic-filtering: support.discord.com false
 # as working there would be torture.
 # The main reason I use it is because of DR-FATE.
 # https://consumerrights.wiki/w/Discord
-
-no-cosmetic-filtering: debian.org true
 
 no-cosmetic-filtering: rudxain.github.io true
 
@@ -95,8 +65,7 @@ no-scripting: docs.github.com true
 # gluegle is annoying
 no-scripting: accounts.google.com false
 no-scripting: www.google.com false
-
-# AKA "Bard"
+# "Bard"
 no-scripting: gemini.google.com false
 # it doesn't need JS on mobile... why?
 #no-scripting: docs.google.com false
@@ -120,9 +89,9 @@ no-scripting: play.rust-lang.org false
 
 * amazon-adsystem.com * block
 
-# why is this white-listed?
 * googleadservices.com * block
 
+* fonts.googleapis.com * block
 # Bard & Keep request it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
 * maps.googleapis.com * block
