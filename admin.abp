@@ -12,3 +12,4 @@ old.reddit.com##^.listingsignupbar
 www.reddit.com##^#right-sidebar-container
 
 youtube.com##[href="/premium"]
+||youtube.com/premium$all
