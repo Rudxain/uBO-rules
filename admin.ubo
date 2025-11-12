@@ -1,4 +1,3 @@
-no-cosmetic-filtering: * true
 no-cosmetic-filtering: lite.duckduckgo.com true
 
 no-csp-reports: * true

@@ -2,13 +2,26 @@
 
 /disable-devtool$script
 
+gemini.google.com##.adv-upsell
 ! https://consumerrights.wiki/index.php?title=YouTube&oldid=30163#Offline_video_DRM
 youtube.com##[href="/premium"]
+||youtube.com/premium$all
+
+! peak enshittification: same promotion, 5 places
+onedrive.live.com##[class*="premiumBtnContainer"]
+onedrive.live.com##[class*="Premium"]
+onedrive.live.com###Premium
+onedrive.live.com##[class*="storageUpsell"]
+onedrive.live.com##[class*="buyStorage"]
+onedrive.live.com##.od-QuotaBannerWrapper
+onedrive.live.com##.od-QuotaBanner-upsell
+outlook.live.com###LeftRail
+outlook.live.com###headerButtonsRegionId
 
 ! "Upgrade now" nav-bar button
-soundcloud.com##.creatorSubscriptionsButton
 soundcloud.com##.header__upsellWrapper
 soundcloud.com##.header__creatorUpsell
+soundcloud.com##.creatorSubscriptionsButton
 ! m.*
 soundcloud.com##li:has(a[href="/download"])
 soundcloud.com##a[href="/download"]
@@ -16,30 +29,21 @@ soundcloud.com##[data-testid="open-in-app-link"]
 
 ||ngfiles.com/promo$all
 
-||bggenerator.com/*-promo
+||bggenerator.com/*-promo$all
 bggenerator.com###toppage
-bggenerator.com##^#portfolio
-bggenerator.com##^#about
-bggenerator.com##^#footer
-
-onedrive.live.com##.od-QuotaBanner-upsell
-! March 2025
-onedrive.live.com##.getMoreStorageButton_860752dd
-onedrive.live.com##.buyStorageButton_860752dd
-onedrive.live.com##.storageUpsellBanner_860752dd
-
-outlook.live.com###LeftRail
-outlook.live.com###headerButtonsRegionId
+bggenerator.com###portfolio
+bggenerator.com###about
+bggenerator.com###footer
 
 ! less scrolling
 eslint.org##.site-header
 eslint.org##.docs-nav
 
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^header
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^#left-sidebar
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##header
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com###left-sidebar
 
 old.reddit.com##^.listingsignupbar
-www.reddit.com##^#right-sidebar-container
+www.reddit.com###right-sidebar-container
 
 ! account sign-in
 bsky.app##nav
@@ -71,47 +75,50 @@ ifunny.co##^#AppStub
 coolors.co##^#page-loader
 cincinnatus.edu.do##^.preloader
 
+www.python.org###nojs
+substack.com,www.mindprison.cc##^#nojs-banner
+xdaforums.com##.u-noJsOnly
+
 knowyourmeme.com##^.ad-unit-wrapper
 
 fandom.com##^.top-ads-container
-fandom.com##^#global-top-navigation
-fandom.com##^#global-explore-navigation
-fandom.com##^.page__right-rail
-
-substack.com##^#nojs-banner
-www.mindprison.cc##^#nojs-banner
-xdaforums.com##^.u-noJsOnly
+fandom.com###global-top-navigation
+fandom.com###global-explore-navigation
+fandom.com##.page__right-rail
 
 ! Oct 2025
 quora.com##.qu-zIndex--header
 
 wordpress.com##^#marketingbar
 
-gavinhoward.com##^.copyright
+gavinhoward.com##.copyright
 
-dev.to##^#topbar
-dev.to##^.crayons-article-actions
+dev.to###topbar
+dev.to##.crayons-article-actions
 
-! Oct 2024. top-bar header
-medium.com##^.o
+socket.dev##header
+
+arstechnica.com###site-header
+
+! 2024 2025. top-bar header
+medium.com##.c.p.o.n.m
+||rsci.app.link^$all
 
 dailydot.com##^.ad-wrapper
-www.dailydot.com##^.top-rail__wrapper
+www.dailydot.com##.top-rail__wrapper
 
 latimes.com##^.google-dfp-ad-wrapper
 
-ethanzuckerman.com##^.obfx-sharing
+boingboing.net##.next-post-list-container
+boingboing.net##div[style*="position:fixed"]:has(a[href="http://boingboing.net"])
 
-! too many posts
-boingboing.net##^.next-article
-
-scrummanager.com##^#pronamic_cookie_holder
-scrummanager.com##^.cookies
+scrummanager.com###pronamic_cookie_holder
+scrummanager.com##.cookies
 
 ! Jan 2025
 ! newsletter
-www.thankgodimatheist.com##^.widget_mc4wp_form_widget
+www.thankgodimatheist.com##.widget_mc4wp_form_widget
 ! disbloat
-www.thankgodimatheist.com##^#text-9
+www.thankgodimatheist.com###text-9
 ||www.thankgodimatheist.com/images/*-podcast
 /spotify-podcast-badge
