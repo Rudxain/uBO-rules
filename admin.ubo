@@ -6,25 +6,17 @@ no-csp-reports: * true
 no-large-media: * true
 no-large-media: behind-the-scene false
 
-# Deb links are much safer than bing,
-# but both are kinda OS-specific.
-# You should only uncomment what you need.
 no-popups: * true
-# for Deb-based-distro
-#no-popups: debian.org false
+no-popups: debian.org false
 # for winbloats & M$ edging
 #no-popups: www.bing.com false
-no-popups: html.duckduckgo.com false
-no-popups: lite.duckduckgo.com false
+no-popups: duckduckgo.com false
 no-popups: www.google.com false
 no-popups: wikipedia.org false
-# should Mozilla be here?
 
 no-remote-fonts: * true
 
 no-scripting: * true
-no-scripting: html.duckduckgo.com true
-no-scripting: lite.duckduckgo.com true
 # https://www.google.com/httpservice/retry/enablejs
 # "Turn on JavaScript to keep searching"
 no-scripting: www.google.com false
@@ -39,10 +31,8 @@ behind-the-scene * 3p-script noop
 
 html.duckduckgo.com * 3p block
 html.duckduckgo.com * 3p-frame block
-html.duckduckgo.com * 3p-script block
 lite.duckduckgo.com * 3p block
 lite.duckduckgo.com * 3p-frame block
-lite.duckduckgo.com * 3p-script block
 
 www.google.com www.gstatic.com * noop
 support.google.com * * block
