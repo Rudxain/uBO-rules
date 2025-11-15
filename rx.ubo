@@ -27,38 +27,22 @@ no-large-media: * true
 no-large-media: behind-the-scene false
 #no-large-media: localhost false
 
-no-popups: meta.com true
-no-popups: facebook.com true
-no-popups: instagram.com true
-no-popups: threads.com true
-
 no-remote-fonts: * true
 no-remote-fonts: behind-the-scene false
+no-remote-fonts: deltarune.com false
+no-remote-fonts: undertale.com false
+no-remote-fonts: toby.fangamer.com false
 
 no-scripting: * true
-# does B.T.S. effect service-workers?
+# service-workers?
 no-scripting: behind-the-scene false
 
 #no-scripting: localhost false
 
 no-scripting: copilot.microsoft.com false
+#no-scripting: teams.microsoft.com false
 
-# only applies when I enable JS for main domain
 no-scripting: support.discord.com true
-
-no-scripting: meta.com true
-no-scripting: www.meta.com true
-no-scripting: facebook.com true
-no-scripting: m.facebook.com true
-no-scripting: web.facebook.com true
-no-scripting: www.facebook.com true
-no-scripting: instagram.com true
-no-scripting: www.instagram.com true
-no-scripting: threads.com true
-no-scripting: www.threads.com true
-
-no-scripting: html.duckduckgo.com true
-no-scripting: lite.duckduckgo.com true
 
 no-scripting: docs.github.com true
 
@@ -80,17 +64,6 @@ no-scripting: play.rust-lang.org false
 * * 3p-frame block
 * * 3p-script block
 
-# M$ requests it, and I hate adoobee
-* adobedtm.com * block
-
-# https://github.com/uBlockOrigin/uBlock-issues/discussions/3366
-# https://github.com/easylist/easylist/discussions/20004
-* adsninja.ca * block
-
-* amazon-adsystem.com * block
-
-* googleadservices.com * block
-
 * fonts.googleapis.com * block
 # Bard & Keep request it unconditionally
 # https://github.com/easylist/easylist/issues/19842#issuecomment-2301705462
@@ -99,24 +72,9 @@ no-scripting: play.rust-lang.org false
 * msn.com * block
 * skype.com * block
 
-* meta.com * block
-* facebook.com * block
-* facebook.net * block
-* fbcdn.net * block
-* fbsbx.com * block
-* cdninstagram.com * block
-* instagram.com * block
-* threads.com * block
-
-* twimg.com * block
-* twitter.map.fastly.net * block
-* twitter.com * block
-* x.com * block
-
 * paypal-dynamic-cdn.map.fastly.net * block
 * paypalobjects.com * block
 
-# JIC
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -129,18 +87,12 @@ behind-the-scene * inline-script noop
 www.microsoft.com * * block
 
 html.duckduckgo.com * 3p block
-html.duckduckgo.com * 3p-frame block
-html.duckduckgo.com * 3p-script block
 lite.duckduckgo.com * 3p block
-lite.duckduckgo.com * 3p-frame block
-lite.duckduckgo.com * 3p-script block
 
 github.com githubassets.com * noop
 
 # CIC-PTD
 fullstackopen.com * 3p block
-fullstackopen.com * 3p-frame block
-fullstackopen.com * 3p-script block
 
 educacioncontinuada.ucateba.edu.do cdn.jsdelivr.net * noop
 
@@ -168,22 +120,7 @@ reddit.com redditstatic.com * noop
 
 support.discord.com * 3p block
 
-meta.com * 3p block
-facebook.com * 3p block
-m.facebook.com * * block
-web.facebook.com * * block
-www.facebook.com * * block
-instagram.com * 3p block
-www.instagram.com * * block
-threads.com * 3p block
-www.threads.com * * block
-
-# Currently, I only use it because of Toby Fox
-# (not a "critical" necessity).
 bsky.app bsky-web.b-cdn.net * noop
-
-twitter.com * * block
-x.com * * block
 
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
