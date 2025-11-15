@@ -1,11 +1,14 @@
 ! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
+*$script,inline-script,important,domain=html.duckduckgo.com
+*$script,inline-script,important,domain=lite.duckduckgo.com
+
 /disable-devtool$script
 
 gemini.google.com##.adv-upsell
 ! https://consumerrights.wiki/index.php?title=YouTube&oldid=30163#Offline_video_DRM
 youtube.com##[href="/premium"]
-||youtube.com/premium$all
+||youtube.com/premium$all,important
 
 ! peak enshittification: same promotion, 5 places
 onedrive.live.com##[class*="premiumBtnContainer"]
@@ -26,10 +29,11 @@ soundcloud.com##.creatorSubscriptionsButton
 soundcloud.com##li:has(a[href="/download"])
 soundcloud.com##a[href="/download"]
 soundcloud.com##[data-testid="open-in-app-link"]
+||soundcloud.com/download$all
 
 ||ngfiles.com/promo$all
 
-||bggenerator.com/*-promo$all
+||bggenerator.com/*-promo$all,important
 bggenerator.com###toppage
 bggenerator.com###portfolio
 bggenerator.com###about
@@ -42,27 +46,20 @@ eslint.org##.docs-nav
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com###left-sidebar
 
-old.reddit.com##^.listingsignupbar
 www.reddit.com###right-sidebar-container
+www.reddit.com##.viewInApp
+www.reddit.com##xpromo-nsfw-blocking-container > [href^="https://reddit.app."]
+||play.google.com/store/apps/details?id=com.reddit$all,important
+! https://consumerrights.wiki/w/Reddit
+reddit.com##.premium-banner
+old.reddit.com##^.listingsignupbar
+old.reddit.com##^.buygold
+old.reddit.com##div > ul > li > [href*="/premium"]
+reddit.com##div > [href*="/premium"]
+||reddit.com/premium$all,important
 
 ! account sign-in
 bsky.app##nav
-
-||twitter.com^$all
-||x.com^$all
-||twimg.com^$all
-||twitter.map.fastly.net^$all
-
-||meta.com^$all
-||facebook.com^$all
-||facebook.net^$all
-||fbcdn.net^$all
-||fbsbx.com^$all
-||instagram.com^$all
-||cdninstagram.com^$all
-||threads.com^$all
-! web.whatsapp.com
-||graph.whatsapp.net^$all
 
 ! FF fetches that, even if it's invisible
 !##^link[rel="apple-touch-icon"]
@@ -81,6 +78,7 @@ xdaforums.com##.u-noJsOnly
 
 knowyourmeme.com##^.ad-unit-wrapper
 
+! https://consumerrights.wiki/w/Fandom
 fandom.com##^.top-ads-container
 fandom.com###global-top-navigation
 fandom.com###global-explore-navigation
@@ -112,13 +110,61 @@ latimes.com##^.google-dfp-ad-wrapper
 boingboing.net##.next-post-list-container
 boingboing.net##div[style*="position:fixed"]:has(a[href="http://boingboing.net"])
 
+windowscentral.com##^.ad-unit
+www.windowscentral.com##.primary-nav
+www.windowscentral.com##.van_vid_carousel
+www.windowscentral.com##aside[data-mrf-recirculation="Trending Bar"]
+www.windowscentral.com##.newsletter-form__wrapper
+www.windowscentral.com##.newsletter-inbodyContent-slice
+
 scrummanager.com###pronamic_cookie_holder
 scrummanager.com##.cookies
 
-! Jan 2025
+undergraduatesciencelibrarian.org##.widget_blog_subscription
+
+! 2025
 ! newsletter
 www.thankgodimatheist.com##.widget_mc4wp_form_widget
 ! disbloat
 www.thankgodimatheist.com###text-9
 ||www.thankgodimatheist.com/images/*-podcast
 /spotify-podcast-badge
+
+! Hall of Shame 🤡
+! https://consumerrights.wiki/w/Adobe
+||adobe.com^$all,important
+||adobedtm.com^$all,important
+! https://consumerrights.wiki/w/Apple
+||apple.com^$all,important
+||cdn-apple.com^$all,important
+! https://consumerrights.wiki/w/Spotify
+||spotify.com^$all,important
+! https://github.com/Rudxain/uBO-rules/pull/9
+*$all,important,domain=meta.com
+*$all,important,domain=facebook.com
+*$all,important,domain=instagram.com
+*$all,important,domain=threads.com
+||meta.com^$all,important
+||facebook.com^$all,important
+||facebook.net^$all,important
+||fbcdn.net^$all,important
+||fbsbx.com^$all,important
+||instagram.com^$all,important
+||cdninstagram.com^$all,important
+||threads.com^$all,important
+! https://consumerrights.wiki/w/X_Corp
+*$all,important,domain=twitter.com
+*$all,important,domain=x.com
+||twitter.com^$all,important
+||x.com^$all,important
+||twimg.com^$all,important
+||twitter.map.fastly.net^$all,important
+! https://consumerrights.wiki/w/TikTok
+||tiktok.com^$all,important
+! web.whatsapp.com
+||graph.whatsapp.net^$all,important
+||adsninja.ca^$all,important
+! https://consumerrights.wiki/w/Amazon
+||amazon-adsystem.com^$all,important
+! https://consumerrights.wiki/w/Google
+||googleadservices.com^$all,important

@@ -1,5 +1,8 @@
 *$font,third-party
 
+*$script,inline-script,important,domain=html.duckduckgo.com
+*$script,inline-script,important,domain=lite.duckduckgo.com
+
 github.com##^.js-header-wrapper
 
 /disable-devtool$script
@@ -7,9 +10,21 @@ github.com##^.js-header-wrapper
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^#left-sidebar
 
+www.reddit.com##^#right-sidebar-container
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
-www.reddit.com##^#right-sidebar-container
+old.reddit.com##^.buygold
+old.reddit.com##^div > ul > li > [href*="/premium"]
+reddit.com##div > [href*="/premium"]
+||reddit.com/premium$all,important
 
 youtube.com##[href="/premium"]
-||youtube.com/premium$all
+||youtube.com/premium$all,important
+
+!##^link[rel="apple-touch-icon"]
+apple-icon$all
+apple_icon$all
+appleicon$all
+
+||apple.com^$all,important
+||play.google.com^$all,important
