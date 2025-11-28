@@ -23,7 +23,7 @@ You can easily find them using these regexes (`*.ubo` & `*.abp` respectively):
 ## Profiles
 AKA "User Types".
 
-All file-names that have a stem (`basename` without extension) in common are considered to belong to the same profile. When you apply a profile to uBO, you are expected to use **all** files from said profile.
+All file-names that have a stem ([`basename`](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/basename.html) without extension) in common are considered to belong to the same profile. When you apply a profile to uBO, you are expected to use **all** files from said profile.
 
 To check if a list of files are part of the same profile, use the `common_stem` fn:
 ```ts
