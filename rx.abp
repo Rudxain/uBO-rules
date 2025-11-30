@@ -157,7 +157,6 @@ www.thankgodimatheist.com###text-9
 *$all,important,domain=x.com
 ||twitter.com^$all,important
 ||x.com^$all,important
-||twimg.com^$all,important
 ||twitter.map.fastly.net^$all,important
 ! https://consumerrights.wiki/w/TikTok
 ||tiktok.com^$all,important
