@@ -72,6 +72,8 @@ no-scripting: play.rust-lang.org false
 * msn.com * block
 * skype.com * block
 
+* twimg.com * block
+
 * paypal-dynamic-cdn.map.fastly.net * block
 * paypalobjects.com * block
 
