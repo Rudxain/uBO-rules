@@ -1,7 +1,6 @@
 *$font,third-party
 
-*$script,inline-script,important,domain=html.duckduckgo.com
-*$script,inline-script,important,domain=lite.duckduckgo.com
+*$script,inline-script,important,domain=html.duckduckgo.com|lite.duckduckgo.com
 
 github.com##^.js-header-wrapper
 

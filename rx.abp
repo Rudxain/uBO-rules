@@ -1,7 +1,6 @@
 ! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
-*$script,inline-script,important,domain=html.duckduckgo.com
-*$script,inline-script,important,domain=lite.duckduckgo.com
+*$script,inline-script,important,domain=html.duckduckgo.com|lite.duckduckgo.com
 
 /disable-devtool$script
 
@@ -140,10 +139,7 @@ www.thankgodimatheist.com###text-9
 ! https://consumerrights.wiki/w/Spotify
 ||spotify.com^$all,important
 ! https://github.com/Rudxain/uBO-rules/pull/9
-*$all,important,domain=meta.com
-*$all,important,domain=facebook.com
-*$all,important,domain=instagram.com
-*$all,important,domain=threads.com
+*$all,important,domain=meta.com|facebook.com|instagram.com|threads.com
 ||meta.com^$all,important
 ||facebook.com^$all,important
 ||facebook.net^$all,important
@@ -153,8 +149,7 @@ www.thankgodimatheist.com###text-9
 ||cdninstagram.com^$all,important
 ||threads.com^$all,important
 ! https://consumerrights.wiki/w/X_Corp
-*$all,important,domain=twitter.com
-*$all,important,domain=x.com
+*$all,important,domain=twitter.com|x.com
 ||twitter.com^$all,important
 ||x.com^$all,important
 ||twitter.map.fastly.net^$all,important
