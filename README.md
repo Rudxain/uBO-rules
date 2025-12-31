@@ -3,10 +3,10 @@
 > This requires [Advanced Mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) to be enabled
 
 > [!tip]
-> If you just want to read text, I recommend a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) web-browser such as [Lynx](https://lynx.invisible-island.net) or [`w3m`](https://en.wikipedia.org/wiki/W3m).
+> If you just want to read text, I recommend a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) web-browser such as [ELinks](https://github.com/rkd77/elinks).
 > Not loading a JIT-interpreter is much more efficient than not using it, same goes for audio-visual decoding+rendering.
 >
-> If you're on Android, [Termux has your back](https://github.com/termux/termux-packages/tree/69a05a2cfdcc5e30cbadbc0e884175175b9904e3/packages/lynx)! (`pkg i lynx`)
+> If you're on Android, [Termux has your back](https://github.com/termux/termux-packages/tree/2a52d78475b92184d280dc978c35611a19476a1b/packages/elinks)! (`pkg i elinks`)
 >
 > gluegle (and other domains) only forces you to run JS if the browser supports it.
 
