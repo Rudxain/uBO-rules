@@ -58,7 +58,7 @@ Most rules are "just-in-case", for the sake of future-proofing, and lack of info
 
 ### Rx
 > [!tip]
-> Install [Libredirect](https://github.com/libredirect/browser_extension)
+> Install [Libredirect](https://github.com/libredirect/browser_extension) and [YT-DLP](https://github.com/yt-dlp/yt-dlp)
 
 My own personal rule-set. Designed for my needs, desires, and convictions.
 
