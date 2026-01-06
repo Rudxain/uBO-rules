@@ -42,6 +42,8 @@ bggenerator.com###footer
 eslint.org##.site-header
 eslint.org##.docs-nav
 
+dl.acm.org##.header
+
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com###left-sidebar
 
@@ -70,10 +72,13 @@ appleicon$all
 ifunny.co##^#AppStub
 coolors.co##^#page-loader
 cincinnatus.edu.do##^.preloader
+theisnn.com##^.page-preloader-cover
 
 www.python.org###nojs
 substack.com,www.mindprison.cc##^#nojs-banner
 xdaforums.com##.u-noJsOnly
+
+www.xda-developers.com##.article-card.display-card
 
 knowyourmeme.com##^.ad-unit-wrapper
 
@@ -87,6 +92,9 @@ fandom.com##.page__right-rail
 quora.com##.qu-zIndex--header
 
 wordpress.com##^#marketingbar
+
+! partly blocks view if noscript
+www.thecodedmessage.com##.menu
 
 gavinhoward.com##.copyright
 
