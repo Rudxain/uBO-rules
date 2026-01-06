@@ -38,14 +38,11 @@ bggenerator.com###portfolio
 bggenerator.com###about
 bggenerator.com###footer
 
-! less scrolling
-eslint.org##.site-header
-eslint.org##.docs-nav
-
+! big and fixed
 dl.acm.org##.header
 
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##header
-stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com###left-sidebar
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net##header
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net###left-sidebar
 
 www.reddit.com###right-sidebar-container
 www.reddit.com##.viewInApp
@@ -58,15 +55,15 @@ old.reddit.com##^.buygold
 old.reddit.com##div > ul > li > [href*="/premium"]
 reddit.com##div > [href*="/premium"]
 ||reddit.com/premium$all,important
+! 2026. "Search better in the app"
+www.reddit.com###pdp-app-upsell-seo-bottom-sheet
 
 ! account sign-in
 bsky.app##nav
 
 ! FF fetches that, even if it's invisible
-!##^link[rel="apple-touch-icon"]
-apple-icon$all
-apple_icon$all
-appleicon$all
+! https://github.com/uBlockOrigin/uBlock-issues/discussions/3967
+*##^link[rel="apple-touch-icon"]
 
 ! splash-screen, JS hides it
 ifunny.co##^#AppStub
@@ -75,20 +72,23 @@ cincinnatus.edu.do##^.preloader
 theisnn.com##^.page-preloader-cover
 
 www.python.org###nojs
-substack.com,www.mindprison.cc##^#nojs-banner
-xdaforums.com##.u-noJsOnly
-
+substack.com,www.mindprison.cc,theredline.versionstory.com##^#nojs-banner
+substack.com,www.mindprison.cc,theredline.versionstory.com##.main-menu
+versionstory.com##.subscribe-widget
+versionstory.com##.button-wrapper:has(a[href^="https://app.versionstory.com/register"])
+xdaforums.com,forums.androidcentral.com##.u-noJsOnly
 www.xda-developers.com##.article-card.display-card
 
 knowyourmeme.com##^.ad-unit-wrapper
 
 ! https://consumerrights.wiki/w/Fandom
+*$3p,important,domain=fandom.com
 fandom.com##^.top-ads-container
 fandom.com###global-top-navigation
 fandom.com###global-explore-navigation
 fandom.com##.page__right-rail
 
-! Oct 2025
+! 2026
 quora.com##.qu-zIndex--header
 
 wordpress.com##^#marketingbar
@@ -96,21 +96,19 @@ wordpress.com##^#marketingbar
 ! partly blocks view if noscript
 www.thecodedmessage.com##.menu
 
+! fixed to viewport
 gavinhoward.com##.copyright
 
 dev.to###topbar
 dev.to##.crayons-article-actions
 
-socket.dev##header
-
 arstechnica.com###site-header
 
-! 2024 2025. top-bar header
-medium.com##.c.p.o.n.m
+! 2026. top-bar header
+medium.com###root > div > div > div:has([aria-label="Homepage"])
+medium.com##button
+medium.com##[aria-label$="app"]
 ||rsci.app.link^$all
-
-dailydot.com##^.ad-wrapper
-www.dailydot.com##.top-rail__wrapper
 
 latimes.com##^.google-dfp-ad-wrapper
 
@@ -124,16 +122,7 @@ www.windowscentral.com##aside[data-mrf-recirculation="Trending Bar"]
 www.windowscentral.com##.newsletter-form__wrapper
 www.windowscentral.com##.newsletter-inbodyContent-slice
 
-scrummanager.com###pronamic_cookie_holder
-scrummanager.com##.cookies
-
-undergraduatesciencelibrarian.org##.widget_blog_subscription
-
 ! 2025
-! newsletter
-www.thankgodimatheist.com##.widget_mc4wp_form_widget
-! disbloat
-www.thankgodimatheist.com###text-9
 ||www.thankgodimatheist.com/images/*-podcast
 /spotify-podcast-badge
 
@@ -170,3 +159,47 @@ www.thankgodimatheist.com###text-9
 ||amazon-adsystem.com^$all,important
 ! https://consumerrights.wiki/w/Google
 ||googleadservices.com^$all,important
+
+! header
+www.theregister.com###masthead
+! Feb 15, 2026
+! ASK: could be improved by attribute-selector?
+www.theregister.com##div.adun
+
+! blog
+www.bugcrowd.com##.post-share-buttons
+www.bugcrowd.com##.reskin-header
+
+wordpress.com##.sharedaddy
+
+! 2026
+piccalil.li##.banner-advert
+
+theguardian.com##.ad-slot-container
+
+! 2026
+www.eff.org###masthead-mobile-wrapper
+
+! 2026
+www.creativebloq.com##.newsletter-form__wrapper
+
+lwn.net###menu
+
+! "Donate" button
+! https://github.com/BryanLunduke/Wikipedia-Donation-Destroyer
+wikipedia.org###pt-sitesupport-2
+
+! Apr 22, 2026 https://dataconomy.com
+dataconomy.com##.newsletter-subscription-block
+
+forums.androidcentral.com##.u-noJsOnly
+! TO-DO: try attribute
+secularhumanism.org##.alert-danger.alert:contains("javascript")
+
+boredpanda.com##.dfp-ad
+www.boredpanda.com##.see-also-recommendations
+
+www.deviantart.com##div:has([href="https://www.deviantart.com/about/policy/privacy"])
+
+! 2026
+github.blog##.position-fixed.header
