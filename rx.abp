@@ -124,6 +124,15 @@ www.windowscentral.com##aside[data-mrf-recirculation="Trending Bar"]
 www.windowscentral.com##.newsletter-form__wrapper
 www.windowscentral.com##.newsletter-inbodyContent-slice
 
+www.kidspot.com.au##.header_auth
+kidspot.com.au##^.header_ads-container
+kidspot.com.au##^#fixed-ad
+kidspot.com.au##^.ad
+kidspot.com.au###share-tools
+kidspot.com.au##.share-tools
+www.kidspot.com.au###footer_podcasts
+www.kidspot.com.au##.footer_branding
+
 scrummanager.com###pronamic_cookie_holder
 scrummanager.com##.cookies
 
