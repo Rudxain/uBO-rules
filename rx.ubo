@@ -29,9 +29,12 @@ no-large-media: behind-the-scene false
 
 no-remote-fonts: * true
 no-remote-fonts: behind-the-scene false
+# icons
+no-remote-fonts: gemini.google.com false
 no-remote-fonts: deltarune.com false
 no-remote-fonts: undertale.com false
 no-remote-fonts: toby.fangamer.com false
+no-remote-fonts: zulip.consumerrights.wiki false
 
 no-scripting: * true
 # service-workers?
@@ -61,8 +64,17 @@ no-scripting: crates.io false
 # Nightly
 no-scripting: play.rust-lang.org false
 
+no-scripting: zulip.consumerrights.wiki false
+
 * * 3p-frame block
 * * 3p-script block
+
+# blame AI.
+# also, UX is terrible:
+# 1. reload to enable JS
+# 2. reload AGAIN after noop
+# this rule omits the 2nd step
+* challenges.cloudflare.com * noop
 
 * fonts.googleapis.com * block
 # Bard & Keep request it unconditionally
@@ -85,6 +97,8 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 
+# show content even if noscript
+devblogs.microsoft.com * * block
 # ~14MB?! is this a joke?
 www.microsoft.com * * block
 
@@ -92,11 +106,6 @@ html.duckduckgo.com * 3p block
 lite.duckduckgo.com * 3p block
 
 github.com githubassets.com * noop
-
-# CIC-PTD
-fullstackopen.com * 3p block
-
-educacioncontinuada.ucateba.edu.do cdn.jsdelivr.net * noop
 
 android.com gstatic.com * noop
 google.com googleapis.com * noop
@@ -115,22 +124,12 @@ newgrounds.com cdnjs.cloudflare.com * noop
 newgrounds.com ngfiles.com * noop
 newgrounds.com ungrounded.net * noop
 
-# The only reason this is here
-# is because my account hasn't been deleted
-# (by me, crackers, or admins).
-reddit.com redditstatic.com * noop
-
 support.discord.com * 3p block
 
 bsky.app bsky-web.b-cdn.net * noop
 
 soundcloud.com cloudfront.net * noop
 soundcloud.com sndcdn.com * noop
-
-steam.com steampowered.com * noop
-steam.com steamstatic.com * noop
-steampowered.com steamstatic.com * noop
-store.steampowered.com valve.map.fastly.net * noop
 
 # mostly `es` sub-domain
 discourse.group discourse-cdn.com * noop
@@ -139,7 +138,10 @@ rust-lang.github.io cdnjs.cloudflare.com * noop
 internals.rust-lang.org discourse-cdn.com * noop
 users.rust-lang.org discourse-cdn.com * noop
 
-fandom.com * 3p block
+# these would be in Hall of Shame
+# if they were more useless
+quora.com * * block
+fandom.com * * block
 
 developer.mozilla.org mdnplay.dev * noop
 
