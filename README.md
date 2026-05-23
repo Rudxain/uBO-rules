@@ -8,7 +8,7 @@
 >
 > If you're on Android, [Termux has your back](https://github.com/termux/termux-packages/tree/2a52d78475b92184d280dc978c35611a19476a1b/packages/elinks)! (`pkg i elinks`)
 >
-> gluegle (and other domains) only forces you to run JS if the browser supports it.
+> Some domains only force you to run JS if the browser supports it.
 
 Tip: Don't just 📋CP. Remember to search commented-out rules and filters. They are optional, but can enhance the experience on specific devices and scenarios.
 
