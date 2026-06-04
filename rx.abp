@@ -44,6 +44,7 @@ dl.acm.org##.header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net##header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net###left-sidebar
 
+||www.reddit.com/r/$doc,uritransform=/www/old/
 www.reddit.com###right-sidebar-container
 www.reddit.com##.viewInApp
 www.reddit.com##xpromo-nsfw-blocking-container > [href^="https://reddit.app."]

@@ -9,7 +9,7 @@ github.com##^.js-header-wrapper
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^#left-sidebar
 
-www.reddit.com##^#right-sidebar-container
+||www.reddit.com^$doc,uritransform=/www/old/
 reddit.com##^.premium-banner
 old.reddit.com##^.listingsignupbar
 old.reddit.com##^.buygold
