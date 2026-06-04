@@ -45,5 +45,4 @@ superuser.com sstatic.net * noop
 # partially applies to Debian-based, too
 #askubuntu.com sstatic.net * noop
 
-# https://github.com/tom-james-watson/old-reddit-redirect
 reddit.com redditstatic.com * noop
