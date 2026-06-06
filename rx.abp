@@ -9,6 +9,14 @@ gemini.google.com##.adv-upsell
 youtube.com##[href="/premium"]
 ||youtube.com/premium$all,important
 
+! show content even if noscript
+*$important,domain=devblogs.microsoft.com
+! ~14MB‽ the slop is crazy
+*$important,domain=www.microsoft.com
+www.microsoft.com##^style
+www.microsoft.com##*:remove-attr(style)
+www.microsoft.com##html:style(color-scheme: light dark)
+
 ! peak enshittification: same promotion, 5 places
 onedrive.live.com##[class*="premiumBtnContainer"]
 onedrive.live.com##[class*="Premium"]

@@ -43,7 +43,6 @@ no-scripting: behind-the-scene false
 #no-scripting: localhost false
 
 no-scripting: copilot.microsoft.com false
-#no-scripting: teams.microsoft.com false
 
 no-scripting: support.discord.com true
 
@@ -96,11 +95,6 @@ behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
-
-# show content even if noscript
-devblogs.microsoft.com * * block
-# ~14MB?! is this a joke?
-www.microsoft.com * * block
 
 html.duckduckgo.com * 3p block
 lite.duckduckgo.com * 3p block
