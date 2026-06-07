@@ -53,6 +53,16 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net###left-sidebar
 
 ||www.reddit.com/r/$doc,uritransform=/www/old/
+old.reddit.com##^script
+old.reddit.com##^style
+old.reddit.com##^link[rel=stylesheet]
+old.reddit.com##*:remove-attr(style)
+old.reddit.com##html:style(color-scheme: light dark; font-family: sans-serif)
+old.reddit.com###header
+old.reddit.com###search
+old.reddit.com##.titlebox
+old.reddit.com##.side
+||preview.redd.it/*&blur$image
 www.reddit.com###right-sidebar-container
 www.reddit.com##.viewInApp
 www.reddit.com##xpromo-nsfw-blocking-container > [href^="https://reddit.app."]
