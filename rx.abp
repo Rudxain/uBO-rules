@@ -205,6 +205,16 @@ www.creativebloq.com##.newsletter-form__wrapper
 
 lwn.net###menu
 
+wikipedia.org##^style
+wikipedia.org##^link[rel=stylesheet]
+wikipedia.org##*:remove-attr(style)
+wikipedia.org##html:style(color-scheme: light dark)
+! main-menu, and a bit more
+wikipedia.org##.vector-header
+wikipedia.org##.vector-dropdown
+! MathML has better contrast, and it's inline so there's no way to block it,
+! thus, block dupe SVG data
+||wikimedia.org/api/rest_v1/media/math/render/$important
 ! "Donate" button
 ! https://github.com/BryanLunduke/Wikipedia-Donation-Destroyer
 !wikipedia.org##[href^="https://donate.wikimedia.org/"]
