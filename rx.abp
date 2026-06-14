@@ -24,17 +24,6 @@ www.microsoft.com##^style
 www.microsoft.com##*:remove-attr(style)
 www.microsoft.com##html:style(color-scheme: light dark)
 
-! peak enshittification: same promotion, 5 places
-onedrive.live.com##[class*="premiumBtnContainer"]
-onedrive.live.com##[class*="Premium"]
-onedrive.live.com###Premium
-onedrive.live.com##[class*="storageUpsell"]
-onedrive.live.com##[class*="buyStorage"]
-onedrive.live.com##.od-QuotaBannerWrapper
-onedrive.live.com##.od-QuotaBanner-upsell
-outlook.live.com###LeftRail
-outlook.live.com###headerButtonsRegionId
-
 ! "Upgrade now" nav-bar button
 soundcloud.com##.header__upsellWrapper
 soundcloud.com##.header__creatorUpsell

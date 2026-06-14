@@ -42,8 +42,6 @@ no-scripting: behind-the-scene false
 
 #no-scripting: localhost false
 
-no-scripting: copilot.microsoft.com false
-
 no-scripting: support.discord.com true
 
 no-scripting: docs.github.com true
