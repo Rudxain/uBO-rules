@@ -12,6 +12,9 @@ gemini.google.com##.adv-upsell
 ! https://consumerrights.wiki/index.php?title=YouTube&oldid=30163#Offline_video_DRM
 youtube.com##[href="/premium"]
 ||youtube.com/premium$all,important
+! who needs "YT BG Play"?
+m.youtube.com##+js(aeld, visibilitychange, /bgmobile|\{\w\.\w+\(\)\}|\.getVisibilityState\(\)/)
+m.youtube.com##+js(trusted-set, document.visibilityState, json:"visible")
 
 ! show content even if noscript
 *$important,domain=devblogs.microsoft.com
