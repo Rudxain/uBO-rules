@@ -1,6 +1,10 @@
 ! https://github.com/Rudxain/uBO-rules/blob/main/rx.abp
 
 *$script,inline-script,important,domain=html.duckduckgo.com|lite.duckduckgo.com
+html.duckduckgo.com##^style
+html.duckduckgo.com##^link[rel=stylesheet]
+html.duckduckgo.com##*:remove-attr(style)
+html.duckduckgo.com##html:style(color-scheme: light dark)
 
 /disable-devtool$script
 
