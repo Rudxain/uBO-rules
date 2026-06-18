@@ -47,15 +47,12 @@ no-scripting: support.discord.com true
 no-scripting: docs.github.com true
 
 # gluegle is annoying
-no-scripting: accounts.google.com false
 no-scripting: www.google.com false
 # "Bard"
 no-scripting: gemini.google.com false
-# it doesn't need JS on mobile... why?
-#no-scripting: docs.google.com false
-#no-scripting: drive.google.com false
-#no-scripting: meet.google.com false
-#no-scripting: mail.google.com false
+
+no-scripting: drive.proton.me false
+no-scripting: mail.proton.me false
 
 no-scripting: crates.io false
 # Nightly
