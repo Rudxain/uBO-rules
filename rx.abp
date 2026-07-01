@@ -95,16 +95,6 @@ www.xda-developers.com##.article-card.display-card
 
 knowyourmeme.com##^.ad-unit-wrapper
 
-! https://consumerrights.wiki/w/Fandom
-*$3p,important,domain=fandom.com
-fandom.com##^.top-ads-container
-fandom.com###global-top-navigation
-fandom.com###global-explore-navigation
-fandom.com##.page__right-rail
-
-! 2026
-quora.com##.qu-zIndex--header
-
 wordpress.com##^#marketingbar
 
 ! partly blocks view if noscript
@@ -178,6 +168,12 @@ www.windowscentral.com##.newsletter-inbodyContent-slice
 ||analytics.google.com^$all,important
 ||accounts.google.com^$3p,important
 ||play.google.com^$3p,important
+! https://consumerrights.wiki/w/Fandom
+||fandom.com^$all,important
+! https://en.wikipedia.org/wiki/Quora#Reception
+||quora.com^$all,important
+! https://consumerrights.wiki/w/Pinterest
+||pinterest.com^$all,important
 
 ! header
 www.theregister.com###masthead
