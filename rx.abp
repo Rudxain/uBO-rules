@@ -196,6 +196,10 @@ www.eff.org###masthead-mobile-wrapper
 
 lwn.net###menu
 
+wiktionary.org##^style
+wiktionary.org##^link[rel=stylesheet]
+wiktionary.org##*:remove-attr(style)
+wiktionary.org##html:style(color-scheme: light dark)
 wikipedia.org##^style
 wikipedia.org##^link[rel=stylesheet]
 wikipedia.org##*:remove-attr(style)
