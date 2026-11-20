@@ -7,12 +7,8 @@ github.com##^.js-header-wrapper
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^header
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com##^#left-sidebar
 
-reddit.com##^.premium-banner
-old.reddit.com##^.listingsignupbar
-old.reddit.com##^.buygold
-old.reddit.com##^div > ul > li > [href*="/premium"]
-reddit.com##div > [href*="/premium"]
-||reddit.com/premium$all,important
+*$all,important,domain=reddit.com
+||reddit.com^$all,important
 
 youtube.com##[href="/premium"]
 ||youtube.com/premium$all,important

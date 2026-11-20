@@ -44,5 +44,3 @@ stackoverflow.com sstatic.net * noop
 superuser.com sstatic.net * noop
 # partially applies to Debian-based, too
 #askubuntu.com sstatic.net * noop
-
-reddit.com redditstatic.com * noop
