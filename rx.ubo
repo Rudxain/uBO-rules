@@ -54,6 +54,7 @@ no-scripting: gemini.google.com false
 no-scripting: account.proton.me false
 no-scripting: drive.proton.me false
 no-scripting: mail.proton.me false
+no-scripting: lumo.proton.me false
 
 no-scripting: crates.io false
 # Nightly
