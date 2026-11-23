@@ -122,6 +122,7 @@ www.windowscentral.com##.newsletter-inbodyContent-slice
 ! https://consumerrights.wiki/w/Apple
 ||apple.com^$all,important
 ||cdn-apple.com^$all,important
+||applemediaservices.com^$all,important
 ! https://consumerrights.wiki/w/Spotify
 ||spotify.com^$all,important
 ! https://github.com/Rudxain/uBO-rules/pull/9
