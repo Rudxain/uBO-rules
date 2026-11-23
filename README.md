@@ -66,3 +66,6 @@ My own personal rule-set. Designed for my needs, desires, and convictions.
 [uBO doesn't support comments on dyn-rules](https://github.com/gorhill/uBlock/issues/333).
 
 uBO auto-removes syntactically-invalid lines, and [`#` is unlikely to become valid](https://github.com/gorhill/uMatrix/issues/314#issuecomment-128793820), so this hack _works_... as long as each comment is placed on **its own line** (side-comments will turn the **whole** line into a comment), so be careful
+
+## See also
+https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-default-deny:-useful-rulesets
